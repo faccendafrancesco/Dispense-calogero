@@ -85,7 +85,7 @@ L'equazione caratteristica dell'oscillatore armonico è
 \begin{equation}
     \ddot{x}(t) + \omega^2 x(t) = 0 \,.
 \end{equation}
-Qui, e generalmente nel seguito, il punto indica differenziazione rispetto alla variabile $t$. La costante $\omega$ ha evidentemente dimensioni $t^{-1}$, e prende il nome di \underline{pulsazione}.
+Qui, e generalmente nel seguito, il punto indica differenziazione rispetto alla variabile $t$. La costante $\omega$ ha evidentemente dimensioni $t^{-1}$, e prende il nome di \uline{pulsazione}.
 
 La più generale soluzione della eq.~(1) si può scrivere
 \begin{equation}
@@ -99,7 +99,7 @@ le due espressioni essendo del tutto equivalenti con
 \begin{equation}
     C = A \cos\varphi \,, \quad S = -A \sin\varphi \,.
 \end{equation}
-I valori delle costanti $C$ e $S$ (oppure $A$ e $\varphi$) risultano fissati una volta assegnate le \underline{condizioni iniziali}, cioè i valori della $x$ e della $\dot{x}$ ad un istante iniziale $t_0$:
+I valori delle costanti $C$ e $S$ (oppure $A$ e $\varphi$) risultano fissati una volta assegnate le \uline{condizioni iniziali}, cioè i valori della $x$ e della $\dot{x}$ ad un istante iniziale $t_0$:
 \begin{equation}
     x(t_0) = a \,, \quad \dot{x}(t_0) = b \,.
 \end{equation}
@@ -232,7 +232,7 @@ però cresce (se $\alpha > 0$) o cala (se $\alpha < 0$) esponenzialmente col
 tempo. Si noti che la scelta fra le due alternative dipende solo dal segno di
 $\alpha$, ovvero dal segno relativo di $c_0$ e $c_2$, e non dalle condizioni iniziali
 (che fissano i valori delle costanti $C$ ed $S$). Nel caso $\alpha < 0$, si parla
-di moto oscillatorio smorzato, e ad $\alpha$ si dà il nome di \underline{coefficiente di smorzamento}.
+di moto oscillatorio smorzato, e ad $\alpha$ si dà il nome di \uline{coefficiente di smorzamento}.
 
 \subsubsection*{Terzo caso: $\beta = 0$.}
 
@@ -307,11 +307,11 @@ omogenea, che scriviamo
 \begin{equation}
     c_2 \ddot{x}(t) + c_1 \dot{x}(t) + c_0 x(t) = f(t) \,.
 \end{equation}
-Al termine $f(t)$ si dà il nome di \underline{termine noto}. Nel seguito supporremo
+Al termine $f(t)$ si dà il nome di \uline{termine noto}. Nel seguito supporremo
 sempre, per semplicità, che la funzione $f(t)$ esista e sia finita per ogni $t$ finito.
 
 La equazione (3.1), che si ottiene ponendo a zero il termine noto nella (1),
-prende il nome di \underline{equazione omogenea associata}.
+prende il nome di \uline{equazione omogenea associata}.
 
 Prima di procedere oltre, conviene trasformare la (1) in forma canonica,
 ponendo
@@ -623,7 +623,7 @@ $\omega$. In tal caso
 Dunque in questo caso particolare la soluzione contiene una parte che oscilla
 con frequenza $\omega$, con un ritardo di fase $\frac{\pi}{2}$ rispetto al termine noto, e
 con una ampiezza che cresce linearmente nel tempo. È questo il fenomeno della
-\underline{risonanza}.
+\uline{risonanza}.
 
 \begin{esercizi}
     \item Derivare esplicitamente le costanti $C'$ ed $S'$, sostituire nella (5)
@@ -882,7 +882,7 @@ $z_1(t)$ e $z_2(t)$, linearmente indipendenti, della (15) stessa:
     z(t) = A_1 z_1(t) + A_2 z_2(t) \,. \tag{16}
 \end{equation}
 Se $z_1(t)$ e $z_2(t)$ sono due soluzioni della equazione omogenea (15), il loro
-\underline{wronskiano}, definito da
+\uline{wronskiano}, definito da
 \begin{equation}
     W_{12} = \dot{z}_1(t) \, z_2(t) - z_1(t) \, \dot{z}_2(t) \,, \tag{17}
 \end{equation}
@@ -2178,11 +2178,11 @@ meno accurata del risultato testè trovato si scrive
 
 \section{Vettori, matrici e determinanti: definizioni e prime proprietà}
 
-Chiamiamo \underline{vettore} in uno spazio ad $N$ dimensioni una ennupla di numeri. Dunque il vettore $\mathbf{v}$ è costituito dagli $N$ numeri (in generale, complessi) $v_1, v_2, \ldots, v_N$.
+Chiamiamo \uline{vettore} in uno spazio ad $N$ dimensioni una ennupla di numeri. Dunque il vettore $\mathbf{v}$ è costituito dagli $N$ numeri (in generale, complessi) $v_1, v_2, \ldots, v_N$.
 
 In questo capitolo indicheremo generalmente i vettori con una delle ultime lettere dell'alfabeto latino, minuscola.
 
-Agli $N$ numeri $v_j$, $j = 1, 2, \ldots, N$, si dà il nome di \underline{componenti} del vettore $\mathbf{v}$.
+Agli $N$ numeri $v_j$, $j = 1, 2, \ldots, N$, si dà il nome di \uline{componenti} del vettore $\mathbf{v}$.
 
 La connessione fra il vettore $\mathbf{v}$ e le sue componenti può essere indicata con la notazione
 \[
@@ -2192,28 +2192,28 @@ Talvolta, in luogo dei due punti, si usa addirittura il segno di uguaglianza.
 
 Due vettori sono uguali se tutte le loro componenti sono uguali.
 
-Il \underline{complesso coniugato} di un vettore è il vettore che ha per componenti i complessi coniugati delle componenti del vettore dato:
+Il \uline{complesso coniugato} di un vettore è il vettore che ha per componenti i complessi coniugati delle componenti del vettore dato:
 \[
     \mathbf{v}^* : \left( v_1^*, v_2^*, v_3^*, \ldots, v_N^* \right).
 \]
 
-La \underline{somma algebrica di due vettori} è il vettore che ha per componenti la somma algebrica delle componenti dei due vettori:
+La \uline{somma algebrica di due vettori} è il vettore che ha per componenti la somma algebrica delle componenti dei due vettori:
 \[
     \mathbf{u} + \mathbf{v} : \left( u_1 + v_1,\, u_2 + v_2,\, \ldots,\, u_N + v_N \right).
 \]
 
-Il \underline{prodotto di un vettore per un numero complesso} è il vettore che ha per componenti il prodotto delle componenti del vettore per il numero complesso:
+Il \uline{prodotto di un vettore per un numero complesso} è il vettore che ha per componenti il prodotto delle componenti del vettore per il numero complesso:
 \[
     c\,\mathbf{v} : \left( c\,v_1,\, c\,v_2,\, \ldots,\, c\,v_N \right).
 \]
 
-Definiamo come \underline{modulo} del vettore $\mathbf{v}$ il numero complesso reale positivo
+Definiamo come \uline{modulo} del vettore $\mathbf{v}$ il numero complesso reale positivo
 \begin{equation}
     |\mathbf{v}| = \left[ \sum_{j=1}^{N} |v_j|^2 \right]^{\frac{1}{2}}.
     \tag{1a}
 \end{equation}
 
-Da ora in poi adotteremo la \underline{convenzione secondo cui (salvo esplicito contrario avviso)} \\ \underline{, ogni indice ripetuto 2 volte si intende sommato (da 1 ad $N$)}. Dunque
+Da ora in poi adotteremo la \uline{convenzione secondo cui (salvo esplicito contrario avviso)} \\ \uline{, ogni indice ripetuto 2 volte si intende sommato (da 1 ad $N$)}. Dunque
 \[
     v_j\, u_j \equiv \sum_{j=1}^{N} v_j\, u_j,
 \]
@@ -2230,26 +2230,26 @@ Possiamo pertanto scrivere
 
 Evidentemente il solo vettore a modulo nullo è il vettore nullo.
 
-Per il modulo della somma di due vettori vale la seguente \underline{disuguaglianza triangolare}:
+Per il modulo della somma di due vettori vale la seguente \uline{disuguaglianza triangolare}:
 \begin{equation}
     |\mathbf{u} + \mathbf{v}| \leq |\mathbf{u}| + |\mathbf{v}|,
     \tag{2}
 \end{equation}
-il segno di uguaglianza potendo sussistere solo se i due vettori sono \underline{linearmente dipendenti}, cioè se esistono due numeri complessi $a$, $b$ non ambedue nulli e tali che
+il segno di uguaglianza potendo sussistere solo se i due vettori sono \uline{linearmente dipendenti}, cioè se esistono due numeri complessi $a$, $b$ non ambedue nulli e tali che
 \begin{equation}
     a\,\mathbf{u} + b\,\mathbf{v} = \mathbf{0},
     \tag{2'}
 \end{equation}
 (essendo ovviamente il vettore $\mathbf{0}$, che compare a secondo membro, definito come il vettore avente tutte le componenti nulle).
 
-La definizione di \underline{vettori linearmente dipendenti} testé data è ovviamente estendibile al caso di più vettori: i $p$ vettori $\mathbf{v}^{(s)}$ saranno detti linearmente dipendenti se esistono $p$ numeri complessi $c_s$, non tutti nulli e tali che
+La definizione di \uline{vettori linearmente dipendenti} testé data è ovviamente estendibile al caso di più vettori: i $p$ vettori $\mathbf{v}^{(s)}$ saranno detti linearmente dipendenti se esistono $p$ numeri complessi $c_s$, non tutti nulli e tali che
 \[
     \sum_{s=1}^{p} c_s\, \mathbf{v}^{(s)} = \mathbf{0}.
 \]
 
-I $p$ vettori $\mathbf{v}^{(s)}$ sono detti \underline{linearmente indipendenti} se non sono linearmente dipendenti. I risultati della sezione seguente implicano che, in uno spazio ad $N$ dimensioni, $p$ vettori sono necessariamente dipendenti se $p > N$.
+I $p$ vettori $\mathbf{v}^{(s)}$ sono detti \uline{linearmente indipendenti} se non sono linearmente dipendenti. I risultati della sezione seguente implicano che, in uno spazio ad $N$ dimensioni, $p$ vettori sono necessariamente dipendenti se $p > N$.
 
-Definiamo come \underline{prodotto di due vettori} $\mathbf{u}$, $\mathbf{v}$ l'espressione
+Definiamo come \uline{prodotto di due vettori} $\mathbf{u}$, $\mathbf{v}$ l'espressione
 \begin{equation}
     (\mathbf{u}, \mathbf{v}) = u_j^*\, v_j.
     \tag{3}
@@ -2269,9 +2269,9 @@ La definizione di prodotto di due vettori vale ovviamente anche per il prodotto 
     \tag{1c}
 \end{equation}
 
-Due vettori si dicono \underline{ortogonali} se il loro prodotto è nullo.
+Due vettori si dicono \uline{ortogonali} se il loro prodotto è nullo.
 
-Per due qualunque vettori $\mathbf{u}$, $\mathbf{v}$ vale la seguente \underline{disuguaglianza di Schwarz}:
+Per due qualunque vettori $\mathbf{u}$, $\mathbf{v}$ vale la seguente \uline{disuguaglianza di Schwarz}:
 \begin{equation}
     |(\mathbf{u}, \mathbf{v})|^2 \leq |\mathbf{u}|^2\, |\mathbf{v}|^2,
     \tag{5}
@@ -2314,11 +2314,11 @@ da cui segue la (5) (col segno di disuguaglianza in senso stretto). C.V.D.
 
 Per $N = 3$ e nel campo reale, i vettori qui introdotti coincidono con i consueti vettori dello spazio ordinario, il prodotto fra vettori coincide con il prodotto scalare fra vettori ordinari, le altre quantità (componenti, modulo) si riducono a quelle già note, due vettori sono linearmente dipendenti se hanno la stessa direzione (con modulo ed eventualmente verso diversi) e tre vettori sono linearmente dipendenti se complanari; alla disuguaglianza triangolare corrisponde la proprietà secondo cui il lato di un triangolo non può mai eccedere la somma degli altri due, e alla disuguaglianza di Schwarz corrisponde la proprietà della funzione coseno, di non superare in modulo l'unità (e uguagliarla solo se l'angolo è nullo o pari a $\pi$).
 
-Chiamiamo \underline{matrice} in uno spazio ad $N$ dimensioni l'insieme di $N$ vettori, ovverossia una tabella di $N^2$ numeri. Dunque la matrice $A$ è costituita dagli $N^2$ numeri (in generale, complessi)
+Chiamiamo \uline{matrice} in uno spazio ad $N$ dimensioni l'insieme di $N$ vettori, ovverossia una tabella di $N^2$ numeri. Dunque la matrice $A$ è costituita dagli $N^2$ numeri (in generale, complessi)
 \[
     A_{11},\, A_{12},\, A_{13},\, \ldots,\, A_{1N},\, A_{21},\, A_{22},\, \ldots,\, A_{2N},\, \ldots,\, A_{NN}.
 \]
-In questo capitolo indicheremo generalmente le matrici con una lettera maiuscola dell'alfabeto latino. Agli $N^2$ numeri $A_{jk}$, $j = 1,2,\ldots,N$; $k = 1,2,\ldots,N$, si dà il nome di \underline{elementi} della matrice $A$.
+In questo capitolo indicheremo generalmente le matrici con una lettera maiuscola dell'alfabeto latino. Agli $N^2$ numeri $A_{jk}$, $j = 1,2,\ldots,N$; $k = 1,2,\ldots,N$, si dà il nome di \uline{elementi} della matrice $A$.
 
 La connessione fra una matrice $A$ e i suoi elementi è generalmente indicata con la notazione
 \[
@@ -2333,7 +2333,7 @@ A_{N1} & A_{N2} & A_{N3} & \cdots & A_{NN}
 
 Due matrici sono uguali se tutti i loro elementi sono uguali.
 
-La \underline{somma algebrica di due matrici} è la matrice che ha per componenti la somma algebrica delle componenti di due matrici; per esempio, per $N = 2$,
+La \uline{somma algebrica di due matrici} è la matrice che ha per componenti la somma algebrica delle componenti di due matrici; per esempio, per $N = 2$,
 \[
 \begin{pmatrix} A_{11} & A_{12} \\ A_{21} & A_{22} \end{pmatrix}
 +
@@ -2342,7 +2342,7 @@ La \underline{somma algebrica di due matrici} è la matrice che ha per component
 \begin{pmatrix} A_{11} + B_{11} & A_{12} + B_{12} \\ A_{21} + B_{21} & A_{22} + B_{22} \end{pmatrix}.
 \]
 
-Il \underline{prodotto di una matrice per un numero complesso} è la matrice che ha per elementi il prodotto degli elementi per il numero complesso; per esempio, per $N = 2$,
+Il \uline{prodotto di una matrice per un numero complesso} è la matrice che ha per elementi il prodotto degli elementi per il numero complesso; per esempio, per $N = 2$,
 \[
 c
 \begin{pmatrix} A_{11} & A_{12} \\ A_{21} & A_{22} \end{pmatrix}
@@ -2350,7 +2350,7 @@ c
 \begin{pmatrix} cA_{11} & cA_{12} \\ cA_{21} & cA_{22} \end{pmatrix}.
 \]
 
-Il \underline{prodotto di una matrice per un vettore} (ovvero, l'effetto di applicare una matrice ad un vettore) è un nuovo vettore la cui componente $j$-esima è ottenuta moltiplicando il complesso coniugato del vettore costituito dalla $j$-esima riga della matrice per il vettore dato. In formula
+Il \uline{prodotto di una matrice per un vettore} (ovvero, l'effetto di applicare una matrice ad un vettore) è un nuovo vettore la cui componente $j$-esima è ottenuta moltiplicando il complesso coniugato del vettore costituito dalla $j$-esima riga della matrice per il vettore dato. In formula
 \begin{equation}
     \mathbf{v} = A\,\mathbf{u},
     \tag{6a}
@@ -2380,14 +2380,14 @@ Il vettore ottenuto applicando la matrice $A$ ad un vettore $\mathbf{u}$ può a 
     \tag{7a}
 \end{equation}
 
-A questa quantità si fa talvolta riferimento come all'\underline{elemento di matrice di $A$ fra i vettori $\mathbf{u}$ e $\mathbf{v}$}. In modo analogo si ha
+A questa quantità si fa talvolta riferimento come all'\uline{elemento di matrice di $A$ fra i vettori $\mathbf{u}$ e $\mathbf{v}$}. In modo analogo si ha
 \begin{equation}
     \left( \mathbf{v},\, A^*\,\mathbf{u} \right) = v_j^*\, A_{jk}^*\, u_k.
     % [DUBBIO] la formula (7b) nell'originale è parzialmente illeggibile
     \tag{7b}
 \end{equation}
 
-L'insieme di \underline{vettori di base} dello spazio è dato dai vettori
+L'insieme di \uline{vettori di base} dello spazio è dato dai vettori
 \begin{align*}
     e^{(1)} &: (1, 0, 0, \ldots, 0) \\
     e^{(2)} &: (0, 1, 0, \ldots, 0) \\
@@ -2421,7 +2421,7 @@ Si ha inoltre, come è immediato verificare,
 \end{equation}
 sicché $A_{jk}$ è l'elemento di matrice di $A$ fra il $j$-esimo e il $k$-esimo vettore di base. Come abbiamo però scritto, si usa in effetti per $A_{jk}$, per antonomasia, la semplice locuzione di ``elemento di matrice $jk$'' di $A$.
 
-Il \underline{prodotto (da sinistra) di una matrice per un'altra} è una nuova matrice il cui elemento $jk$ è ottenuto moltiplicando il complesso coniugato del vettore costituito dalla $j$-esima riga della prima matrice per il vettore costituito dalla $k$-esima colonna dell'altra matrice (prodotto ``righe per colonne''). In formula
+Il \uline{prodotto (da sinistra) di una matrice per un'altra} è una nuova matrice il cui elemento $jk$ è ottenuto moltiplicando il complesso coniugato del vettore costituito dalla $j$-esima riga della prima matrice per il vettore costituito dalla $k$-esima colonna dell'altra matrice (prodotto ``righe per colonne''). In formula
 \begin{equation}
     C = A\,B
     \tag{11a}
@@ -2461,7 +2461,7 @@ Non è inoltre generalmente valida la proprietà commutativa, cioè generalmente
     \tag{13}
 \end{equation}
 
-Alla combinazione $AB - BA$ si dà il nome di \underline{commutatore} delle matrici $A$ e $B$, e per essa si usa la notazione $[A, B]$:
+Alla combinazione $AB - BA$ si dà il nome di \uline{commutatore} delle matrici $A$ e $B$, e per essa si usa la notazione $[A, B]$:
 \begin{equation}
     [A, B] = AB - BA.
     \tag{14}
@@ -2469,7 +2469,7 @@ Alla combinazione $AB - BA$ si dà il nome di \underline{commutatore} delle matr
 
 Ovviamente condizione necessaria e sufficiente perché due matrici commutino è che il loro commutatore sia nullo.
 
-Una matrice dicesi \underline{diagonale} se ha diversi da zero solo gli elementi ``sulla diagonale principale'', cioè se
+Una matrice dicesi \uline{diagonale} se ha diversi da zero solo gli elementi ``sulla diagonale principale'', cioè se
 \begin{equation}
     A_{jk} = A_j\, \delta_{jk} \qquad \text{(niente somma su } j;\; j = 1, 2, \ldots, N\text{)}.
     \tag{15}
@@ -2480,7 +2480,7 @@ La matrice $I$ avente per elementi i simboli di Kronecker
     I_{jk} = \delta_{jk}
     \tag{16}
 \end{equation}
-è detta \underline{matrice unità}. È infatti facile verificare che, qualunque sia la matrice $A$,
+è detta \uline{matrice unità}. È infatti facile verificare che, qualunque sia la matrice $A$,
 \begin{equation}
     AI = IA = A.
     \tag{17}
@@ -2532,12 +2532,12 @@ Il fatto che il prodotto non goda della proprietà commutativa è la principale 
     F(t) = B\,\exp[At] \quad \text{se } [A, B] = 0.
 \end{gather*}
 
-La \underline{matrice trasposta} di una matrice data è la matrice i cui elementi sono ottenuti da quelli della matrice data scambiando fra loro righe e colonne. In formula
+La \uline{matrice trasposta} di una matrice data è la matrice i cui elementi sono ottenuti da quelli della matrice data scambiando fra loro righe e colonne. In formula
 \begin{equation}
     \left(A^T\right)_{jk} = A_{kj},
     \tag{22}
 \end{equation}
-dove con $A^T$ indichiamo la matrice trasposta di $A$. Se una matrice coincide con la sua trasposta si dice \underline{simmetrica}; se una matrice coincide con la sua trasposta cambiata di segno, si dice \underline{antisimmetrica}. Si noti che gli elementi sulla diagonale principale di una matrice antisimmetrica sono necessariamente tutti nulli.
+dove con $A^T$ indichiamo la matrice trasposta di $A$. Se una matrice coincide con la sua trasposta si dice \uline{simmetrica}; se una matrice coincide con la sua trasposta cambiata di segno, si dice \uline{antisimmetrica}. Si noti che gli elementi sulla diagonale principale di una matrice antisimmetrica sono necessariamente tutti nulli.
 
 La più generale matrice simmetrica ha $N(N+1)/2$ elementi indipendenti ($N$ sulla diagonale principale, $N(N-1)/2$ da una parte della diagonale principale, quelli dall'altra parte essendo determinati dalla condizione di simmetria); una matrice antisimmetrica ha $N(N-1)/2$ elementi indipendenti. La più generale matrice può sempre essere scomposta nella somma di una matrice simmetrica ed una antisimmetrica, scrivendo
 \[
@@ -2570,12 +2570,12 @@ Inoltre ovviamente
     \tag{27}
 \end{equation}
 
-La \underline{matrice complessa coniugata} di una matrice è la matrice i cui elementi sono i complessi coniugati degli elementi della matrice stessa. La complessa coniugazione verrà indicata con l'asterisco:
+La \uline{matrice complessa coniugata} di una matrice è la matrice i cui elementi sono i complessi coniugati degli elementi della matrice stessa. La complessa coniugazione verrà indicata con l'asterisco:
 \[
     \left(A^*\right)_{jk} = A_{jk}^*.
 \]
 
-Una matrice ad elementi reali coincide ovviamente con la sua complessa coniugata, ed è detta \underline{reale}. Le seguenti proprietà sono ovviamente valide:
+Una matrice ad elementi reali coincide ovviamente con la sua complessa coniugata, ed è detta \uline{reale}. Le seguenti proprietà sono ovviamente valide:
 \begin{align}
     (A + B)^* &= A^* + B^*,
     \tag{28} \\
@@ -2592,7 +2592,7 @@ La più generale matrice complessa può essere scritta come la somma di una matr
     A = \frac{1}{2}\left(A + A^*\right) + \frac{1}{2}\left(A - A^*\right).
 \]
 
-La \underline{matrice hermitiana coniugata} di una matrice è quella ottenuta scambiando le righe con le colonne ed inoltre prendendo il complesso coniugato di ogni elemento. L'operazione di coniugazione hermitiana verrà indicata con una croce:
+La \uline{matrice hermitiana coniugata} di una matrice è quella ottenuta scambiando le righe con le colonne ed inoltre prendendo il complesso coniugato di ogni elemento. L'operazione di coniugazione hermitiana verrà indicata con una croce:
 \begin{equation}
     \left(A^+\right)_{jk} = A_{kj}^*.
     \tag{32}
@@ -2615,9 +2615,9 @@ e più in generale
     \tag{36b}
 \end{equation}
 
-Una matrice che coincide con la sua hermitiana coniugata si dice \underline{hermitiana}. Queste matrici sono particolarmente interessanti. Chiaramente, se una matrice è hermitiana, gli elementi sulla diagonale principale sono reali.
+Una matrice che coincide con la sua hermitiana coniugata si dice \uline{hermitiana}. Queste matrici sono particolarmente interessanti. Chiaramente, se una matrice è hermitiana, gli elementi sulla diagonale principale sono reali.
 
-La più generale matrice $A$ può essere scomposta nella somma di una matrice hermitiana e di una matrice \underline{antihermitiana} (cioè tale che cambia segno sotto coniugazione hermitiana), scrivendo
+La più generale matrice $A$ può essere scomposta nella somma di una matrice hermitiana e di una matrice \uline{antihermitiana} (cioè tale che cambia segno sotto coniugazione hermitiana), scrivendo
 \[
     A = \frac{1}{2}\left(A + A^+\right) + \frac{1}{2}\left(A - A^+\right).
 \]
@@ -2642,7 +2642,7 @@ Pertanto, per matrici hermitiane, la quantità
 
 Evidentemente le 3 operazioni di trasposizione, coniugazione complessa e coniugazione hermitiana hanno la proprietà di commutare (cioè, l'effetto di applicarne due successivamente non dipende dall'ordine in cui vengono effettuate), ed inoltre l'applicazione di due qualunque è equivalente all'applicazione della terza.
 
-Una matrice $U$ si dice \underline{unitaria} se
+Una matrice $U$ si dice \uline{unitaria} se
 \begin{equation}
     U^+ = U^{-1},
     \tag{39a}
@@ -2653,7 +2653,7 @@ ovvero
     \tag{39b}
 \end{equation}
 
-Data una matrice $A$, si chiama \underline{traccia} della matrice la somma degli elementi sulla diagonale principale:
+Data una matrice $A$, si chiama \uline{traccia} della matrice la somma degli elementi sulla diagonale principale:
 \begin{equation}
     \mathrm{tr}[A] = A_{jj}.
     \tag{40}
@@ -2681,7 +2681,7 @@ Per la matrice unità si ha evidentemente
 
 Una matrice hermitiana, avente tutti gli elementi sulla diagonale principale reali, ha traccia reale.
 
-Altra quantità importante associata ad una matrice è il \underline{determinante} della matrice, che viene indicato generalmente con la notazione
+Altra quantità importante associata ad una matrice è il \uline{determinante} della matrice, che viene indicato generalmente con la notazione
 \[
 \det[A] =
 \begin{vmatrix}
@@ -2758,7 +2758,7 @@ In particolare un determinante è nullo se ha due righe, o due colonne, uguali.
     \det[A] = (-1)^{j+k}\, A_{jk}\, \det\bigl[A^{(jk)}\bigr]
     \tag{51}
 \end{equation}
-(niente somme su $j$ e $k$), essendo $A^{(jk)}$ la matrice in uno spazio ad $N-1$ dimensioni ottenuta da $A$ eliminando la $j$-esima riga e la $k$-esima colonna. La matrice $A^{(jk)}$ così definita si dice \underline{aggiunta} dell'elemento $A_{jk}$. Al determinante di $A^{(jk)}$ moltiplicato per $(-1)^{j+k}$ si dà il nome di \underline{determinante aggiunto} dell'elemento $A_{jk}$ nella matrice $A$. Una generalizzazione del teorema testé riportato stabilisce la seguente formula (sviluppo di un determinante secondo una riga o una colonna):
+(niente somme su $j$ e $k$), essendo $A^{(jk)}$ la matrice in uno spazio ad $N-1$ dimensioni ottenuta da $A$ eliminando la $j$-esima riga e la $k$-esima colonna. La matrice $A^{(jk)}$ così definita si dice \uline{aggiunta} dell'elemento $A_{jk}$. Al determinante di $A^{(jk)}$ moltiplicato per $(-1)^{j+k}$ si dà il nome di \uline{determinante aggiunto} dell'elemento $A_{jk}$ nella matrice $A$. Una generalizzazione del teorema testé riportato stabilisce la seguente formula (sviluppo di un determinante secondo una riga o una colonna):
 \begin{align}
     \det[A] &= \sum_{k=1}^{N} (-1)^{j+k}\, A_{jk}\, \det\bigl[A^{(jk)}\bigr],
     \tag{52a} \\
@@ -2778,7 +2778,7 @@ oppure
     A_{jk} = 0 \quad \text{se } j < k,
     \tag{53b}
 \end{equation}
-(matrice \underline{triangolare}), è pari al prodotto degli elementi sulla diagonale principale:
+(matrice \uline{triangolare}), è pari al prodotto degli elementi sulla diagonale principale:
 \begin{equation}
     \det[A] = \prod_{j=1}^{N} A_{jj} \qquad \text{(niente somma su } j\text{)}.
     \tag{54}
@@ -2824,7 +2824,7 @@ sicché
 \end{equation}
 con $D = \det[A]$.
 
-\item \underline{Disuguaglianza di Hadamard}
+\item \uline{Disuguaglianza di Hadamard}
 
 Il modulo di un determinante è minore o uguale al prodotto dei moduli dei vettori che ne costituiscono le colonne (o le righe):
 \begin{align}
@@ -3103,13 +3103,13 @@ ammette una sola soluzione, data esplicitamente dalla (5). La risoluzione
 del sistema di equazioni algebriche è dunque ricondotta alla determinazione
 dell'inversa di una matrice data. La soluzione di questo problema è già
 stata riportata alla fine della precedente sezione. Possiamo dunque
-concludere che, \underline{se il determinante della matrice $A$ costituito
+concludere che, \uline{se il determinante della matrice $A$ costituito
 dai coefficienti del sistema di $N$ equazioni lineari} 
-\\ \underline{in $N$ incognite è 
-diverso da zero, il sistema ammette sempre una ed una sola soluzione, data} \\ \underline{
+\\ \uline{in $N$ incognite è 
+diverso da zero, il sistema ammette sempre una ed una sola soluzione, data} \\ \uline{
 esplicitamente dalla formula (5)}. Ricordando le (1-57) e (1-52), si può
 affermare inoltre che tale soluzione è data dalla seguente prescrizione
-(\underline{regola di Cramer}): la incognita $x_j$ è pari al quoziente fra
+(\uline{regola di Cramer}): la incognita $x_j$ è pari al quoziente fra
 il determinante della matrice che si ottiene dalla matrice dei coefficienti
 $A$ sostituendo alla colonna $j$-esima il vettore $\nu$ (termine noto), e
 il determinante della matrice $A$ stessa. Si noti che queste affermazioni
@@ -3150,7 +3150,7 @@ ottiene
 \alpha_j\, \nu_j = 0,
 \end{equation}
 che è per l'appunto una condizione sul vettore $\nu$. Se questa condizione
-non è soddisfatta, il sistema (2) \underline{non è compatibile}, non
+non è soddisfatta, il sistema (2) \uline{non è compatibile}, non
 ammette cioè nessuna soluzione. Se questa equazione è soddisfatta (e si
 noti che lo è sempre nel caso del sistema omogeneo, quando cioè $\nu = 0$),
 allora il sistema (2) può ammettere soluzione. In questo caso infatti
@@ -3197,7 +3197,7 @@ complesso); se, comunque si effettui la riduzione, si perviene nuovamente
 ad un sistema con determinante nullo, il discorso riprende da capo.
 
 I risultati discussi fino a questo punto possono dunque essere sintetizzati
-nel seguente enunciato (\underline{teorema di Rouché}):
+nel seguente enunciato (\uline{teorema di Rouché}):
 
 \uline{Un sistema di $N$ equazioni lineari in $N$ incognite ammette una
 ed una sola soluzione se il determinante della matrice dei coefficienti è
@@ -3322,8 +3322,8 @@ u_j = A_{jk}\,\nu_k.
 \end{equation}
 
 Se il vettore $u$ coincide con il vettore $\nu$ moltiplicato per una
-costante, si dice che esso è \underline{autovettore} della matrice $A$, e
-alla costante si dà il nome di \underline{autovalore} della matrice $A$
+costante, si dice che esso è \uline{autovettore} della matrice $A$, e
+alla costante si dà il nome di \uline{autovalore} della matrice $A$
 corrispondente all'autovettore $\nu$. Dunque per autovettori ed autovalori
 abbiamo la formula
 \begin{equation}
@@ -3428,7 +3428,7 @@ ortogonalità
 Gli autovettori di una matrice sono definiti a meno di una costante
 moltiplicativa, poiché è chiaro che se $\nu$ soddisfa la (2), anche $c\nu$
 la soddisfa. Diremo che un autovettore (o, più generalmente, un qualunque
-vettore) è \underline{normalizzato}, se ha modulo 1:
+vettore) è \uline{normalizzato}, se ha modulo 1:
 \begin{equation}
 |\nu|^2 = 1.
 \end{equation}
@@ -3459,7 +3459,7 @@ autovalore, come è immediato verificare.
 Se la matrice non è diagonale, la ricerca degli autovalori e degli
 autovettori è meno facile. Prima di discutere questo problema, vogliamo
 però mostrare come alcune importanti proprietà degli autovalori siano
-ricavabili dalla ipotesi che la matrice sia \underline{diagonalizzabile},
+ricavabili dalla ipotesi che la matrice sia \uline{diagonalizzabile},
 anticipando inoltre l'informazione che \uline{ogni matrice hermitiana è
 diagonalizzabile}.
 
@@ -3476,7 +3476,7 @@ e ad una qualunque matrice $A$ una matrice trasformata
 \widetilde{A} = U A U^{-1}.
 \end{equation}
 
-Particolare importanza hanno le \underline{trasformazioni unitarie},
+Particolare importanza hanno le \uline{trasformazioni unitarie},
 caratterizzate da matrici $U$ unitarie, cioè tali che
 \begin{equation}
 U^{-1} = U^+.
@@ -3626,7 +3626,7 @@ non saranno più necessariamente ortogonali.
 Dunque la condizione che una matrice sia hermitiana è sufficiente ma non
 necessaria affinché i suoi autovalori siano reali.
 
-Una matrice si dice \underline{diagonalizzabile} se è possibile
+Una matrice si dice \uline{diagonalizzabile} se è possibile
 trasformarla, mediante una trasformazione canonica, in una matrice
 diagonale.
 
@@ -3711,7 +3711,7 @@ U,
 dove gli $a_j$, $j = 1, 2, \ldots, N$, sono gli autovalori della matrice
 $A$, e la $U$ è caratterizzata dalla proprietà di diagonalizzare $A$,
 cioè è tale che $\widetilde{A} = UAU^{-1}$ è diagonale. La formula (23)
-può essere assunta come \underline{definizione} della matrice $F[A]$; e
+può essere assunta come \uline{definizione} della matrice $F[A]$; e
 non richiede, per essere utilizzabile, che la funzione $F(x)$ sia
 sviluppabile in serie di potenze, ma solo che sia definita in
 corrispondenza ai valori $a_1, a_2, \ldots, a_N$ del suo argomento. Se
@@ -3719,7 +3719,7 @@ però la $F(x)$ è sviluppabile in serie di potenze, allora i risultati dati
 finora implicano che questa nuova definizione di $F[A]$ coincide con
 quella data precedentemente.
 
-E veniamo infine ad una diretta discussione della \underline{equazione
+E veniamo infine ad una diretta discussione della \uline{equazione
 agli autovalori} (2):
 \[
 A\,\nu = a\,\nu
@@ -3783,7 +3783,7 @@ tutte diverse. Queste $N$ soluzioni sono gli auto-
 
 valori della matrice $A$.
 
-Alla equazione algebrica (26) si dà il nome di \underline{equazione
+Alla equazione algebrica (26) si dà il nome di \uline{equazione
 secolare} (perché appare nello studio delle piccole perturbazioni del moto
 dei pianeti, che richiedono secoli per manifestarsi).
 
@@ -3826,7 +3826,7 @@ In tal caso possiamo dunque scrivere
 \end{equation}
 
 La matrice $A$ ha meno di $N$ autovalori distinti se si hanno soluzioni
-coincidenti della equazione algebrica (26). La \underline{molteplicità di
+coincidenti della equazione algebrica (26). La \uline{molteplicità di
 un autovalore} è definita come il numero di soluzioni della equazione
 secolare corrispondenti a tale autovalore. Il caso normale è quello in cui
 si hanno $N$ autovalori ciascuno con molteplicità 1; in tal caso ad ogni
@@ -3836,7 +3836,7 @@ autovalore corrisponde uno ed un solo autovettore
 
 (a meno della ambiguità rappresentata dalla costante moltiplicativa). Se
 viceversa un autovalore ha molteplicità $p > 1$, si dice che esso è
-\underline{degenere}, e ad esso corrispondono $p$ autovettori linearmente
+\uline{degenere}, e ad esso corrispondono $p$ autovettori linearmente
 indipendenti. In tal caso ogni combinazione lineare di tali $p$ autovettori
 è ancora un autovettore corrispondente allo stesso autovalore. È possibile,
 e conveniente, scegliere i $p$ vettori linearmente indipendenti
@@ -3848,7 +3848,7 @@ degeneri; per esempio vale ancora per tutti gli $N$ autovalori la
 condizione di ortonormalità (32).
 
 Un insieme costituito da $N$ vettori $\nu^{(\ell)}$, $\ell=1,2,\ldots,N$,
-si dice in generale \underline{ortonormale} se valgono le relazioni
+si dice in generale \uline{ortonormale} se valgono le relazioni
 \begin{equation}
 \bigl(\nu^{(\ell)}, \nu^{(m)}\bigr) = \delta_{\ell m},
 \quad (\ell, m = 1, 2, \ldots, N).
@@ -3865,8 +3865,8 @@ la cui validità segue immediatamente dalla ortonormalità dei vettori
 $\nu^{(\ell)}$, eq.\ (33) (per verificarlo, moltiplicare la (34) da
 sinistra per $\nu^{(m)}$). La possibilità di esprimere qualunque vettore
 come combinazione dei $\nu^{(\ell)}$ fa attribuire, all'insieme dei vettori
-$\nu^{(\ell)}$, la denominazione di \underline{completo}; alla formula
-(34), che esprime tale proprietà, corrisponde la \underline{relazione di
+$\nu^{(\ell)}$, la denominazione di \uline{completo}; alla formula
+(34), che esprime tale proprietà, corrisponde la \uline{relazione di
 completezza}
 \begin{equation}
 \sum_{\ell=1}^{N} \nu_j^{(\ell)\,*}\,\nu_k^{(\ell)} = \delta_{jk},
@@ -3883,7 +3883,7 @@ convenzione che sottintende la somma su indici ripetuti.
 Possiamo dunque affermare che gli $N$ autovettori di una matrice
 hermitiana costituiscono un \uline{insieme ortonormale e completo}.
 
-Un insieme di $N$ vettori ortonormali costituisce una \underline{base}
+Un insieme di $N$ vettori ortonormali costituisce una \uline{base}
 nello spazio vettoriale. La formula (34) esprime il generico vettore $u$
 come combinazione lineare dei vettori della base; è naturale attribuire
 ai prodotti scalari $(\nu^{(\ell)}, u)$ il significato di
@@ -4086,7 +4086,7 @@ matriciale
 P_a\,P_a \equiv P_a^2 = P_a.
 \end{equation}
 
-Alle matrici che hanno queste proprietà si dà il nome di \underline{matrici
+Alle matrici che hanno queste proprietà si dà il nome di \uline{matrici
 di proiezione} (o ``operatori di proiezione'', vedi oltre). Infatti, come
 segue dalla sua definizione, la matrice $P_a$ applicata ad un generico
 vettore $v$ dà per risultato la parte di $v$ nella direzione del versore
@@ -4191,7 +4191,7 @@ trasformazione canonica, cioè se invece della matrice $A$ si considera la
 matrice $\widetilde{A} = UAU^{-1}$ (perché una trasformazione canonica non
 cambia gli autovalori). Dunque tutte le combinazioni $c_n$ degli elementi
 di matrice $A_{jk}$ che entrano nella (26c) debbono essere degli
-\underline{invarianti} sotto trasformazioni canoniche. Sappiamo già che
+\uline{invarianti} sotto trasformazioni canoniche. Sappiamo già che
 questo è vero per $c_N$, $c_{N-1}$ e $c_0$ (vedi le eq.\ (27), (28) e
 (29)). Si calcoli esplicitamente per $N=3$ il quarto invariante $c_1$, e
 si verifichi esplicitamente la sua invarianza sotto trasformazioni
@@ -4279,12 +4279,12 @@ del capitolo 2.
 della diagonalizzazione. Caratterizzazione degli autovalori tramite la
 proprietà minimax. Teorema di Ritz.}
 
-Data una matrice $A$, definiamo come \underline{forma quadratica associata
+Data una matrice $A$, definiamo come \uline{forma quadratica associata
 ad $A$} l'espressione
 \begin{equation}
 Q(x) = x_j\,A_{jk}\,x_k,
 \end{equation}
-e come \underline{forma hermitiana associata ad $A$} l'espressione
+e come \uline{forma hermitiana associata ad $A$} l'espressione
 \begin{align}
 H(x) &= x_j^*\,A_{jk}\,x_k \tag{2a} \\
      &= (x, A\,x). \tag{2b}
@@ -4304,7 +4304,7 @@ Sia $U$ una matrice unitaria,
 UU^+ = U^+U = I.
 \end{equation}
 
-La \underline{trasformazione unitaria} generata da questa matrice associa
+La \uline{trasformazione unitaria} generata da questa matrice associa
 al vettore $x$ il vettore
 \begin{equation}
 \widetilde{x} = U\,x,
@@ -4349,7 +4349,7 @@ nel campo reale soddisfa alla proprietà
 \begin{equation}
 UU^T = U^TU = I,
 \end{equation}
-definisce una \underline{rotazione} del sistema di riferimento, nel senso
+definisce una \uline{rotazione} del sistema di riferimento, nel senso
 che le quantità $\widetilde{x}_1$, $\widetilde{x}_2$ e $\widetilde{x}_3$,
 ottenute dalla (4), possono essere considerate le coordinate dello stesso
 vettore in un nuovo sistema di riferimento ortogonale cartesiano, ottenuto
@@ -4507,7 +4507,7 @@ con $\widetilde{x}_s = \delta_{s\ell}$,
 
 come segue immediatamente dalla (13). Il teorema è così dimostrato.
 
-Questo importante teorema (generalmente indicato come \underline{teorema
+Questo importante teorema (generalmente indicato come \uline{teorema
 minimax}) può essere più concisamente enunciato nel modo seguente:
 \uline{l'$\ell$-esimo autovalore di una matrice hermitiana $A$ (contato
 avendo ordinato gli autovalori in ordine crescente) è il più grande valore
@@ -4551,7 +4551,7 @@ calcolo degli autovalori di $\bar{A}$ sarà assai più agevole che quello
 degli autovalori di $A$. Il calcolo è addirittura banale se $n = 1$, poiché
 in tal caso la matrice si riduce ad un numero solo e coincide naturalmente
 con l'autovalore. Per $n=1$ il risultato testé enunciato è generalmente
-noto come \underline{principio di Ritz} (data una matrice hermitiana $A$),
+noto come \uline{principio di Ritz} (data una matrice hermitiana $A$),
 e può essere enunciato come segue: per qualunque vettore $x$ valgono le
 disuguaglianze
 \begin{align}
@@ -4739,7 +4739,7 @@ Poiché il generico vettore $\nu$ può essere espresso nella forma
 gli $N$ numeri complessi $\bigl(u^{(n)}, \nu\bigr)$, $n=1,2,\ldots,N$,
 andranno interpretati come le \uline{componenti del vettore $\nu$ nel
 sistema di riferimento caratterizzato dai versori $u^{(n)}$}, ovvero,
-secondo la locuzione già introdotta precedentemente, nella \underline{base}
+secondo la locuzione già introdotta precedentemente, nella \uline{base}
 degli $u^{(n)}$.
 
 Il passaggio da un sistema di riferimento ad un altro, ovvero da una base
@@ -4756,7 +4756,7 @@ riferimento, cioè nel passaggio da una base ad un'altra.
 Come per i vettori, così per le matrici; è possibile attribuire loro un
 significato intrinseco, o meglio interpretare ogni matrice-tabella di $N
 \times N$ numeri come la rappresentazione, in una data base, di un
-\underline{operatore} agente sui vettori di uno spazio ad $N$ dimensioni.
+\uline{operatore} agente sui vettori di uno spazio ad $N$ dimensioni.
 
 Dunque assegnata una base $u^{(n)}$ ed una matrice $A$ di componenti
 $A_{nm}$ diremo che l'operatore $A$ è quello che trasforma il vettore $\nu$
@@ -4788,10 +4788,10 @@ la matrice che gli corrisponde in una data base.
 
 Possiamo dunque parlare di vettori (in spazi complessi ad $N$ dimensioni)
 e di operatori che agiscono su di loro, tenendo presente che tali vettori
-ed operatori risultano \underline{rappresentati} da colonne (o righe) di
+ed operatori risultano \uline{rappresentati} da colonne (o righe) di
 numeri e da tabelle di numeri (o matrici; questo vocabolo è in effetti usato
 talvolta ad indicare una tabella di numeri, talaltra ad indicare un
-operatore), ogni volta che si specifichi una \underline{base}, cioè un
+operatore), ogni volta che si specifichi una \uline{base}, cioè un
 insieme ortonormale e completo di vettori $u^{(n)}$, secondo le formule
 (repetita iuvant!): $(u^{(j)},v)$ = componente $j$-esima del vettore $v$
 nella base $u^{(n)}$, $(v, u^{(j)})$ = componente $j$-esima del vettore
@@ -4963,8 +4963,8 @@ quantico, numero che coincide per l'appunto con l'autovalore di $F$ (e il
 fatto che tale numero possa valere solo zero od uno corrisponde appunto al
 principio di esclusione di Pauli). Gli operatori $A$ ed $A^+$,
 caratterizzati dalle regole di anticommutazione (14), sono detti
-rispettivamente \underline{operatore di distruzione (fermionico)} ed
-\underline{operatore di creazione (fermionico)}; infatti, le equazioni
+rispettivamente \uline{operatore di distruzione (fermionico)} ed
+\uline{operatore di creazione (fermionico)}; infatti, le equazioni
 (21b) e (21c), nell'ambito della interpretazione fisica testé fornita, ci
 dicono che $A$ distrugge un fermione (fa passare dallo stato con un
 fermione a quello vuoto) ed $A^+$ viceversa lo crea.
@@ -4976,7 +4976,7 @@ $B$ definito da una formula analoga alla (13),
 B = A^+A,
 \end{equation}
 dove $A$ ed $A^+$ sono però ora due operatori (uno hermitiano coniugato
-dell'altro) soddisfacenti le \underline{regole di commutazione}
+dell'altro) soddisfacenti le \uline{regole di commutazione}
 \begin{equation}
 [A, A^+] = I.
 \end{equation}
@@ -5152,7 +5152,7 @@ $B$; il fatto che non vi siano restrizioni su tale numero di particelle
 corrisponde alla non sussistenza (per i bosoni) del principio di
 esclusione di Pauli. Gli operatori $A$ ed $A^+$, caratterizzati dalle
 regole di commutazione (24), sono detti rispettivamente
-\underline{operatore di distruzione (bosonico)} ed \underline{operatore di
+\uline{operatore di distruzione (bosonico)} ed \uline{operatore di
 creazione (bosonico)}; infatti le equazioni (39), nell'ambito della
 interpretazione fisica testé fornita, ci dicono che $A$ distrugge un
 bosone (fa passare dallo stato con $n$ bosoni a quello con $n-1$) ed $A^+$
@@ -5160,7 +5160,7 @@ viceversa lo crea.
 \end{quote}
 
 È possibile usare una rappresentazione matriciale per gli operatori $B$,
-$A$ ed $A^+$ testé introdotti? La risposta è \underline{negativa}, almeno
+$A$ ed $A^+$ testé introdotti? La risposta è \uline{negativa}, almeno
 fino a che si tratti di matrici con un numero $N$ finito di righe e
 colonne, operanti in uno spazio vettoriale con un numero $N$ finito di
 dimensioni; ciò perché, come abbiamo visto, il numero di autostati
@@ -5255,7 +5255,7 @@ soddisfano a tutte le equazioni precedentemente scritte per gli operatori
 $A$, $A^+$ e $B$.
 
 E discutiamo infine un terzo esempio, quello dei cosiddetti
-\underline{operatori del momento angolare}. Sono questi 3 operatori
+\uline{operatori del momento angolare}. Sono questi 3 operatori
 hermitiani, $L_1$, $L_2$, ed $L_3$, che soddisfano le regole di
 commutazione cicliche
 \begin{equation}
@@ -5446,8 +5446,8 @@ L_3\,L_\pm|\Lambda,\mu\rangle
 \end{proof}
 
 Per queste proprietà, all'operatore $L_+$ si dà il nome di
-\underline{operatore di innalzamento} (della terza componente del momento
-angolare) e all'operatore $L_-$ il nome di \underline{operatore di
+\uline{operatore di innalzamento} (della terza componente del momento
+angolare) e all'operatore $L_-$ il nome di \uline{operatore di
 abbassamento}.
 
 Indichiamo ora con $\mu_{\min}$ e $\mu_{\max}$ i valori minimo e massimo
@@ -6503,7 +6503,7 @@ degli infiniti, ci dovremo porre dei problemi di convergenza, che prima
 non avevamo.
 
 Dato l'intervallo (1), diremo che una funzione $f(x)$ è un
-\underline{elemento dello spazio funzionale} associato a tale intervallo
+\uline{elemento dello spazio funzionale} associato a tale intervallo
 se la funzione è di modulo quadrato sommabile in tale intervallo, cioè
 se
 \[
@@ -6513,7 +6513,7 @@ esiste ed è finito.
 
 % --- Pagina 161 (doc. p.165), 4.1-2 ---
 
-Definiamo \underline{prodotto scalare} di due elementi $f$ e $g$ dello
+Definiamo \uline{prodotto scalare} di due elementi $f$ e $g$ dello
 spazio funzionale (in questo ordine) l'integrale del complesso coniugato
 della funzione $f(x)$ moltiplicato per $g(x)$, e lo indichiamo con la
 notazione $(f,g)$ ovvero $(f\mid g)$:
@@ -6523,7 +6523,7 @@ notazione $(f,g)$ ovvero $(f\mid g)$:
 
 Come vedremo fra un momento, questo integrale è certamente convergente.
 
-Definiamo \underline{modulo quadrato} di un elemento $f$ dello spazio
+Definiamo \uline{modulo quadrato} di un elemento $f$ dello spazio
 funzionale il suo prodotto per se stesso (e modulo di $f$ sarà
 naturalmente la radice quadrata del modulo quadrato, presa per
 convenzione col segno positivo), scrivendo
@@ -6562,8 +6562,8 @@ costituiscono le dirette analoghe di quelle date nella prima parte della
 sezione 3.1.
 
 L'introduzione del prodotto scalare (2) ci permette di istituire, nello
-spazio funzionale, una \underline{metrica}, definendo come
-\underline{distanza} fra due elementi $f$ e $g$ il numero reale non
+spazio funzionale, una \uline{metrica}, definendo come
+\uline{distanza} fra due elementi $f$ e $g$ il numero reale non
 negativo
 \begin{equation}
 |f-g| = \bigl[(f-g,f-g)\bigr]^{1/2}
@@ -6645,7 +6645,7 @@ a queste definizioni ed a quella di modulo.
 
 \section{Operatori differenziali lineari.}
 
-Dato uno spazio funzionale, chiameremo \underline{operatore} agente in
+Dato uno spazio funzionale, chiameremo \uline{operatore} agente in
 tale spazio ogni prescrizione che associ ad ogni elemento dello spazio
 un altro elemento dello stesso spazio funzionale. Indicando con $A$
 l'operatore, scriveremo dunque
@@ -6664,7 +6664,7 @@ A\,f(x) &= \int_\alpha^\beta dx'\,K(x,x')\,f(x'), \tag{2c}
 \end{align}
 con $K(x,x')$ funzione assegnata e continua di $x$ ed $x'$.
 
-Un operatore si dice \underline{lineare} se gode delle seguenti
+Un operatore si dice \uline{lineare} se gode delle seguenti
 proprietà:
 \begin{align}
 A[f+g] &= Af + Ag, \tag{3a} \\
@@ -6677,7 +6677,7 @@ e $c$ un numero complesso arbitrario. Per esempio, gli operatori (2a) e
 In questo capitolo ci occuperemo esclusivamente di operatori lineari;
 e, sebbene i risultati che daremo saranno generalmente validi per gli
 operatori lineari, avremo particolarmente in mente gli
-\underline{operatori differenziali lineari}, il cui prototipo può essere
+\uline{operatori differenziali lineari}, il cui prototipo può essere
 scritto nella forma
 
 % --- Pagina 165 (doc. p.169), 4.2-2 ---
@@ -6702,7 +6702,7 @@ A(B+C)   &= AB + AC. \tag{6d}
 \end{align}
 
 Si noti però che, come nel caso delle matrici, non vale generalmente la
-proprietà commutativa. Definiamo anzi come \underline{commutatore} di
+proprietà commutativa. Definiamo anzi come \uline{commutatore} di
 due operatori la differenza fra il loro prodotto in un ordine e
 nell'ordine opposto, scrivendo
 \begin{equation}
@@ -6730,14 +6730,14 @@ Al prodotto scalare
 \[
 (g, A\,f)
 \]
-si dà generalmente il nome di \underline{elemento di matrice}
+si dà generalmente il nome di \uline{elemento di matrice}
 dell'operatore $A$ fra $g$ ed $f$ (in questo ordine). Ovviamente se
 $A=B$ (cioè se, per ogni $f$, $Af=Bf$), sarà anche $(g,Af)=(g,Bf)$
 per ogni $f$ e $g$; e viceversa, se quest'ultima uguaglianza vale per
 ogni $f$ e $g$ dello spazio, diremo che $A=B$.
 
 Dato un operatore $A$, diremo che l'operatore $A^+$ è il suo
-\underline{hermitiano coniugato} nello spazio funzionale, se, per ogni
+\uline{hermitiano coniugato} nello spazio funzionale, se, per ogni
 coppia di elementi $f,g$ dello spazio, vale la relazione
 \begin{equation}
 (g, A\,f) = (A^+g, f).
@@ -6821,7 +6821,7 @@ prodotto di due operatori, ma è ovvia la estensione al prodotto di più
 operatori.
 \end{proof}
 
-Si dice che un operatore è \underline{hermitiano} se coincide con il
+Si dice che un operatore è \uline{hermitiano} se coincide con il
 proprio hermitiano coniugato:
 \begin{equation}
 A = A^+.
@@ -6923,7 +6923,7 @@ con $D = \dfrac{d}{dx}$.
 \section{La notazione di Dirac.}
 
 La notazione di Dirac consiste nella introduzione di uno spazio
-astratto, i cui elementi sono chiamati \underline{kets} (singolare ket)
+astratto, i cui elementi sono chiamati \uline{kets} (singolare ket)
 ed indicati con la notazione $|\,\rangle$ (per specificare un particolare
 ket, si usa un indice scritto dentro, per esempio si scrive $|a\rangle$,
 $|b\rangle$ per indicare i kets corrispondenti agli indici $a$, $b$; per
@@ -6937,8 +6937,8 @@ c\bigl(|a\rangle + |b\rangle\bigr) = c\,|a\rangle + c\,|b\rangle.
 \end{equation}
 
 In aggiunta allo spazio dei kets si introduce un secondo spazio,
-\underline{duale} del precedente, i cui elementi sono detti
-\underline{bras} (singolare bra) ed indicati con la notazione $\langle\,|$,
+\uline{duale} del precedente, i cui elementi sono detti
+\uline{bras} (singolare bra) ed indicati con la notazione $\langle\,|$,
 in perfetta analogia con il caso dei kets, salvo per una riflessione
 speculare del simbolo. Anche per i bras si possono definire le operazioni
 di somma e di prodotto per un numero complesso.
@@ -6969,12 +6969,12 @@ allora
 
 Si noti il complesso coniugato nella (3b); a tale rapporto di
 corrispondenza biunivoca ci si riferisce dicendo che un bra è
-\underline{coniugato} del corrispondente ket, e viceversa.
+\uline{coniugato} del corrispondente ket, e viceversa.
 
 I nomi ``bra'' e ``ket'' derivano dalla parola inglese ``bracket'',
 parentesi, e sono stati introdotti da Dirac.
 
-Si definisce quindi un \underline{prodotto scalare} fra bra e ket,
+Si definisce quindi un \uline{prodotto scalare} fra bra e ket,
 consistente in una regola che associa ad ogni coppia costituita da un
 bra ed un ket un numero complesso; il prodotto scalare del bra $\langle
 a|$ col ket $|b\rangle$ si indica con la notazione
@@ -7021,7 +7021,7 @@ del bra $\langle b|$ per il ket $|a\rangle$ coniugato al bra $\langle a|$;
 tale prodotto dipende linearmente da $\langle b|$ e antilinearmente da
 $\langle a|$.
 
-Due kets, o due bras, sono detti \underline{ortogonali} se il loro
+Due kets, o due bras, sono detti \uline{ortogonali} se il loro
 prodotto scalare è nullo.
 
 Si richiede ancora che il prodotto di ogni ket (o, equivalentemente,
@@ -7031,10 +7031,10 @@ positivo,
 \langle a|a\rangle > 0,
 \end{equation}
 salvo nel caso in cui $|a\rangle = 0$, in cui ovviamente è nullo. A
-questo prodotto ci si riferisce talvolta come al \underline{modulo
+questo prodotto ci si riferisce talvolta come al \uline{modulo
 quadrato} del ket $|a\rangle$ (o anche del bra $\langle a|$).
 
-Un \underline{operatore} $A$ è rappresentato da una prescrizione che
+Un \uline{operatore} $A$ è rappresentato da una prescrizione che
 associa ad ogni ket un altro ket; in formula si scrive
 \begin{equation}
 |b\rangle = A\,|a\rangle
@@ -7097,7 +7097,7 @@ per il numero complesso $\langle b|a_1\rangle$:
   &= \langle a_2|\bigl\{\langle b|a_1\rangle\bigr\}. \tag{13b}
 \end{align}
 
-Si introduce infine l'\underline{hermitiano coniugato} $A^+$ dell'operatore
+Si introduce infine l'\uline{hermitiano coniugato} $A^+$ dell'operatore
 $A$ come quell'operatore che applicato al bra $\langle a|$ coniugato del
 ket $|a\rangle$
 
@@ -7126,7 +7126,7 @@ nonché l'importante proprietà
 \end{equation}
 
 Se un operatore $A$ coincide con il suo hermitiano coniugato $A^+$, si
-dice che è \underline{hermitiano}.
+dice che è \uline{hermitiano}.
 
 Si noti che il formalismo è costruito in modo da permettere di
 riconoscere a vista se una espressione involvente kets, bras ed operatori
@@ -7242,8 +7242,8 @@ quanto indicato al termine di questa sezione.
 Un dato operatore $A$, applicato ad un elemento $f$ di uno spazio
 funzionale, lo trasformerà in genere in un altro elemento $g$. Se il
 nuovo elemento $g$ è uguale ad $f$ moltiplicato per una costante $a$,
-allora si dice che $f$ è \underline{autofunzione} di $A$, corrispondente
-all'\underline{autovalore} $a$:
+allora si dice che $f$ è \uline{autofunzione} di $A$, corrispondente
+all'\uline{autovalore} $a$:
 \begin{equation}
 A\,f = a\,f.
 \end{equation}
@@ -7303,7 +7303,7 @@ c.v.d.
 Per l'autofunzione di un operatore hermitiano corrispondente all'autovalore
 $a$ si useranno a seconda dei casi le notazioni $f_a(x)$ oppure
 $\psi_a(x)$ oppure $|a\rangle$; in ogni caso si assumerà che tali
-autofunzioni siano \underline{normalizzate} (cosa che si può sempre
+autofunzioni siano \uline{normalizzate} (cosa che si può sempre
 realizzare moltiplicando tali funzioni per il coefficiente di
 normalizzazione $[(f_a, f_a)]^{-1/2}$). Pertanto la seconda delle
 proprietà testé enunciate si può scrivere
@@ -7312,8 +7312,8 @@ proprietà testé enunciate si può scrivere
 \end{equation}
 
 Se all'autovalore $a$ corrisponde una sola autofunzione esso è
-\underline{non degenere}; se ad esso corrispondono $p$ ($>1$) autofunzioni
-linearmente indipendenti, l'autovalore è \underline{degenere con
+\uline{non degenere}; se ad esso corrispondono $p$ ($>1$) autofunzioni
+linearmente indipendenti, l'autovalore è \uline{degenere con
 molteplicità $p$}. In tal caso ogni combinazione lineare di tali $p$
 autofunzioni
 
@@ -7742,7 +7742,7 @@ e le corrispondenti autofunzioni sono
 dove $A_n$ è una costante di normalizzazione, e gli $H_n(x)$ sono polinomi
 di grado $n$ in $x$, contenenti solo potenze pari o dispari di $x$, a
 seconda che $n$ sia pari o dispari. Questi polinomi (opportunamente
-normalizzati) prendono il nome di \underline{polinomi di Hermite}. Vale
+normalizzati) prendono il nome di \uline{polinomi di Hermite}. Vale
 naturalmente per essi la relazione di ortogonalità
 \begin{equation}
 \int_{-\infty}^{+\infty} dx\,e^{-x^2}\,H_n(x)\,H_m(x) = 0, \quad n \neq m,
@@ -8172,9 +8172,9 @@ e sia $f$ un generico elemento dello spazio funzionale. Si dice allora che i num
 \begin{equation}
 c_j=(\psi_j\,,f)
 \end{equation}
-sono le \underline{componenti di $f$ rispetto al sistema ortonormale delle $\psi_j(x)$}, ovvero i \underline{coefficienti dello sviluppo di $f$ secondo il sistema ortonormale delle $\psi_j(x)$}.
+sono le \uline{componenti di $f$ rispetto al sistema ortonormale delle $\psi_j(x)$}, ovvero i \uline{coefficienti dello sviluppo di $f$ secondo il sistema ortonormale delle $\psi_j(x)$}.
 
-È facile dimostrare che, per qualunque $f$, vale la \underline{disuguaglianza di Bessel}
+È facile dimostrare che, per qualunque $f$, vale la \uline{disuguaglianza di Bessel}
 \begin{equation}
 \sum_{j=1}^{n}|c_j|^2 \leq |f|^2\,.
 \end{equation}
@@ -8213,11 +8213,11 @@ Se, per qualunque $f$, la (4) vale con il segno di uguaglianza,
 \begin{equation}
 \sum_{j=1}^{\infty}|c_j|^2=|f|^2\,,
 \end{equation}
-allora si dice che il sistema ortonormale delle $\psi_j(x)$ è \underline{completo}; alla (5), e alla più generale equazione che segue dalla (5),
+allora si dice che il sistema ortonormale delle $\psi_j(x)$ è \uline{completo}; alla (5), e alla più generale equazione che segue dalla (5),
 \begin{equation}
 \sum_{j=1}^{\infty}(f,\psi_j)(\psi_j,g)=(f,g)\,,
 \end{equation}
-con $f$ e $g$ due qualunque elementi dello spazio funzionale, si dà il nome di \underline{relazione di completezza}.
+con $f$ e $g$ due qualunque elementi dello spazio funzionale, si dà il nome di \uline{relazione di completezza}.
 
 \hrule
 \medskip
@@ -8255,7 +8255,7 @@ in effetti la serie a secondo membro nella (8) potrebbe anche non convergere. Se
 \[
 \sum_{j=1}^{n}c_j\,\psi_j(x)
 \]
-\underline{converge uniformemente}, allora la (7) implica la (8).
+\uline{converge uniformemente}, allora la (7) implica la (8).
 
 \hrule
 \medskip
@@ -8263,7 +8263,7 @@ Ricordiamo che una successione di funzioni
 \[
 F_n(x)=\sum_{m=1}^{n}f_m(x)
 \]
-è detta \underline{convergente} se, assegnato comunque $\varepsilon>0$ ed $x$ (nell'intervallo di definizione delle funzioni $f_m(x)$), esiste un numero $N(\varepsilon,x)$ tale che
+è detta \uline{convergente} se, assegnato comunque $\varepsilon>0$ ed $x$ (nell'intervallo di definizione delle funzioni $f_m(x)$), esiste un numero $N(\varepsilon,x)$ tale che
 \[
 |F_n(x)-F_{n'}(x)|<\varepsilon
 \]
@@ -8280,7 +8280,7 @@ ovvero
 F(x)=\sum_{n=1}^{\infty}f_n(x)\,.
 \]
 
-La serie è detta \underline{uniformemente convergente} se, assegnato comunque $\varepsilon>0$ ed $x$ (nell'intervallo di definizione delle funzioni), esiste un numero $N(\varepsilon)$ \underline{indipendente da $x$} e tale che
+La serie è detta \uline{uniformemente convergente} se, assegnato comunque $\varepsilon>0$ ed $x$ (nell'intervallo di definizione delle funzioni), esiste un numero $N(\varepsilon)$ \uline{indipendente da $x$} e tale che
 \[
 |F_n(x)-F_{n'}(x)|<\varepsilon
 \]
@@ -8308,11 +8308,11 @@ converge uniformemente, la (7) implica la (8); infatti in tal caso la (7) implic
 che a sua volta implica la (8).
 \medskip\hrule\medskip
 
-Se vale l'equazione (8), si dice che la $f(x)$ è \underline{sviluppabile in serie delle $\psi_j(x)$}; le condizioni di validità della (8) non sono semplici, e verranno discusse in alcuni casi speciali nel seguito. La (7) è invece valida per qualunque sistema ortonormale e completo, e si può interpretare affermando che la serie
+Se vale l'equazione (8), si dice che la $f(x)$ è \uline{sviluppabile in serie delle $\psi_j(x)$}; le condizioni di validità della (8) non sono semplici, e verranno discusse in alcuni casi speciali nel seguito. La (7) è invece valida per qualunque sistema ortonormale e completo, e si può interpretare affermando che la serie
 \[
 \sum_{j=1}^{n}c_j\,\psi_j(x)\,,
 \]
-con le $c_j$ date dalla (2), \underline{converge in media} alla $f(x)$, per $n\to\infty$.
+con le $c_j$ date dalla (2), \uline{converge in media} alla $f(x)$, per $n\to\infty$.
 
 Naturalmente in generale un sistema ortonormale di funzioni deve contenere infiniti elementi. Non è però sufficiente che un sistema ortonormale di funzioni contenga infiniti elementi a garantire che esso sia completo; per esempio basta togliere una sola funzione ad un sistema ortonormale e completo per ottenere un nuovo sistema che non è più completo.
 
@@ -8332,7 +8332,7 @@ A\,|a_n\rangle &= a_n\,|a_n\rangle\,, & &\text{(niente somma su $n$, $n=1,2,3,\l
 \sum_{n=1}^{\infty}(f\mid a_n)(a_n\mid g)=(f\mid g)\,. \tag{11}
 \end{equation}
 
-Le prime due equazioni (9a) e (9b), sono le equazioni agli autovalori (per kets e per bras, rispettivamente; l'una coniugata dell'altra); la equazione (10) è la relazione di ortonormalità; nella equazione (11), che costituisce la relazione di completezza, $|f\rangle$ e $|g\rangle$ sono due arbitrari kets ($(f|$ e $(g|$ essendo i corrispondenti bras coniugati); questa \underline{relazione di completezza} può dunque anche essere scritta nella forma operatoriale
+Le prime due equazioni (9a) e (9b), sono le equazioni agli autovalori (per kets e per bras, rispettivamente; l'una coniugata dell'altra); la equazione (10) è la relazione di ortonormalità; nella equazione (11), che costituisce la relazione di completezza, $|f\rangle$ e $|g\rangle$ sono due arbitrari kets ($(f|$ e $(g|$ essendo i corrispondenti bras coniugati); questa \uline{relazione di completezza} può dunque anche essere scritta nella forma operatoriale
 \begin{equation}
 \sum_{n=1}^{\infty}|a_n\rangle\langle a_n|=\mathbf{I}\,, \tag{12a}
 \end{equation}
@@ -8399,7 +8399,7 @@ Naturalmente se gli $|a_n\rangle$ sono gli autokets di $A$, nella base degli $|a
 (a_n\mid A\mid a_m)=a_m\,\delta_{nm}\,,\quad\text{(niente somma su $n$,$m$, $n,m=1,2,3,\ldots$).} \tag{17}
 \end{equation}
 
-In conclusione abbiamo visto come ad ogni ket (o, equivalentemente, ad ogni elemento dello spazio funzionale) e ad ogni operatore agente nello spazio funzionale, si possa far corrispondere rispettivamente un vettore (ad infinite componenti) o una matrice (ad infinite righe e colonne); ciò è possibile \underline{scegliendo una base nello spazio funzionale}, cioè un sistema ortonormale e completo di elementi dello spazio funzionale. Il vettore ha allora per componenti i prodotti scalari degli elementi della base (i ``versori di base'') per il ket in questione; la matrice ha per elementi gli ``elementi di matrice'' dell'operatore fra i versori della base.
+In conclusione abbiamo visto come ad ogni ket (o, equivalentemente, ad ogni elemento dello spazio funzionale) e ad ogni operatore agente nello spazio funzionale, si possa far corrispondere rispettivamente un vettore (ad infinite componenti) o una matrice (ad infinite righe e colonne); ciò è possibile \uline{scegliendo una base nello spazio funzionale}, cioè un sistema ortonormale e completo di elementi dello spazio funzionale. Il vettore ha allora per componenti i prodotti scalari degli elementi della base (i ``versori di base'') per il ket in questione; la matrice ha per elementi gli ``elementi di matrice'' dell'operatore fra i versori della base.
 
 Dunque, nella base $|u_n\rangle$, all'elemento $|\nu\rangle$ dello spazio funzionale e all'operatore $A$ si associano il vettore di componenti $\nu_n=(u_n|\nu)$ e la matrice di elementi $A_{nm}=(u_n|A|u_m)$. In modo analogo, in una diversa base $|\tilde{u}_n\rangle$, a $|\nu\rangle$ si associa il vettore di componenti $\tilde{\nu}_n=(\tilde{u}_n|\nu)$ e ad $A$ la matrice di elementi $\tilde{A}_{nm}=(\tilde{u}_n|A|\tilde{u}_m)$; questo naturalmente sempre che gli $|\tilde{u}_n\rangle$ costituiscano un insieme ortonormale e completo, cioè valgano anche per gli $|\tilde{u}_n\rangle$ le relazioni di ortonormalità e completezza analoghe alle (16):
 \begin{equation}
@@ -8462,7 +8462,7 @@ U_{nm} &= (\tilde{u}_n\mid u_m)\,, \tag{21a}\\
 \end{align*}
 \medskip\hrule\medskip
 
-Come sappiamo dallo studio delle matrici effettuato nel capitolo 3, ad ogni matrice hermitiana è possibile associare certi \underline{invarianti}, cioè delle quantità che hanno lo stesso valore per tutte le matrici connesse fra loro da trasformazioni unitarie; esempi di tali invarianti sono gli autovalori, il determinante e la traccia di una matrice, gli ultimi due coincidendo rispettivamente con il prodotto e la somma di tutti gli autovalori. Poiché abbiamo ora un procedimento per associare ad ogni operatore, è in particolare ad ogni operatore hermitiano, una matrice, o meglio una famiglia di matrici connesse fra loro da trasformazioni unitarie, potremo anche parlare del determinante e della traccia di un operatore; chiaramente queste quantità potranno essere definite a partire dalle matrici che corrispondono agli operatori, scegliendo una base qualunque. In particolare per la traccia si scriverà dunque
+Come sappiamo dallo studio delle matrici effettuato nel capitolo 3, ad ogni matrice hermitiana è possibile associare certi \uline{invarianti}, cioè delle quantità che hanno lo stesso valore per tutte le matrici connesse fra loro da trasformazioni unitarie; esempi di tali invarianti sono gli autovalori, il determinante e la traccia di una matrice, gli ultimi due coincidendo rispettivamente con il prodotto e la somma di tutti gli autovalori. Poiché abbiamo ora un procedimento per associare ad ogni operatore, è in particolare ad ogni operatore hermitiano, una matrice, o meglio una famiglia di matrici connesse fra loro da trasformazioni unitarie, potremo anche parlare del determinante e della traccia di un operatore; chiaramente queste quantità potranno essere definite a partire dalle matrici che corrispondono agli operatori, scegliendo una base qualunque. In particolare per la traccia si scriverà dunque
 \begin{equation}
 \mathrm{Tr}[A]=(u_n\mid A\mid u_n)\,, \tag{22a}
 \end{equation}
@@ -8517,7 +8517,7 @@ essendo $L$ l'operatore differenziale lineare
 L = q(x) - p'(x)\frac{d}{dx} - p(x)\frac{d^2}{dx^2}\,. \tag{3}
 \end{equation}
 
-Supponiamo per il momento che le funzioni $p(x)$, $q(x)$ e $\rho(x)$ siano a valor finito nell'intervallo finito $\alpha\leq x\leq\beta$; e cerchiamo soluzioni della equazione differenziale (1) definite entro tale intervallo e che siano nulle ai suoi estremi, che soddisfino cioè le \underline{condizioni al contorno}
+Supponiamo per il momento che le funzioni $p(x)$, $q(x)$ e $\rho(x)$ siano a valor finito nell'intervallo finito $\alpha\leq x\leq\beta$; e cerchiamo soluzioni della equazione differenziale (1) definite entro tale intervallo e che siano nulle ai suoi estremi, che soddisfino cioè le \uline{condizioni al contorno}
 \begin{equation}
 y(\alpha)=y(\beta)=0\,. \tag{4}
 \end{equation}
@@ -8526,7 +8526,7 @@ y(\alpha)=y(\beta)=0\,. \tag{4}
 
 Osserviamo anzitutto che il problema testé formulato è caratterizzato da equazioni omogenee; sicché se $y(x)$ è una soluzione di tale problema, anche $c\,y(x)$ è soluzione.
 
-L'equazione differenziale (1) è del secondo ordine; dunque la sua più generale soluzione conterrà due costanti arbitrarie, una delle quali sarà però semplicemente una costante moltiplicativa. La possibilità di scegliere arbitrariamente l'altra costante consente di trovare sempre una soluzione $y(x)$ che si annulla all'uno e all'altro estremo, che soddisfa cioè o alla condizione $y(\alpha)=0$ o alla $y(\beta)=0$; invece solo per valori speciali del parametro $\lambda$ esisteranno soluzioni che soddisfano ad ambedue le condizioni (4). A questi valori $\lambda_n$ si dà il nome di \underline{autovalori}, e alle corrispondenti funzioni $y_n(x)$ il nome di \underline{autofunzioni}.
+L'equazione differenziale (1) è del secondo ordine; dunque la sua più generale soluzione conterrà due costanti arbitrarie, una delle quali sarà però semplicemente una costante moltiplicativa. La possibilità di scegliere arbitrariamente l'altra costante consente di trovare sempre una soluzione $y(x)$ che si annulla all'uno e all'altro estremo, che soddisfa cioè o alla condizione $y(\alpha)=0$ o alla $y(\beta)=0$; invece solo per valori speciali del parametro $\lambda$ esisteranno soluzioni che soddisfano ad ambedue le condizioni (4). A questi valori $\lambda_n$ si dà il nome di \uline{autovalori}, e alle corrispondenti funzioni $y_n(x)$ il nome di \uline{autofunzioni}.
 
 È facile dimostrare che gli autovalori sono reali.
 
@@ -8557,7 +8557,7 @@ A meno della costante moltiplicativa, anche le autofunzioni risultano pertanto r
 \int_\alpha^\beta dx\,\rho(x)\,|y_n(x)|^2 = 1\,. \tag{5}
 \end{equation}
 
-Il motivo per cui si preferisce inserire la funzione $\rho(x)$ nell'integrale (5), è connesso alla validità della \underline{proprietà di ortogonalità} delle autofunzioni, che risulta ora espressa dalla formula
+Il motivo per cui si preferisce inserire la funzione $\rho(x)$ nell'integrale (5), è connesso alla validità della \uline{proprietà di ortogonalità} delle autofunzioni, che risulta ora espressa dalla formula
 \begin{equation}
 \int_\alpha^\beta dx\,\rho(x)\,y_m^*(x)\,y_n(x) = 0\,,\quad m\neq n\,. \tag{6}
 \end{equation}
@@ -8578,7 +8578,7 @@ Moltiplicando la seconda equazione per $y_n(x)$ e la prima per $y_m^*(x)$, sottr
 &= \left\{y_m^*(x)\,p(x)\,y_n'(x) - y_n(x)\,p(x)\,y_m^{\prime*}(x)\right\}\Big|_\alpha^\beta\\
 &= 0\,.
 \end{align*}
-La (6) è dunque dimostrata, se $\lambda_n\neq\lambda_m$; \underline{le autofunzioni corrispondenti ad autovalori diversi sono ortogonali} (nel senso della (6)).
+La (6) è dunque dimostrata, se $\lambda_n\neq\lambda_m$; \uline{le autofunzioni corrispondenti ad autovalori diversi sono ortogonali} (nel senso della (6)).
 
 Ma nel problema di Sturm-Liouville come formulato in questa sezione, ad ogni autovalore può corrispondere una sola autofunzione (a parte l'ambiguità associata alla costante moltiplicativa). Supponiamo infatti per assurdo che all'autovalore $\lambda$ corrispondessero due autofunzioni $y_1(x)$ e $y_2(x)$ linearmente indipendenti (cioè tali che il loro rapporto non sia una costante). Allora la funzione
 \[
@@ -8591,7 +8591,7 @@ Le equazioni (5) e (6) possono dunque essere sintetizzate nella relazione di ort
 \int_\alpha^\beta dx\,\rho(x)\,y_m^*(x)\,y_n(x)=\delta_{mn}\,. \tag{7}
 \end{equation}
 
-Le autofunzioni di un dato problema di Sturm-Liouville del tipo qui considerato sono generalmente una infinità numerabile, e costituiscono un sistema completo di funzioni. Vale anzi il seguente teorema (che non dimostriamo): \underline{Qualunque funzione $f(x)$ che sia continua nell'intervallo $\alpha\leq x\leq\beta$, che abbia derivate prime e seconde continue in tale intervallo (è anzi sufficiente che le derivate prime e seconde siano ``continue a tratti'', cioè siano continue eccetto al più in un numero finito di punti), e che soddisfi alle condizioni al contorno (4) caratteristiche del problema che stiamo discutendo (cioè, che si annulli agli estremi dell'intervallo), può essere sviluppata nella serie assolutamente e uniformemente convergente}
+Le autofunzioni di un dato problema di Sturm-Liouville del tipo qui considerato sono generalmente una infinità numerabile, e costituiscono un sistema completo di funzioni. Vale anzi il seguente teorema (che non dimostriamo): \uline{Qualunque funzione $f(x)$ che sia continua nell'intervallo $\alpha\leq x\leq\beta$, che abbia derivate prime e seconde continue in tale intervallo (è anzi sufficiente che le derivate prime e seconde siano ``continue a tratti'', cioè siano continue eccetto al più in un numero finito di punti), e che soddisfi alle condizioni al contorno (4) caratteristiche del problema che stiamo discutendo (cioè, che si annulli agli estremi dell'intervallo), può essere sviluppata nella serie assolutamente e uniformemente convergente}
 \begin{equation}
 f(x)=\sum_{n=1}^{\infty}c_n\,y_n(x)\,, \tag{8}
 \end{equation}
@@ -8689,7 +8689,7 @@ y''(x)-\frac{2x}{1-x^2}\,y'(x)+\frac{\lambda}{1-x^2}\,y(x)=0\,, \tag{15b}
 \end{equation}
 che mette più chiaramente in evidenza la singolarità dei coefficienti per $x=\pm 1$ (dovuta all'annullarsi di $p(x)$ in corrispondenza a tali valori).
 
-Consideriamo ora il problema di Sturm-Liouville caratterizzato dalla equazione singolare (15), e dalla condizione che la funzione $y(x)$ che la soddisfa si mantenga limitata agli estremi dell'intervallo $-1\leq x\leq 1$; come vedremo, soluzioni che soddisfano a questa proprietà si hanno solo per valori speciali di $\lambda$, che potremo ancora caratterizzare come \underline{autovalori} del problema di Sturm-Liouville in questione.
+Consideriamo ora il problema di Sturm-Liouville caratterizzato dalla equazione singolare (15), e dalla condizione che la funzione $y(x)$ che la soddisfa si mantenga limitata agli estremi dell'intervallo $-1\leq x\leq 1$; come vedremo, soluzioni che soddisfano a questa proprietà si hanno solo per valori speciali di $\lambda$, che potremo ancora caratterizzare come \uline{autovalori} del problema di Sturm-Liouville in questione.
 
 Prima ancora di determinare questi autovalori, e le corrispondenti autofunzioni, osserviamo che, come conseguenza delle condizioni al contorno testé enunciate, e dell'annullarsi di $p(x)$ agli estremi, $p(\pm 1)=0$, le dimostrazioni della realtà degli autovalori, e della ortogonalità delle autofunzioni corrispondenti ad autovalori diversi, date più sopra, possono essere ripetute anche in questo caso in modo del tutto analogo (consiglio: farlo per esercizio, per scritto). Sappiamo dunque sin d'ora che gli autovalori non potranno che essere reali, e le autofunzioni mutuamente ortogonali.
 
@@ -8736,7 +8736,7 @@ possiamo dunque concludere che la (19) fornisce degli autovalori del
 problema di Sturm-Liouville, e che i polinomi di grado $n$ i cui coefficienti
 sono ottenibili dalle (18) sono le corrispondenti autofunzioni. A
 questi polinomi, opportunamente normalizzati (vedi oltre), si dà il
-nome di \underline{polinomi di Legendre}.
+nome di \uline{polinomi di Legendre}.
 
 Prima di discutere ulteriormente questi polinomi, di grande
 importanza applicativa in molti rami della fisica, dimostriamo che gli
@@ -8948,19 +8948,19 @@ e che per convenzione $(-1)!! = 1$).
 Per questi polinomi si hanno inoltre le seguenti proprietà:
 
 \medskip
-\noindent\underline{Formula di Rodrigues:}
+\noindent\uline{Formula di Rodrigues:}
 \begin{equation}
 P_n(x) = \left(2^n n!\right)^{-1} \frac{d^n}{dx^n} \left(x^2 - 1\right)^n \,. \tag{25}
 \end{equation}
 
 \medskip
-\noindent\underline{Relazioni ricorrenti}
+\noindent\uline{Relazioni ricorrenti}
 \begin{equation}
 (n+1)\, P_{n+1}(x) = (2n+1)\, x\, P_n(x) - n\, P_{n-1}(x) \,. \tag{26}
 \end{equation}
 
 \medskip
-\noindent\underline{Espressioni della derivata}
+\noindent\uline{Espressioni della derivata}
 \begin{align}
 (1-x^2) P_n'(x) &= n\left[P_{n-1}(x) - x\, P_n(x)\right] \tag{27a} \\
 &= (n+1)\left[x\, P_n(x) - P_{n+1}(x)\right] \,. \tag{27b}
@@ -8969,7 +8969,7 @@ P_n(x) = \left(2^n n!\right)^{-1} \frac{d^n}{dx^n} \left(x^2 - 1\right)^n \,. \t
 % --- pag. 225 ---
 
 \medskip
-\noindent\underline{Ulteriori relazioni tra polinomi e derivate:}
+\noindent\uline{Ulteriori relazioni tra polinomi e derivate:}
 \begin{align}
 x\, P_n'(x) - P_{n-1}'(x) &= n\, P_n(x) \,, \tag{28a} \\
 P_{n+1}'(x) - x\, P_n'(x) &= (n+1)\, P_n(x) \,, \tag{28b} \\
@@ -8977,7 +8977,7 @@ P_{n+1}'(x) - x\, P_n'(x) &= (n+1)\, P_n(x) \,, \tag{28b} \\
 \end{align}
 
 \medskip
-\noindent\underline{Funzione generatrice:}
+\noindent\uline{Funzione generatrice:}
 \begin{equation}
 \sum_{n=0}^{\infty} P_n(x)\, z^n = \left(1 - 2xz + z^2\right)^{-\frac{1}{2}}, \quad -1 < x < 1,\; |z| < 1 \,. \tag{29}
 \end{equation}
@@ -9074,7 +9074,7 @@ e le corrispondenti autofunzioni sono
 \begin{equation}
 y_n(x) = e^{-x/2}\, L_n(x) \,, \tag{45}
 \end{equation}
-dove $L_n(x)$ è il \underline{polinomio di Laguerre} di grado $n$, la cui esplicita
+dove $L_n(x)$ è il \uline{polinomio di Laguerre} di grado $n$, la cui esplicita
 rappresentazione è
 \begin{equation}
 L_n(x) = \sum_{m=0}^{n} \frac{n!\,(-x)^m}{(m!)^2\,(n-m)!} \,. \tag{46}
@@ -9109,32 +9109,32 @@ $\exp(+x/2)$.
 Per i polinomi di Laguerre si hanno le seguenti proprietà:
 
 \medskip
-\noindent\underline{Formula di Rodrigues}
+\noindent\uline{Formula di Rodrigues}
 \begin{equation}
 L_n(x) = (n!)^{-1}\, e^x \frac{d^n}{dx^n} \left[ x^n e^{-x} \right] \,. \tag{47}
 \end{equation}
 
 \medskip
-\noindent\underline{Equazione differenziale}
+\noindent\uline{Equazione differenziale}
 \begin{equation}
 x\, L_n''(x) + (1-x)\, L_n'(x) + n\, L_n(x) = 0 \,. \tag{48}
 \end{equation}
 
 \medskip
-\noindent\underline{Relazioni di ricorrenza}
+\noindent\uline{Relazioni di ricorrenza}
 \begin{equation}
 (n+1)\, L_{n+1}(x) - (2n+1-x)\, L_n(x) + n\, L_{n-1}(x) = 0 \,. \tag{49}
 \end{equation}
 
 \medskip
-\noindent\underline{Formule per la derivata}
+\noindent\uline{Formule per la derivata}
 \begin{align}
 x\, L_n'(x) &= n\, L_n(x) - n\, L_{n-1}(x) \tag{50a} \\
 &= (n+1)\, L_{n+1}(x) - (n+1-x)\, L_n(x) \,. \tag{50b}
 \end{align}
 
 \medskip
-\noindent\underline{Funzione generatrice}
+\noindent\uline{Funzione generatrice}
 \begin{equation}
 \sum_{n=0}^{\infty} L_n(x)\, z^n = (1-z)^{-1}\, \exp\!\left[\frac{xz}{1-z}\right], \quad |z| < 1 \,. \tag{51}
 \end{equation}
@@ -9142,7 +9142,7 @@ x\, L_n'(x) &= n\, L_n(x) - n\, L_{n-1}(x) \tag{50a} \\
 % --- pag. 229 ---
 
 \medskip
-\noindent\underline{Relazioni di ortonormalità}
+\noindent\uline{Relazioni di ortonormalità}
 \begin{equation}
 \int_0^{\infty} dx\, e^{-x}\, L_n(x)\, L_m(x) = \delta_{nm} \,. \tag{52}
 \end{equation}
@@ -9482,7 +9482,7 @@ problema sono dati dalla formula
 \[
 \lambda = n(n+1) \,, \quad n = p,\, p+1,\, p+2,\, \ldots\,,
 \]
-e le corrispondenti autofunzioni sono le cosiddette \underline{funzioni associate
+e le corrispondenti autofunzioni sono le cosiddette \uline{funzioni associate
 di Legendre}, date dalla formula
 \[
 P_{n,p}(x) = (1-x^2)^{p/2}\, \frac{d^p}{dx^p}\, P_n(x) \,, \quad n = p,\, p+1,\, p+2,\, \ldots
@@ -9820,7 +9820,7 @@ Il valore dello scarto quadratico medio fornisce una diretta
 misura della indeterminazione con cui la osservabile $A$ può essere
 considerata nota in un dato stato.
 
-La seguente disuguaglianza (\underline{teorema di Heisenberg}) fornisce
+La seguente disuguaglianza (\uline{teorema di Heisenberg}) fornisce
 un limite inferiore per il prodotto degli scarti quadratici medi di due
 osservabili $A$ e $B$ nello stesso stato:
 \begin{equation}
@@ -9906,7 +9906,7 @@ identità $0 = 0$.
 La dimostrazione testé compiuta mostra come la disuguaglianza (6) sia un risultato matematico suscettibile di dimostrazione, un
 teorema, valido nell'ambito della teoria degli spazi funzionali fin qui
 svolta. Nell'ambito della interpretazione fisica caratteristica della teoria quantica --- interpretazione fisica di cui si è fatto cenno in questa
-sezione e nella precedente --- questo teorema dà luogo al celebre \underline{principio
+sezione e nella precedente --- questo teorema dà luogo al celebre \uline{principio
 di indeterminazione} (W.\ Heisenberg, 1927), secondo cui due osservabili
 (cui corrispondono due operatori hermitiani non commutanti) non possono
 generalmente essere misurate simultaneamente con arbitraria precisione
@@ -9973,7 +9973,7 @@ hermiticitàdell'operatore) rappresentano i possibili risultati di una misura de
 Una grandezza importante è la energia totale di un sistema fisico;
 è dunque particolarmente interessante studiare il corrispondente operatore
 hermitiano, l'insieme dei cui autovalori rappresenta i possibili valori
-dell'energia del sistema, ovvero, come si usa dire, lo \underline{spettro} dei \underline{livelli
+dell'energia del sistema, ovvero, come si usa dire, lo \uline{spettro} dei \uline{livelli
 energetici} del sistema.
 
 Facciamo riferimento al più semplice problema non banale, e cioè
@@ -10006,7 +10006,7 @@ eriodico). In tal caso lo spazio funzionale che può servire a rappresentare lo 
 \begin{equation}
 \int_{-\infty}^{+\infty} dx\, |\psi(x)|^2 = 1 \,, \tag{3}
 \end{equation}
-attribuendosi allora alla quantità $|\psi(x)|^2$ il significato di \underline{densità
+attribuendosi allora alla quantità $|\psi(x)|^2$ il significato di \uline{densità
 di probabilità di trovare la particella nel punto $x$}, ovvero alla quantità
 \[
 \int_a^b dx\, |\psi(x)|^2
@@ -10021,13 +10021,13 @@ questo spazio funzionale è l'operatore differenziale lineare
 \begin{equation}
 p = -i\hbar\, \frac{d}{dx} \,, \tag{4}
 \end{equation}
-dove $\hbar$ è la \underline{costante di Planck ridotta} (cioè divisa per $2\pi$), che nel
+dove $\hbar$ è la \uline{costante di Planck ridotta} (cioè divisa per $2\pi$), che nel
 sistema c.g.s.\ ha il valore $\hbar = 1.05459 \cdot 10^{-27}$ erg$\cdot$sec. Pertanto l'operatore che corrisponde alla energia totale del sistema è
 \begin{equation}
 H = -\frac{\hbar^2}{2m}\, \frac{d^2}{dx^2} + V(x) \,, \tag{5}
 \end{equation}
 e l'equazione agli autovalori che determina lo spettro dei livelli energetici
-$E_n$ è la \underline{equazione di Schroedinger stazionaria} (unidimensionale)
+$E_n$ è la \uline{equazione di Schroedinger stazionaria} (unidimensionale)
 \begin{equation}
 -\frac{\hbar^2}{2m}\, \psi_n''(x) + V(x)\, \psi_n(x) = E_n\, \psi_n(x) \,. \tag{6}
 \end{equation}
@@ -10213,7 +10213,7 @@ E = -\frac{\hbar^2 \nu^2}{2m\, a^2} \,, \tag{19}
 \end{equation}
 come è facile verificare sostituendo le (17), (18) e (19) nella (16).
 
-All'autovalore più piccolo dell'hamiltoniana ci si riferisce generalmente come al \underline{livello fondamentale}, e al corrispondente stato come allo \underline{stato fondamentale} del sistema. Si può dimostrare, sotto ipotesi abbastanza generali circa il potenziale, che la funzione $\psi(x)$ corrispondente allo stato fondamentale non ha zeri (per $x$ reale); quella corrispondente al primo livello energetico dopo il fondamentale (detto anche \underline{primo livello eccitato}) ha uno zero per $-\infty < x < +\infty$ (beninteso, se esiste), e così via.
+All'autovalore più piccolo dell'hamiltoniana ci si riferisce generalmente come al \uline{livello fondamentale}, e al corrispondente stato come allo \uline{stato fondamentale} del sistema. Si può dimostrare, sotto ipotesi abbastanza generali circa il potenziale, che la funzione $\psi(x)$ corrispondente allo stato fondamentale non ha zeri (per $x$ reale); quella corrispondente al primo livello energetico dopo il fondamentale (detto anche \uline{primo livello eccitato}) ha uno zero per $-\infty < x < +\infty$ (beninteso, se esiste), e così via.
 
 Naturalmente le autofunzioni corrispondenti a stati con energia negativa, essendo in numero finito, non potranno costituire un insieme completo. È d'altronde facile dimostrare che non possono esistere soluzioni normalizzabili della equazione stazionaria di Schroedinger (13) corrispondenti ad energie positive.
 
@@ -10523,7 +10523,7 @@ autovalore più basso dell'operatore hamiltoniano rappresentante l'energia total
 
 Terminiamo questa sezione sottolineando che la dimostrazione
 del teorema di Ritz utilizza l'ipotesi che l'operatore hermitiano $A$ abbia
-un \underline{sistema completo} di autostati; occorre dunque che sia opportunamente definito lo spazio funzionale in cui tale operatore agisce.
+un \uline{sistema completo} di autostati; occorre dunque che sia opportunamente definito lo spazio funzionale in cui tale operatore agisce.
 
 \begin{esercizi}
 \item Si consideri il sistema quantico costituito da una particella di
@@ -11470,9 +11470,9 @@ con
   s_n &= \frac{1}{\pi}\int_{-\pi}^{\pi} dx\;\sin(nx)\,f(x)\,. \tag{9c}
 \end{align}
 
-Allo sviluppo (8) faremo riferimento come allo \underline{sviluppo in serie di Fourier} della funzione $f(x)$. Il nome ricorda il matematico francese Jean Baptiste Joseph Fourier (1768--1830), cui è dovuta l'invenzione di questa importantissima tecnica matematica.
+Allo sviluppo (8) faremo riferimento come allo \uline{sviluppo in serie di Fourier} della funzione $f(x)$. Il nome ricorda il matematico francese Jean Baptiste Joseph Fourier (1768--1830), cui è dovuta l'invenzione di questa importantissima tecnica matematica.
 
-Come è chiaro dalle (9), la costante $c_0$ rappresenta il \underline{valor medio} della funzione $f(x)$ nell'intervallo $-\pi \leq x \leq \pi$; le costanti $c_n$, $n=0,1,2,\ldots$, dipendono solo dalla parte pari di $f(x)$, laddove le $s_n$, $n=1,2,3,\ldots$, dipendono solo dalla parte dispari di $f(x)$. Infatti se si sostituisce nelle (9) l'identità
+Come è chiaro dalle (9), la costante $c_0$ rappresenta il \uline{valor medio} della funzione $f(x)$ nell'intervallo $-\pi \leq x \leq \pi$; le costanti $c_n$, $n=0,1,2,\ldots$, dipendono solo dalla parte pari di $f(x)$, laddove le $s_n$, $n=1,2,3,\ldots$, dipendono solo dalla parte dispari di $f(x)$. Infatti se si sostituisce nelle (9) l'identità
 \begin{equation}
   f(x) = f_p(x) + f_d(x)\,, \tag{10}
 \end{equation}
@@ -11512,7 +11512,7 @@ formula che del resto può essere facilmente verificata a partire dalla (8), uti
   \int_{-\pi}^{\pi} dx\;\cos(nx)\sin(mx) &= 0\,;\quad n,m \text{ interi}\,. \tag{16c}
 \end{align}
 
-Una generalizzazione della (15), che si può verificare allo stesso modo, è data dalla cosiddetta \underline{formula di Parseval}:
+Una generalizzazione della (15), che si può verificare allo stesso modo, è data dalla cosiddetta \uline{formula di Parseval}:
 \begin{equation}
   \frac{1}{2\pi}\int_{-\pi}^{\pi} dx\;F^*(x)\,f(x)
   = C_0^*\,c_0 + \frac{1}{2}\sum_{n=1}^{\infty}\bigl[C_n^*\,c_n + S_n^*\,s_n\bigr]\,. \tag{17}
@@ -11618,11 +11618,11 @@ Cominciamo con l'osservare che la limitatezza delle funzioni trigonometriche imp
 \]
 Possiamo dunque assumere l'esistenza di questo integrale come condizione di sviluppabilità in serie di Fourier. Se poi la serie di Fourier così ottenuta converge, e a cosa converge, è la questione da discutere.
 
-Ricordiamo anzitutto i due concetti di \underline{convergenza in media} e \underline{convergenza puntuale}. Diremo che la successione di funzioni $f_n(x)$, definita nell'intervallo $\alpha \leq x \leq \beta$, \underline{converge in media} alla funzione $f(x)$, definita nello stesso intervallo, se
+Ricordiamo anzitutto i due concetti di \uline{convergenza in media} e \uline{convergenza puntuale}. Diremo che la successione di funzioni $f_n(x)$, definita nell'intervallo $\alpha \leq x \leq \beta$, \uline{converge in media} alla funzione $f(x)$, definita nello stesso intervallo, se
 \begin{equation}
   \lim_{n\to\infty}\left[\int_\alpha^\beta dx\;|f_n(x)-f(x)|^2\right] = 0\,; \tag{2}
 \end{equation}
-diremo che la successione di funzioni $f_n(x)$ \underline{converge puntualmente} (o semplicemente \underline{converge}) alla funzione $f(x)$ (nel punto $x$) se
+diremo che la successione di funzioni $f_n(x)$ \uline{converge puntualmente} (o semplicemente \uline{converge}) alla funzione $f(x)$ (nel punto $x$) se
 \begin{equation}
   \lim_{n\to\infty}\left[f_n(x)-f(x)\right] = 0\,. \tag{3}
 \end{equation}
@@ -11633,7 +11633,7 @@ Se però la successione $f_n(x)$ converge, per $n\to\infty$, e la convergenza è
 
 \footnote{Quest'ultima affermazione, come la analoga della sezione 4.6, è in verità inesatta, la uguaglianza fra le due funzioni testè definite essendo garantita solo a meno di funzioni quasi ovunque nulle. Infatti la affermazione corretta sarebbe che, se vale la (2) e se la successione $f_n(x)$ converge uniformemente ad una funzione $F(x)$, allora $f(x)-F(x)$ è quasi ovunque nulla (nell'intervallo $\alpha \leq x \leq \beta$). Esigenze di semplicità ci suggeriscono di ignorare, a parte questo breve cenno, questa questione, considerando cioè uguali due funzioni la cui differenza è quasi ovunque nulla. Dopotutto, questo è un corso di Metodi Matematici della Fisica.}
 
-Consideriamo ora la successione di funzioni $f_n(x)$ costituita dalle \underline{somme parziali}
+Consideriamo ora la successione di funzioni $f_n(x)$ costituita dalle \uline{somme parziali}
 \begin{equation}
   f_n(x) = \sum_{m=0}^{n}\bigl[c_m\cos(mx)+s_m\sin(mx)\bigr]\,. \tag{4}
 \end{equation}
@@ -11647,15 +11647,15 @@ Consideriamo la classe di funzioni $f(x)$ di quadrato integrabile nell'intervall
 \end{equation}
 dove i coefficienti $c_m$ ed $s_m$ sono forniti dalle (1-9). È inoltre immediato verificare direttamente la equazione (1-15) (per verificarla, esplicitare il modulo quadrato nella (5), e usare le (1-9)).
 
-Si noti che il risultato testè enunciato è più ampio di quello enunciato nella sezione 4.7, perché non richiede che la funzione $f(x)$ (né la sua derivata) abbiano gli stessi valori agli estremi dell'intervallo, ottemperino cioè alle stesse condizioni al contorno che caratterizzano il problema di Sturm-Liouville di cui le funzioni circolari $\sin(nx)$ e $\cos(nx)$ forniscono l'insieme delle autofunzioni; si riferisce però alla convergenza in media anziché alla convergenza puntuale, che è invece assicurata nel più ristretto ambito a cui fa riferimento il teorema dato nella sezione 4.7. Quanto alla convergenza puntuale per le serie di Fourier vale il seguente \underline{teorema di Fejér}: \underline{Sia la $f(x)$ una funzione definita nell'intervallo $-\pi \leq x \leq \pi$ ed ivi di modulo integrabile; allora in ogni punto interno a tale intervallo in cui esistano i due limiti}
+Si noti che il risultato testè enunciato è più ampio di quello enunciato nella sezione 4.7, perché non richiede che la funzione $f(x)$ (né la sua derivata) abbiano gli stessi valori agli estremi dell'intervallo, ottemperino cioè alle stesse condizioni al contorno che caratterizzano il problema di Sturm-Liouville di cui le funzioni circolari $\sin(nx)$ e $\cos(nx)$ forniscono l'insieme delle autofunzioni; si riferisce però alla convergenza in media anziché alla convergenza puntuale, che è invece assicurata nel più ristretto ambito a cui fa riferimento il teorema dato nella sezione 4.7. Quanto alla convergenza puntuale per le serie di Fourier vale il seguente \uline{teorema di Fejér}: \uline{Sia la $f(x)$ una funzione definita nell'intervallo $-\pi \leq x \leq \pi$ ed ivi di modulo integrabile; allora in ogni punto interno a tale intervallo in cui esistano i due limiti}
 \begin{equation}
   f_\pm(x) = \lim_{\varepsilon\to 0}\left[f(x\pm|\varepsilon|)\right]\,, \tag{6}
 \end{equation}
-\underline{la serie di Fourier della $f(x)$ (cioè la serie a secondo membro della (1), con i coefficienti $c_n$ ed $s_n$ forniti dalle (1-9)) converge al valore}
+\uline{la serie di Fourier della $f(x)$ (cioè la serie a secondo membro della (1), con i coefficienti $c_n$ ed $s_n$ forniti dalle (1-9)) converge al valore}
 \[
   \tfrac{1}{2}\bigl[f_+(x)+f_-(x)\bigr]\,;
 \]
-\underline{e se i due limiti $f_-(\pi)$ e $f_+(-\pi)$ (vedi la (6)) esistono, la serie di Fourier converge, per $x=\pm\pi$, al valore}
+\uline{e se i due limiti $f_-(\pi)$ e $f_+(-\pi)$ (vedi la (6)) esistono, la serie di Fourier converge, per $x=\pm\pi$, al valore}
 \[
   \tfrac{1}{2}\bigl[f_-(\pi)+f_+(-\pi)\bigr]\,.
 \]
@@ -11708,7 +11708,7 @@ Per $x \lesssim x_0$, la $f_n(x)$ si comporta in modo simmetrico, come indicato 
 
 Il comportamento agli estremi dell'intervallo, nel caso in cui $f(-\pi) \neq f(\pi)$, è analogo; per rendere l'analogia più evidente basta tracciare il grafico della $f_n(x)$ anche nel settore contiguo ($\pi \leq x \leq 3\pi$ ovvero $-3\pi \leq x \leq -\pi$), come anche quello della $f(x)$, ottenuto anche quest'ultimo replicando, con una traslazione di $2\pi$, quello per l'intervallo $-\pi \leq x \leq \pi$.
 
-A questo comportamento delle somme parziali di Fourier nell'intorno di un punto di discontinuità della $f(x)$, o nell'intorno di $x=\pm\pi$ se $f(\pi)=f(-\pi)$, ci si riferisce comunemente come al \underline{fenomeno di Gibbs}. Una giustificazione dei risultati qui descritti verrà fornita nella sezione seguente.
+A questo comportamento delle somme parziali di Fourier nell'intorno di un punto di discontinuità della $f(x)$, o nell'intorno di $x=\pm\pi$ se $f(\pi)=f(-\pi)$, ci si riferisce comunemente come al \uline{fenomeno di Gibbs}. Una giustificazione dei risultati qui descritti verrà fornita nella sezione seguente.
 
 \begin{esercizi}
 \item Si calcoli lo sviluppo in serie di Fourier della funzione
@@ -11757,19 +11757,19 @@ Qualitativamente, possiamo comprendere la origine di questa proprietà osservand
 
 Questo risultato rende plausibile il seguente Teorema, cui vengono generalmente associati i nomi di Riemann e Lebesgue:
 
-\underline{Se la funzione $f(x)$ è assolutamente integrabile nell'intervallo $\alpha \leq x \leq \beta$, allora}
+\uline{Se la funzione $f(x)$ è assolutamente integrabile nell'intervallo $\alpha \leq x \leq \beta$, allora}
 \begin{equation}
   \lim_{t\to\infty}\left[\int_\alpha^\beta dx\;\sin(tx+\gamma)\,f(x)\right] = 0\,,
   \quad t \text{ reale},\; \gamma \text{ arbitrario.} \tag{4}
 \end{equation}
 
-\underline{Se inoltre la funzione $f(x)$ è limitata nell'intervallo da $\alpha$ a $\beta$, allora per $t\to\infty$}
+\uline{Se inoltre la funzione $f(x)$ è limitata nell'intervallo da $\alpha$ a $\beta$, allora per $t\to\infty$}
 \begin{equation}
   \int_\alpha^\beta dx\;\sin(tx+\gamma)\,f(x) = O(1/t)\,,
   \quad t \text{ reale},\; \gamma \text{ arbitrario.} \tag{5}
 \end{equation}
 
-\underline{Se inoltre la funzione $f(x)$ è doppiamente differenziabile in ogni punto dell'intervallo da $\alpha$ a $\beta$, con ambedue le derivate assolutamente integrabili, allora, per $t\to\infty$,}
+\uline{Se inoltre la funzione $f(x)$ è doppiamente differenziabile in ogni punto dell'intervallo da $\alpha$ a $\beta$, con ambedue le derivate assolutamente integrabili, allora, per $t\to\infty$,}
 \begin{equation}
   \int_\alpha^\beta dx\;\sin(tx+\gamma)\,f(x)
   = t^{-1}\bigl[f(\alpha)\cos(t\alpha+\gamma) - f(\beta)\cos(t\beta+\gamma)\bigr]
@@ -11825,7 +11825,7 @@ Se la funzione $f(x)$ fosse infinitamente differenziabile in ogni punto dell'int
   - \cos\!\left(t\beta+\gamma+\tfrac{n}{2}\pi\right)f^{(n)}(\beta)\right]
   + O\!\left(t^{-N-2}\right)\,, \tag{10}
 \end{equation}
-in questa formula $f^{(n)}(x)$ indica ovviamente la derivata ennesima della funzione $f(x)$. Il risultato (10) costituisce un importante corollario del teorema di Riemann-Lebesgue, fornendo lo \underline{sviluppo asintotico} dell'integrale $I(t)$, eq.\ (7). Questo risultato è particolarmente utile nel caso in cui, sussistendo le condizioni richieste per la validità della (10), risulti inoltre
+in questa formula $f^{(n)}(x)$ indica ovviamente la derivata ennesima della funzione $f(x)$. Il risultato (10) costituisce un importante corollario del teorema di Riemann-Lebesgue, fornendo lo \uline{sviluppo asintotico} dell'integrale $I(t)$, eq.\ (7). Questo risultato è particolarmente utile nel caso in cui, sussistendo le condizioni richieste per la validità della (10), risulti inoltre
 \begin{equation}
   \cos\!\left(t\alpha+\gamma+\tfrac{n}{2}\pi\right)f^{(n)}(\alpha)
   - \cos\!\left(t\beta+\gamma+\tfrac{n}{2}\pi\right)f^{(n)}(\beta) = 0
@@ -12047,7 +12047,7 @@ con la proprietà
 \begin{equation}
   f(x) = \int_{-\varepsilon}^{\varepsilon'} dy\;f(x+y)\,\delta(y)\,. \tag{3}
 \end{equation}
-A questa ``funzione'' si dà il nome di \underline{delta di Dirac}.
+A questa ``funzione'' si dà il nome di \uline{delta di Dirac}.
 
 Uno studio più approfondito di ``funzioni'' di questo tipo verrà fatto nel capitolo seguente. Qui ci limitiamo --- senza alcuna pretesa di rigore --- a discutere le principali proprietà di questa ``funzione'' che rappresenta uno strumento matematico estremamente utile.
 
@@ -12361,7 +12361,7 @@ mentre la (5.3d) diventa
 
 Il passaggio dalla (4) alla (5) corrisponde alla definizione stessa di integrale, come limite della somma dei valori della funzione calcolati negli infiniti punti $k_n$, moltiplicati per $\Delta$, che è l'ampiezza degli intervallini in cui l'intero asse reale può essere suddiviso, in modo che entro ciascun intervallino cada uno ed un solo punto $k_n$; limite effettuato per $\Delta\to0$. Naturalmente tutto questo è corretto a condizione che gli integrali siano assolutamente convergenti, e la funzione integranda sia ragionevole (vedi più oltre).
 
-Alla formula (5) si fa generalmente riferimento come alla \underline{rappresentazione integrale di Fourier} della funzione $f(x)$, e la funzione $\hat{f}(k)$ viene generalmente indicata come la \underline{trasformata di Fourier} della $f(x)$; e viceversa, si dice talvolta che la $f(x)$ è la \underline{antitrasformata} di Fourier della $\hat{f}(k)$, facendo riferimento alla formula (6) che esprime per l'appunto la $\hat{f}(k)$ in funzione della $f(x)$.
+Alla formula (5) si fa generalmente riferimento come alla \uline{rappresentazione integrale di Fourier} della funzione $f(x)$, e la funzione $\hat{f}(k)$ viene generalmente indicata come la \uline{trasformata di Fourier} della $f(x)$; e viceversa, si dice talvolta che la $f(x)$ è la \uline{antitrasformata} di Fourier della $\hat{f}(k)$, facendo riferimento alla formula (6) che esprime per l'appunto la $\hat{f}(k)$ in funzione della $f(x)$.
 
 È importante sottolineare la simmetria fra le formule (5) e (6), simmetria che è particolarmente evidente nella formulazione esponenziale (per questa ragione abbiamo preferito usare questa notazione per introdurre la rappresentazione integrale di Fourier). Per rendere ancora più evidente tale simmetria, si usano talvolta le definizioni
 \begin{align*}
@@ -12685,7 +12685,7 @@ allora la trasformata di $g(x)$ è
 
 \footnote{Per esempio la funzione $f(x) = (x^2+a^2)^{-1}$, $a$ reale, è sviluppabile in integrale di Fourier (anzi la sua trasformata di Fourier è stata esplicitamente data nella precedente sezione), e tutte le sue derivate esistono e sono finite per ogni valore di $x$ reale, e sono sviluppabili in integrale di Fourier, sicché per loro vale la (6); invece già per $n=2$ l'integrale multiplo del tipo (9) diverge. Un esempio di funzione sviluppabile in serie di Fourier insieme a tutti i suoi integrali multipli di tipo (9), e a cui si applica dunque la (10) è $f(x) = x^{2/3}\,e^{-x^2}$; è invece facile verificare che, a causa della singolarità in $x=0$, già la derivata prima di $f(x)$ non è di quadrato sommabile, e le derivate di ordine $n$ con $n\geq2$ non sono integrabili né rappresentabili tramite un integrale di Fourier. Un esempio infine di funzione che è sviluppabile in serie di Fourier insieme a tutte le sue derivate e a tutti i suoi integrali multipli è $f(x) = P_\ell(x)\,e^{-x^{2m}+Q_{2m-1}(x)}$, con $P_\ell(x)$ e $Q_m(x)$ polinomi arbitrari di grado $\ell$ ed $n$ rispettivamente (con $\ell$ ed $n$ interi e positivi); le trasformate di Fourier delle derivate e degli integrali di questa funzione, di qualunque ordine, saranno pertanto dati dalle relazioni (6) e (10), essendo $\hat{f}(k)$ la trasformata di Fourier della $f(x)$ stessa. Analoghi esempi possono facilmente essere costruiti a proposito della validità delle formule (8) e (12).}
 
-Date due funzioni $f_1(x)$ e $f_2(x)$ si definisce come loro \underline{convoluzione} l'integrale (se esiste)
+Date due funzioni $f_1(x)$ e $f_2(x)$ si definisce come loro \uline{convoluzione} l'integrale (se esiste)
 \begin{equation}
   f(x) = \int_{-\infty}^{+\infty} dx'\;f_1(x')\,f_2(x-x')\,; \tag{13a}
 \end{equation}
@@ -12694,7 +12694,7 @@ questa operazione viene talvolta indicata con un asterisco, scrivendo cioè, in 
   f(x) = f_1(x) * f_2(x)\,. \tag{13b}
 \end{equation}
 
-È facile dimostrare che l'operazione di convoluzione (o come si suol anche dire talvolta, il \underline{prodotto di convoluzione}), è lineare (nel senso specificato dalla formula seguente), commutativo e associativo:
+È facile dimostrare che l'operazione di convoluzione (o come si suol anche dire talvolta, il \uline{prodotto di convoluzione}), è lineare (nel senso specificato dalla formula seguente), commutativo e associativo:
 \begin{align}
   f_1(x)*\bigl[f_2(x)+f_3(x)\bigr] &= f_1(x)*f_2(x)+f_1(x)*f_3(x)\,, \tag{14}\\
   f_1(x)*f_2(x) &= f_2(x)*f_1(x)\,, \tag{15}\\
@@ -12703,7 +12703,7 @@ questa operazione viene talvolta indicata con un asterisco, scrivendo cioè, in 
 
 La (14) segue immediatamente dalla definizione (13); le (15) e (16), seguono anche dalla (13), con opportuni cambiamenti di variabili, come il lettore verificherà per esercizio.
 
-L'importanza dell'operazione di convoluzione nell'ambito della teoria della trasformata di Fourier dipende dalla osservazione, che \underline{la trasformata di Fourier del prodotto di convoluzione di due funzioni è il prodotto delle trasformate di Fourier delle due funzioni}; e viceversa, \underline{la trasformata di Fourier del prodotto di due funzioni è pari al prodotto di convoluzione delle trasformate di Fourier delle due funzioni, diviso per $(2\pi)$}; cioè se
+L'importanza dell'operazione di convoluzione nell'ambito della teoria della trasformata di Fourier dipende dalla osservazione, che \uline{la trasformata di Fourier del prodotto di convoluzione di due funzioni è il prodotto delle trasformate di Fourier delle due funzioni}; e viceversa, \uline{la trasformata di Fourier del prodotto di due funzioni è pari al prodotto di convoluzione delle trasformate di Fourier delle due funzioni, diviso per $(2\pi)$}; cioè se
 \begin{equation}
   f(x) = f_1(x)*f_2(x)\,, \tag{17}
 \end{equation}
@@ -13593,7 +13593,7 @@ Pertanto la formula
 \begin{equation}
 [\Theta(x)]^2 = \Theta(x) \tag{22}
 \end{equation}
-può essere considerata \underline{valida} nell'ambito della teoria delle distribuzioni. Ma la formula che si ottiene da questa moltiplicando ambo i membri per $\delta(x)$,
+può essere considerata \uline{valida} nell'ambito della teoria delle distribuzioni. Ma la formula che si ottiene da questa moltiplicando ambo i membri per $\delta(x)$,
 \[
 \delta(x)\,[\Theta(x)]^2 = \delta(x)\,\Theta(x) \,,
 \]
@@ -13755,7 +13755,7 @@ Sia $L_x$ un operatore differenziale lineare (agente sulla variabile $x$) e si s
 
 essendo la funzione $f(x)$ assegnata (e supporremo per semplicità che sia continua).
 
-Si definisce \underline{funzione di Green} associata all'operatore differenziale lineare $L_x$ la soluzione della equazione differenziale
+Si definisce \uline{funzione di Green} associata all'operatore differenziale lineare $L_x$ la soluzione della equazione differenziale
 
 \begin{equation}
     L_x \, g(x,y) = \delta(x-y) \,.
@@ -13776,7 +13776,7 @@ Infatti applicando l'operatore $L_x$ alla (3), invertendo l'ordine delle operazi
 
 È così dimostrato che la espressione (3) fornisce una soluzione della (1), essendo la ``funzione di Green'' $g(x,y)$ una soluzione della (2). La sola condizione che si richiede è che l'integrale a secondo membro della (3) esista (ed inoltre che sia lecito lo scambio fra le operazioni di integrazione e differenziazione, sia cioè lecito differenziare sotto segno di integrale).
 
-La equazione differenziale (1) non è però in generale sufficiente a caratterizzare in modo univoco la soluzione $\varphi(x)$; occorre aggiungere delle \underline{condizioni al contorno}. In modo del tutto analogo la funzione di Green dell'operatore differenziale lineare $L_x$ non è univocamente caratterizzata dalla condizione di essere soluzione della (2); per caratterizzarla univocamente occorrerà, anche in questo caso, specificare le \underline{condizioni al contorno}.
+La equazione differenziale (1) non è però in generale sufficiente a caratterizzare in modo univoco la soluzione $\varphi(x)$; occorre aggiungere delle \uline{condizioni al contorno}. In modo del tutto analogo la funzione di Green dell'operatore differenziale lineare $L_x$ non è univocamente caratterizzata dalla condizione di essere soluzione della (2); per caratterizzarla univocamente occorrerà, anche in questo caso, specificare le \uline{condizioni al contorno}.
 
 È inutile ricordare a questo proposito che la più generale soluzione della (1) ha in generale la struttura
 
@@ -13796,7 +13796,7 @@ Struttura del tutto analoga ha la più generale funzione di Green $G(x,y)$, sicc
     G(x,y) = g(x,y) + \sum_{\ell=1}^{N} b_\ell \, \psi_\ell(x) \,,
 \end{equation}
 
-essendo la $g(x,y)$ una soluzione particolare della (2) e le $b_\ell$ delle costanti arbitrarie (\underline{costanti significa qui ``indipendenti da $x$''; le $b_\ell$ potrebbero invece essere delle arbitrarie funzioni della $y$ -- vedi oltre}).
+essendo la $g(x,y)$ una soluzione particolare della (2) e le $b_\ell$ delle costanti arbitrarie (\uline{costanti significa qui ``indipendenti da $x$''; le $b_\ell$ potrebbero invece essere delle arbitrarie funzioni della $y$ -- vedi oltre}).
 
 Si noti che inserendo la (6) nella (3), si ottiene formalmente
 \[
@@ -13823,7 +13823,7 @@ Il più generale operatore lineare differenziale del primo ordine si scrive
     L_x = c_1(x) \frac{d}{dx} + c_0(x) \,.
 \end{equation}
 
-Supponiamo inoltre che la funzione $c_1(x)$ non si annulli mai, e che la funzione $c_0(x)$ si mantenga finita; l'operatore $L_x$ è allora detto \underline{regolare}, dà cioè origine ad un'equazione differenziale regolare (vedi la sezione 1.7). Per semplicità assumeremo anzi che sia $c_0(x)$ che $[c_1(x)]^{-1}$ siano continue.
+Supponiamo inoltre che la funzione $c_1(x)$ non si annulli mai, e che la funzione $c_0(x)$ si mantenga finita; l'operatore $L_x$ è allora detto \uline{regolare}, dà cioè origine ad un'equazione differenziale regolare (vedi la sezione 1.7). Per semplicità assumeremo anzi che sia $c_0(x)$ che $[c_1(x)]^{-1}$ siano continue.
 
 In questo caso esiste una sola soluzione,
 
@@ -13879,7 +13879,7 @@ avendo definito
     g_\pm(y,y) = \lim_{\varepsilon \to 0^+} \left[ g(y \pm \varepsilon, y) \right] \,.
 \end{equation}
 
-La notazione $\lim_{\varepsilon\to 0^+}$ indica il limite effettuato per $\varepsilon$ che tende a zero mantenendosi \underline{positivo}.
+La notazione $\lim_{\varepsilon\to 0^+}$ indica il limite effettuato per $\varepsilon$ che tende a zero mantenendosi \uline{positivo}.
 
 La (9), che è stata ottenuta dalla (8) facendo tendere a zero la quantità positiva $\varepsilon$, implica dunque che la funzione di Green $g(x,y)$ è una funzione discontinua di $x$ nel punto $x=y$, la differenza fra i valori a destra e a sinistra del punto $x=y$ di discontinuità essendo pari a $1/c_1(y)$. D'altronde la stessa equazione differenziale (7) implica che per $x < y$ e per $x > y$ la $g(x,y)$ soddisfa la equazione omogenea $L_x \, g(x,y) = 0$; essa avrà dunque in tali regioni la forma (2):
 
@@ -13928,7 +13928,7 @@ ovvero, in notazione più compatta,
 
 \medskip
 \noindent\rule{\textwidth}{0.4pt}
-Il lettore verifichi \underline{per esercizio}, usando la proprietà (6.2-3) della funzione theta, che la (17) fornisce effettivamente una soluzione della (7).
+Il lettore verifichi \uline{per esercizio}, usando la proprietà (6.2-3) della funzione theta, che la (17) fornisce effettivamente una soluzione della (7).
 \noindent\rule{\textwidth}{0.4pt}
 \medskip
 
@@ -13943,7 +13943,7 @@ con $A$ costante (cioè indipendente da $x$; nulla vieta che $A$ possa essere co
 
 \medskip
 \noindent\rule{\textwidth}{0.4pt}
-Il lettore verifichi \underline{per esercizio} che questo risultato, cioè la espressione (18) della più generale funzione di Green $G(x,y)$, poteva anche essere ottenuto direttamente dalla (13), tenendo conto che delle due costanti $a_-$ and $a_+$ una può essere scelta arbitrariamente, risultando poi l'altra fissata dalla (14).
+Il lettore verifichi \uline{per esercizio} che questo risultato, cioè la espressione (18) della più generale funzione di Green $G(x,y)$, poteva anche essere ottenuto direttamente dalla (13), tenendo conto che delle due costanti $a_-$ and $a_+$ una può essere scelta arbitrariamente, risultando poi l'altra fissata dalla (14).
 \noindent\rule{\textwidth}{0.4pt}
 \medskip
 
@@ -14018,7 +14018,7 @@ e risolvendo la equazione soddisfatta dalla funzione $\gamma(x,y)$.
 \[
     g(x,y) = g(x-y) \,,
 \]
-non dipendono cioè separatamente da $x$ e da $y$, ma dipendono solo dall'unica variabile $x-y$. Si dimostri che questa proprietà vale \underline{generalmente} per le funzioni di Green di qualunque operatore differenziale lineare del tipo
+non dipendono cioè separatamente da $x$ e da $y$, ma dipendono solo dall'unica variabile $x-y$. Si dimostri che questa proprietà vale \uline{generalmente} per le funzioni di Green di qualunque operatore differenziale lineare del tipo
 \[
     L_x = \sum_{\ell=0}^{N} c_\ell \frac{d^\ell}{dx^\ell}
 \]
@@ -14121,7 +14121,7 @@ L'ultima equazione ottenuta mostra che la $G(x,y)$, eq.\ (4), soddisfa la eq.\ (
 
 % === Pagina 388 (7.3-4) ===
 
-Come nel caso della sezione precedente, le costanti $A_1$ ed $A_2$ potrebbero anche dipendere da $y$. Particolarmente interessanti sono le funzioni di Green che si ottengono, per opportune scelte delle costanti $A_1(y)$ e $A_2(y)$, e che hanno le proprietà di essere nulle per $x > y$ o per $x < y$. Queste funzioni prendono rispettivamente il nome di funzioni di Green \underline{avanzate} e \underline{ritardate}, ed hanno la espressione esplicita
+Come nel caso della sezione precedente, le costanti $A_1$ ed $A_2$ potrebbero anche dipendere da $y$. Particolarmente interessanti sono le funzioni di Green che si ottengono, per opportune scelte delle costanti $A_1(y)$ e $A_2(y)$, e che hanno le proprietà di essere nulle per $x > y$ o per $x < y$. Queste funzioni prendono rispettivamente il nome di funzioni di Green \uline{avanzate} e \uline{ritardate}, ed hanno la espressione esplicita
 
 \begin{align}
 \tag{6a} g_{\text{avanzata}}(x,y) &= \Theta(y-x)\left[\psi_1(y)\,\psi_2(x) - \psi_1(x)\,\psi_2(y)\right]/W_{12}\,, \\
@@ -14160,7 +14160,7 @@ alla (1.6--7), essendo in questo caso
 \end{align}
 
 \begin{esercizi}
-\item Si \underline{derivi} la formula (4), con un ragionamento analogo a quello compiuto nella sezione precedente per ottenere la formula (2--17).
+\item Si \uline{derivi} la formula (4), con un ragionamento analogo a quello compiuto nella sezione precedente per ottenere la formula (2--17).
 \item Si verifichi che la funzione di Green (4), inserita nella formula generale (1--3), riproduce la formula (1.7--19) --- (attenzione alla notazione!).
 
 % === Pagina 390 (inizio 7.4) ===
@@ -14195,11 +14195,11 @@ ed ammette la soluzione formale
 
 \noindent\rule{\linewidth}{0.4pt}
 
-Si è detto che la (4) rappresenta una soluzione ``formale'' della (2); infatti la (4) non fornisce una esplicita rappresentazione della $\varphi(x)$, dal momento che per calcolare la $\varphi(x)$ che appare a primo membro occorre sostituire entro l'integrale che compare a secondo membro la stessa funzione $\varphi(x)$. In effetti la (4) è una \underline{equazione integrale}, cioè una relazione (lineare) fra la funzione $\varphi(x)$ ed un integrale della funzione $\varphi(x)$ stessa.
+Si è detto che la (4) rappresenta una soluzione ``formale'' della (2); infatti la (4) non fornisce una esplicita rappresentazione della $\varphi(x)$, dal momento che per calcolare la $\varphi(x)$ che appare a primo membro occorre sostituire entro l'integrale che compare a secondo membro la stessa funzione $\varphi(x)$. In effetti la (4) è una \uline{equazione integrale}, cioè una relazione (lineare) fra la funzione $\varphi(x)$ ed un integrale della funzione $\varphi(x)$ stessa.
 
 % === Pagina 391 (7.4-2) ===
 
-Veramente la (4) si presenta come una \underline{equazione integro-differenziale}, perché nell'integrale a secondo membro compare non solo la $\varphi(x)$, ma anche le sue derivate (salvo nel caso in cui l'operatore $L'$ non contenesse nessun operatore di differenziazione, riducendosi cioè solo ad una funzione moltiplicativa). Integrando per parti è però generalmente possibile trasferire le derivate dalla funzione incognita alla funzione di Green $G$, trasformando in tal modo la (4) in una vera equazione integrale, e precisamente
+Veramente la (4) si presenta come una \uline{equazione integro-differenziale}, perché nell'integrale a secondo membro compare non solo la $\varphi(x)$, ma anche le sue derivate (salvo nel caso in cui l'operatore $L'$ non contenesse nessun operatore di differenziazione, riducendosi cioè solo ad una funzione moltiplicativa). Integrando per parti è però generalmente possibile trasferire le derivate dalla funzione incognita alla funzione di Green $G$, trasformando in tal modo la (4) in una vera equazione integrale, e precisamente
 \begin{equation*}
 \varphi(x) = F(x) + \int_{-\infty}^{+\infty} dy\; N(x,y)\,\varphi(y)
 \end{equation*}
@@ -14208,7 +14208,7 @@ con
 F(x) &= \int_{-\infty}^{+\infty} dy\; G(x,y)\,f(y)\,, \\
 N(x,y) &= -\,\widetilde{L}_y\,G(x,y)\,.
 \end{align*}
-L'operatore $\widetilde{L}$ è per l'appunto l'operatore ottenuto con tale prescrizione, e si chiama \underline{aggiunto} di $L'$. È facile verificare che, nel campo reale, l'operatore aggiunto dell'operatore differenziale $L$ coincide con l'hermitiano coniugato di $L$, laddove nel campo complesso
+L'operatore $\widetilde{L}$ è per l'appunto l'operatore ottenuto con tale prescrizione, e si chiama \uline{aggiunto} di $L'$. È facile verificare che, nel campo reale, l'operatore aggiunto dell'operatore differenziale $L$ coincide con l'hermitiano coniugato di $L$, laddove nel campo complesso
 \begin{equation*}
 \widetilde{L} = L^{+*}
 \end{equation*}
@@ -14238,7 +14238,7 @@ L'ordine di un operatore differenziale lineare è il massimo ordine di differenz
 
 \noindent\rule{\linewidth}{0.4pt}
 
-Finora non si sono affatto menzionate le condizioni al contorno, o iniziali, che peraltro sappiamo essere essenziali, \underline{in aggiunta alla equazione differenziale (2)}, per individuare la funzione $\varphi(x)$; e, parallelamente, non si è specificato se la funzione di Green $G(x,y)$ è una particolare funzione di Green, o la più generale funzione di Green (che conterrà un numero di costanti arbitrarie pari all'ordine dell'operatore $L$). È però chiaro come stiano le cose: se $G(x,y)$ è una particolare funzione di Green, la (4) fornirà una particolare soluzione della (2); se la $G(x,y)$ è la più generale funzione di Green dell'operatore $L$, la (4) fornirà la più generale soluzione della equazione differenziale (2); e tale più generale soluzione potrà anche mettersi nella forma
+Finora non si sono affatto menzionate le condizioni al contorno, o iniziali, che peraltro sappiamo essere essenziali, \uline{in aggiunta alla equazione differenziale (2)}, per individuare la funzione $\varphi(x)$; e, parallelamente, non si è specificato se la funzione di Green $G(x,y)$ è una particolare funzione di Green, o la più generale funzione di Green (che conterrà un numero di costanti arbitrarie pari all'ordine dell'operatore $L$). È però chiaro come stiano le cose: se $G(x,y)$ è una particolare funzione di Green, la (4) fornirà una particolare soluzione della (2); se la $G(x,y)$ è la più generale funzione di Green dell'operatore $L$, la (4) fornirà la più generale soluzione della equazione differenziale (2); e tale più generale soluzione potrà anche mettersi nella forma
 \begin{equation}
 \tag{5} \varphi(x) = \sum_{n=1}^{N} A_n\,\psi_n(x) + \int_{-\infty}^{+\infty} dy\; G(x,y)\left[f(y) - L_y'\,\varphi(y)\right]\,,
 \end{equation}
@@ -14265,7 +14265,7 @@ Sia data una equazione differenziale lineare omogenea del secondo ordine del tip
 \begin{equation}
 \psi''(x) + \psi(x) = \nu(x)\,\psi(x) \tag{1}
 \end{equation}
-con $\nu(x)$ funzione reale assegnata, limitata per ogni valore di $x \geq 0$ e che si annulli per $x \to \infty$ più rapidamente di $1/x$, cioè tale che esista una quantità $\varepsilon$ \underline{positiva} per cui
+con $\nu(x)$ funzione reale assegnata, limitata per ogni valore di $x \geq 0$ e che si annulli per $x \to \infty$ più rapidamente di $1/x$, cioè tale che esista una quantità $\varepsilon$ \uline{positiva} per cui
 \begin{equation}
 \lim_{x \to \infty} \left[x^{1+\varepsilon}\,\nu(x)\right] = 0\,. \tag{2}
 \end{equation}
@@ -14297,7 +14297,7 @@ Una scrittura matematicamente più rigorosa di questa formula sarebbe
 
 % === Pagina 395 (7.5-2) ===
 
-In questa formula entrano due costanti, $A$ e $\delta$: la prima, $A$, è chiaramente arbitraria, per la omogeneità della equazione (1) e della condizione (3); la seconda, $\delta$, prende il nome di \underline{sfasamento} (della soluzione del problema nella zona asintotica, rispetto al caso in cui $\nu(x)$ sia nulla), ed è invece ben determinata: dipenderà naturalmente dalla $\nu(x)$ (sarebbe ovviamente nulla per $\nu(x) \equiv 0$).
+In questa formula entrano due costanti, $A$ e $\delta$: la prima, $A$, è chiaramente arbitraria, per la omogeneità della equazione (1) e della condizione (3); la seconda, $\delta$, prende il nome di \uline{sfasamento} (della soluzione del problema nella zona asintotica, rispetto al caso in cui $\nu(x)$ sia nulla), ed è invece ben determinata: dipenderà naturalmente dalla $\nu(x)$ (sarebbe ovviamente nulla per $\nu(x) \equiv 0$).
 
 Il problema è quello di calcolare lo sfasamento $\delta$. Si noti che esso risulta ovviamente definito $\bmod(\pi)$.
 
@@ -14349,7 +14349,7 @@ nella (6), che fornisce allora
 \begin{equation}
 \tan\delta \approx \sin\delta \approx \delta \approx -\int_0^{\infty} dx\;\sin^2 x\;\nu(x)\,, \tag{8}
 \end{equation}
-che è la cosiddetta \underline{approssimazione di Born} per lo sfasamento.
+che è la cosiddetta \uline{approssimazione di Born} per lo sfasamento.
 
 \noindent\rule{\linewidth}{0.4pt}
 
@@ -14370,7 +14370,7 @@ con $\psi_{(n)}(x)$ definito per ricorrenza da
 \psi_{(n)}(x) = \sin x + \int_0^x dy\;\sin(x-y)\;\nu(y)\;\psi_{(n-1)}(y)\,. \tag{10}
 \end{equation}
 
-Il problema cruciale che si porrebbe a questo punto sarebbe naturalmente quello di discutere la \underline{convergenza} di questo processo di risoluzione iterativa della equazione integrale (5): cioè se la successione di funzioni $\psi_{(n)}(x)$ tenda alla soluzione esatta $\psi(x)$ per $x \to \infty$; e, se sì, in che modo (uniformemente o no), e quanto rapidamente. Nonché il problema, strettamente connesso, se, e quanto rapidamente, la successione numerica $\tan\delta_{(n)}$ tenda al valore esatto della tangente dello sfasamento.
+Il problema cruciale che si porrebbe a questo punto sarebbe naturalmente quello di discutere la \uline{convergenza} di questo processo di risoluzione iterativa della equazione integrale (5): cioè se la successione di funzioni $\psi_{(n)}(x)$ tenda alla soluzione esatta $\psi(x)$ per $x \to \infty$; e, se sì, in che modo (uniformemente o no), e quanto rapidamente. Nonché il problema, strettamente connesso, se, e quanto rapidamente, la successione numerica $\tan\delta_{(n)}$ tenda al valore esatto della tangente dello sfasamento.
 
 Lo sviluppo per iterazione della equazione integrale (5), secondo la (10), è associato al nome del matematico tedesco Neumann, che per l'appunto ne studiò la convergenza, la quale risulta in effetti assicurata purché la funzione $\nu(x)$ soddisfi a condizioni non molto restrittive (per esempio le $\nu(x)$ fin qui considerate andrebbero bene). Ma una esposizione di questi risultati esula dalla materia di questo capitolo.
 
@@ -14509,7 +14509,7 @@ Sia
 \begin{equation}
 z = x + iy \tag{1a}
 \end{equation}
-una \underline{variabile complessa}; i due numeri reali $x$ ed $y$ rappresentano dunque rispettivamente la sua \underline{parte reale} e la sua \underline{parte immaginaria}. Lo stesso numero complesso $z$ può essere rappresentato mediante il suo \underline{modulo} $|z|$ e la sua \underline{fase} $\theta$ scrivendo
+una \uline{variabile complessa}; i due numeri reali $x$ ed $y$ rappresentano dunque rispettivamente la sua \uline{parte reale} e la sua \uline{parte immaginaria}. Lo stesso numero complesso $z$ può essere rappresentato mediante il suo \uline{modulo} $|z|$ e la sua \uline{fase} $\theta$ scrivendo
 \begin{equation}
 z = |z|\,e^{i\theta}\,, \tag{1b}
 \end{equation}
@@ -14519,9 +14519,9 @@ x &= |z|\cos\theta\,, \quad y = |z|\sin\theta\,, \tag{2a}\\
 |z| &= +\sqrt{x^2+y^2}\,, \quad \theta = \arctan(y/x)\,. \tag{2b}
 \end{align}
 
-Una rappresentazione conveniente del \underline{numero complesso} $z$, cui spesso si farà riferimento nel seguito, fa corrispondere ad ogni valore di $z$ un punto nel \underline{piano complesso}, e precisamente il punto avente come ascissa cartesiana la parte reale di $z$ e come ordinata cartesiana la parte immaginaria di $z$, ovvero come coordinate polari il modulo $|z|$ e la fase $\theta$.
+Una rappresentazione conveniente del \uline{numero complesso} $z$, cui spesso si farà riferimento nel seguito, fa corrispondere ad ogni valore di $z$ un punto nel \uline{piano complesso}, e precisamente il punto avente come ascissa cartesiana la parte reale di $z$ e come ordinata cartesiana la parte immaginaria di $z$, ovvero come coordinate polari il modulo $|z|$ e la fase $\theta$.
 
-Una funzione $W(z)$ della variabile complessa $z$ è una prescrizione che associa ad ogni valore della $z$ uno, o più, numeri complessi $W$: nel primo caso si parla di funzione a un sol valore o \underline{monodroma}, nel secondo caso di funzione a più valori o \underline{polidroma}.
+Una funzione $W(z)$ della variabile complessa $z$ è una prescrizione che associa ad ogni valore della $z$ uno, o più, numeri complessi $W$: nel primo caso si parla di funzione a un sol valore o \uline{monodroma}, nel secondo caso di funzione a più valori o \uline{polidroma}.
 
 \noindent\rule{\linewidth}{0.4pt}
 
@@ -14544,7 +14544,7 @@ Una funzione di variabile complessa è dunque una prescrizione che associa ai du
 W(z) = u(x,y) + i\,v(x,y)\,. \tag{3b}
 \end{equation}
 
-La teoria delle funzioni di una variabile complessa sembra dunque ridursi alla teoria delle funzioni reali di 2 variabili reali. Esiste però una speciale classe di funzioni di una variabile complessa --- le cosiddette funzioni \underline{analitiche} o \underline{olomorfe} --- che costituiscono, come vedremo, un caso estremamente interessante e fecondo di importanti risultati. È questa speciale classe di funzioni che costituisce il principale oggetto della teoria delle funzioni di una variabile complessa.
+La teoria delle funzioni di una variabile complessa sembra dunque ridursi alla teoria delle funzioni reali di 2 variabili reali. Esiste però una speciale classe di funzioni di una variabile complessa --- le cosiddette funzioni \uline{analitiche} o \uline{olomorfe} --- che costituiscono, come vedremo, un caso estremamente interessante e fecondo di importanti risultati. È questa speciale classe di funzioni che costituisce il principale oggetto della teoria delle funzioni di una variabile complessa.
 
 Una definizione intuitiva di una funzione analitica $W(z)$ della variabile complessa $z$ la si può dare richiedendo che la funzione $W(z)$ non dipenda in modo separato e arbitrario dalle due variabili $x$ ed $y$ (rappresentanti rispettivamente la parte reale e immaginaria di $z$), ma dipenda da tali variabili solo nella combinazione $z = x + iy$. Se questo è vero, dovrà essere equivalente differenziare la funzione rispetto ad $x$, oppure rispetto ad $iy$:
 \begin{equation}
@@ -14556,11 +14556,11 @@ Usando la rappresentazione (3b), ed uguagliando separatamente parte reale e imma
 \frac{\partial u(x,y)}{\partial x} &= \frac{\partial v(x,y)}{\partial y}\,, \tag{5a}\\
 \frac{\partial v(x,y)}{\partial x} &= -\,\frac{\partial u(x,y)}{\partial y}\,. \tag{5b}
 \end{align}
-Sono queste le ``\underline{relazioni di Cauchy}'', che possono essere assunte come \underline{definizione} di una funzione analitica: si dirà dunque che la
+Sono queste le ``\uline{relazioni di Cauchy}'', che possono essere assunte come \uline{definizione} di una funzione analitica: si dirà dunque che la
 
 % === Pagina 405 (8.1-3) ===
 
-funzione $W(z)$ della variabile complessa $z$ è \underline{analitica} in tutti i punti del piano complesso $z$ in cui le derivate parziali che entrano nelle (5) esistono e le relazioni (5) sono valide.
+funzione $W(z)$ della variabile complessa $z$ è \uline{analitica} in tutti i punti del piano complesso $z$ in cui le derivate parziali che entrano nelle (5) esistono e le relazioni (5) sono valide.
 
 Per esempio la funzione
 \begin{equation}
@@ -14576,7 +14576,7 @@ In effetti è facile convincersi che, almeno per le funzioni monodrome (tali cio
 
 Per esempio le funzioni $W(z) = (z - z_0)^{-1}$ e $W(z) = e^{(z-z_0)^{-1}}$ sono analitiche per ogni valore di $z$, eccetto il valore $z = z_0$; in tale punto infatti la prima funzione diverge e la seconda non è ben definita, dipendendo il valore limite di $W(z)$ per $z \to z_0$ dalla direzione, nel piano della variabile complessa $z$, secondo cui $z$ si avvicina a $z_0$.
 
-Una importante proprietà delle funzioni analitiche è quella di permettere, in modo non ambiguo, la definizione della \underline{derivata rispetto alla variabile complessa $z$}. Infatti se $W(z)$ è analitica nell'intorno del punto $z_0$, il limite
+Una importante proprietà delle funzioni analitiche è quella di permettere, in modo non ambiguo, la definizione della \uline{derivata rispetto alla variabile complessa $z$}. Infatti se $W(z)$ è analitica nell'intorno del punto $z_0$, il limite
 \begin{equation}
 W'(z_0) = \lim_{\Delta z \to 0}\left[\frac{W(z_0 + \Delta z) - W(z_0)}{\Delta z}\right] \tag{7}
 \end{equation}
@@ -14637,7 +14637,7 @@ Una qualunque delle proprietà testé enunciate per una funzione analitica potre
 \item $W(z) = [\sin^2(z)]^*$;
 \item $W(z) = P_n(z)$, $P_n$ polinomio di grado $n$.
 \end{enumerate}
-\item Si dimostri che, se $W(z)$ e $\nu(z)$ sono funzioni analitiche di $z$, la prima nell'intorno di $z = z_0$, e la seconda nell'intorno di $z = W(z_0)$, la funzione $u(z) = \nu[W(z)]$ è funzione analitica di $z$ nell'intorno di $z = z_0$ (cioè: \underline{la funzione analitica di una funzione analitica di $z$ è una funzione analitica di $z$}).
+\item Si dimostri che, se $W(z)$ e $\nu(z)$ sono funzioni analitiche di $z$, la prima nell'intorno di $z = z_0$, e la seconda nell'intorno di $z = W(z_0)$, la funzione $u(z) = \nu[W(z)]$ è funzione analitica di $z$ nell'intorno di $z = z_0$ (cioè: \uline{la funzione analitica di una funzione analitica di $z$ è una funzione analitica di $z$}).
 
 Suggerimento: si dimostri l'esistenza, e indipendenza dalla direzione, della derivata $u'(z_0)$ di $u(z)$ rispetto a $z$ (calcolata in $z = z_0$).
 \end{esercizi}
@@ -14657,7 +14657,7 @@ Come è noto, l'equazione di Laplace giuoca un ruolo fondamentale in molti campi
 
 % === Pagina 409 (8.2-2) ===
 
-di tre variabili reali è, in tale contesto, particolarmente importante. In numerose applicazioni fisiche si ha però a che fare con il caso a due variabili (vedi anche l'esercizio 1, che fornisce la principale ragione di questo fatto), variabili che possiamo indicare con le due lettere $x$ ed $y$. È questo il caso su cui intendiamo ora concentrare l'attenzione, per la diretta connessione che si ha fra le \underline{funzioni armoniche di due variabili reali} e le \underline{funzioni analitiche di una variabile complessa}.
+di tre variabili reali è, in tale contesto, particolarmente importante. In numerose applicazioni fisiche si ha però a che fare con il caso a due variabili (vedi anche l'esercizio 1, che fornisce la principale ragione di questo fatto), variabili che possiamo indicare con le due lettere $x$ ed $y$. È questo il caso su cui intendiamo ora concentrare l'attenzione, per la diretta connessione che si ha fra le \uline{funzioni armoniche di due variabili reali} e le \uline{funzioni analitiche di una variabile complessa}.
 
 Nel caso di due variabili reali, le funzioni armoniche $f(x,y)$ sono dunque caratterizzate dalla equazione
 \begin{equation}
@@ -14678,7 +14678,7 @@ allora tanto la funzione $u(x,y)$ che la funzione $v(x,y)$ sono funzioni armonic
 \left[\frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2}\right]v(x,y) &= 0\,. \tag{6b}
 \end{align}
 
-\noindent\underline{Dimostrazione} --- (usando per comodità di scrittura la notazione $u_x$ per $\partial u(x,y)/\partial x$, etc.).
+\noindent\uline{Dimostrazione} --- (usando per comodità di scrittura la notazione $u_x$ per $\partial u(x,y)/\partial x$, etc.).
 
 % === Pagina 410 (8.2-3) ===
 
@@ -14778,7 +14778,7 @@ rappresenta la parte immaginaria di una funzione analitica $W(z)$ della variabil
 
 \section{Integrazione nel campo complesso. Teorema di Cauchy}
 
-Sia assegnata una curva $C$ nel piano complesso della variabile $z$. Tale curva potrà per esempio essere descritta dalla \underline{equazione parametrica}
+Sia assegnata una curva $C$ nel piano complesso della variabile $z$. Tale curva potrà per esempio essere descritta dalla \uline{equazione parametrica}
 \begin{equation}
 z = z(t)\,, \tag{1}
 \end{equation}
@@ -14830,7 +14830,7 @@ si avrà inoltre
 \begin{equation}
 \int_C dz\;f(z) = \int_C \left[dx\;u(x,y) - dy\;v(x,y)\right] + i\int_C\left[dy\;u(x,y) + dx\;v(x,y)\right]\,, \tag{5}
 \end{equation}
-essendo gli integrali a secondo membro gli \underline{integrali curvilinei} lungo la curva $C$.
+essendo gli integrali a secondo membro gli \uline{integrali curvilinei} lungo la curva $C$.
 
 \noindent\rule{\linewidth}{0.4pt}
 
@@ -14861,7 +14861,7 @@ La curva $C$ fin qui considerata potrebbe essere aperta o chiusa. Si suppone ino
 
 \noindent\rule{\linewidth}{0.4pt}
 
-Una curva si dice \underline{regolare} se ammette in ogni punto una tangente ben definita; per esempio un cerchio è una curva regolare (chiusa), un triangolo è una curva chiusa ma non regolare (può però essere spezzato in tre curve regolari).
+Una curva si dice \uline{regolare} se ammette in ogni punto una tangente ben definita; per esempio un cerchio è una curva regolare (chiusa), un triangolo è una curva chiusa ma non regolare (può però essere spezzato in tre curve regolari).
 
 \noindent\rule{\linewidth}{0.4pt}
 
@@ -14899,15 +14899,15 @@ Sia $w(z)$ una funzione analitica nel dominio semplicemente connesso $D$ del pia
 \end{equation}
 \end{teorema}
 
-Un dominio si dice \underline{semplicemente connesso} se la sua frontiera è
-costituita da una sola curva (senza soluzioni di continuità -- il che non esclude che la curva possa contenere punti angolosi). Si dice \underline{multiplamente connesso} se la sua frontiera è costituita da più curve distinte, non aventi punti in comune.
+Un dominio si dice \uline{semplicemente connesso} se la sua frontiera è
+costituita da una sola curva (senza soluzioni di continuità -- il che non esclude che la curva possa contenere punti angolosi). Si dice \uline{multiplamente connesso} se la sua frontiera è costituita da più curve distinte, non aventi punti in comune.
 
 \includegraphics[width=15cm]{images/domini.png}
 
 
 
 
-Dunque in parole povere l'integrale di qualunque funzione analitica su un contorno chiuso è nullo (attenzione: non basta però che la funzione sia analitica nelle vicinanze del contorno; occorre lo sia \underline{in tutta la zona interna al contorno}).
+Dunque in parole povere l'integrale di qualunque funzione analitica su un contorno chiuso è nullo (attenzione: non basta però che la funzione sia analitica nelle vicinanze del contorno; occorre lo sia \uline{in tutta la zona interna al contorno}).
 
 La dimostrazione del teorema di Cauchy è assai diretta. Usando il lemma di Gauss succitato e la definizione di integrale di variabile complessa (5), otteniamo
 
@@ -14930,7 +14930,7 @@ Ciò porta a scrivere
 \begin{equation}
 W(z) = W(z_0) + \int_{z_0}^{z} dz'\, w(z') \tag{16}
 \end{equation}
-risultando l'integrale a secondo membro indipendente dal cammino di integrazione (è questo fatto che consente l'uso della notazione $\int_{z_0}^{z}$, che ricorda che il valore dell'integrale dipende dai punti estremi $z_0$ e $z$, ma non contiene invece alcuna indicazione del cammino). La funzione $W(z)$ che compare a primo membro, e che può essere considerata come definita da questa formula, sarà chiamata l'\underline{integrale indefinito} (o la \underline{primitiva}) della $w(z)$. È facile dimostrare che questa funzione è a sua volta analitica nello stesso dominio $D$ in cui è analitica la $W(z)$, e che vale la formula
+risultando l'integrale a secondo membro indipendente dal cammino di integrazione (è questo fatto che consente l'uso della notazione $\int_{z_0}^{z}$, che ricorda che il valore dell'integrale dipende dai punti estremi $z_0$ e $z$, ma non contiene invece alcuna indicazione del cammino). La funzione $W(z)$ che compare a primo membro, e che può essere considerata come definita da questa formula, sarà chiamata l'\uline{integrale indefinito} (o la \uline{primitiva}) della $w(z)$. È facile dimostrare che questa funzione è a sua volta analitica nello stesso dominio $D$ in cui è analitica la $W(z)$, e che vale la formula
 
 \begin{equation}
 W'(z) = w(z) \tag{17}
@@ -14945,7 +14945,7 @@ Un altro modo equivalente di esprimere il teorema di Cauchy è la affermazione c
 w(z)\, dz &= \left[u(x,y)\, dx - v(x,y)\, dy\right] \notag \\
 &\quad + i\left[u(x,y)\, dy + v(x,y)\, dx\right] \tag{18}
 \end{align}
-costituiscono dei \underline{differenziali esatti}, se considerati come forme differenziali nelle due variabili $x$ e $y$.
+costituiscono dei \uline{differenziali esatti}, se considerati come forme differenziali nelle due variabili $x$ e $y$.
 
 \medskip\hrule\medskip
 
@@ -14965,7 +14965,7 @@ Si ricordi inoltre che condizione necessaria e sufficiente perché una forma dif
 
 Il teorema di Cauchy ci assicura dunque che qualunque integrale di una funzione di variabile complessa esteso ad una curva chiusa è nullo, se la curva è contenuta nel dominio di analiticità della funzione.
 
-Ma la affermazione reciproca è anche vera, come risulta dal seguente \underline{Teorema di Morera}: se la $W(z)$ è una funzione continua della variabile complessa $z$ e l'integrale di $W(z)$ esteso a qualunque curva chiusa $C$ contenuta entro un dominio $D$ è nullo, allora la $w(z)$ è una funzione analitica della variabile complessa $z$ nel dominio $D$.
+Ma la affermazione reciproca è anche vera, come risulta dal seguente \uline{Teorema di Morera}: se la $W(z)$ è una funzione continua della variabile complessa $z$ e l'integrale di $W(z)$ esteso a qualunque curva chiusa $C$ contenuta entro un dominio $D$ è nullo, allora la $w(z)$ è una funzione analitica della variabile complessa $z$ nel dominio $D$.
 
 \medskip\hrule\medskip
 
@@ -14977,9 +14977,9 @@ percorso lungo un qualunque cammino tutto contenuto in $D$. Le ipotesi del teore
 
 \medskip
 
-In conclusione il teorema di Cauchy implica, per ogni funzione $w(z)$ analitica in un dominio $D$, la possibilità di definire la funzione primitiva (o integrale indefinito) $W(z)$ che risulta anch'essa analitica in $D$, e la cui derivata coincide con $w(z)$. In sostanza si può dire che \underline{l'integrale di una funzione analitica è una funzione analitica}; come anche che \underline{la derivata di una funzione analitica è una funzione analitica} (per una dimostrazione, vedi la sezione seguente). E poiché l'operazione di integrazione, o differenziazione, si può ripetere più volte, se ne conclude che ogni funzione analitica è multiplamente integrabile, o ripetutamente differenziabile, quante volte si vuole, essendo sempre il risultato una funzione analitica (a condizione naturalmente che ci si mantenga sempre entro il dominio di analiticità $D$).
+In conclusione il teorema di Cauchy implica, per ogni funzione $w(z)$ analitica in un dominio $D$, la possibilità di definire la funzione primitiva (o integrale indefinito) $W(z)$ che risulta anch'essa analitica in $D$, e la cui derivata coincide con $w(z)$. In sostanza si può dire che \uline{l'integrale di una funzione analitica è una funzione analitica}; come anche che \uline{la derivata di una funzione analitica è una funzione analitica} (per una dimostrazione, vedi la sezione seguente). E poiché l'operazione di integrazione, o differenziazione, si può ripetere più volte, se ne conclude che ogni funzione analitica è multiplamente integrabile, o ripetutamente differenziabile, quante volte si vuole, essendo sempre il risultato una funzione analitica (a condizione naturalmente che ci si mantenga sempre entro il dominio di analiticità $D$).
 
-Prima di concludere questa sezione resta da menzionare una semplice, ma importantissima, estensione dell'enunciato dato sopra del teorema di Cauchy, estensione la cui validità segue immediatamente dalla dimostrazione del teorema di Cauchy stesso. Sottolineiamo anzitutto che si è finora assunto di avere a che fare con domini semplicemente connessi (e questa ipotesi è essenziale per la validità di alcuni dei risultati dati sino a questo punto). Nel caso invece di un dominio \underline{multiplamente connesso} $D$ entro cui la funzione $W(z)$ è analitica (e lo sia anche sulla frontiera del dominio stesso; o quanto meno sia continua sulla frontiera, il che basta per la validità del risultato), l'integrale di $W(z)$ sulla variabile complessa $z$, esteso all'\underline{intera} frontiera di $D$, è nullo, a condizione che il verso di percorrenza sia scelto in modo da lasciare la parte interna del dominio dalla stessa parte (convenzionalmente, a sinistra -- vedi figura)
+Prima di concludere questa sezione resta da menzionare una semplice, ma importantissima, estensione dell'enunciato dato sopra del teorema di Cauchy, estensione la cui validità segue immediatamente dalla dimostrazione del teorema di Cauchy stesso. Sottolineiamo anzitutto che si è finora assunto di avere a che fare con domini semplicemente connessi (e questa ipotesi è essenziale per la validità di alcuni dei risultati dati sino a questo punto). Nel caso invece di un dominio \uline{multiplamente connesso} $D$ entro cui la funzione $W(z)$ è analitica (e lo sia anche sulla frontiera del dominio stesso; o quanto meno sia continua sulla frontiera, il che basta per la validità del risultato), l'integrale di $W(z)$ sulla variabile complessa $z$, esteso all'\uline{intera} frontiera di $D$, è nullo, a condizione che il verso di percorrenza sia scelto in modo da lasciare la parte interna del dominio dalla stessa parte (convenzionalmente, a sinistra -- vedi figura)
 
 
 \includegraphics[width=13cm]{images/dominio_1.png}
@@ -15044,17 +15044,17 @@ essendo la curva $C_1$ il segmento che congiunge il punto $z_0 = 0$ col punto $z
 
 \item Nell'assunto del teorema di Morera si è introdotta l'ipotesi che la funzione $w(z)$ sia continua; la dimostrazione è poi stata solo accennata, sicché non è risultato evidente il ruolo di tale ipotesi. È questa ipotesi essenziale per la validità del teorema?
 
-\textit{Suggerimento}: si osservi che esempi forniti precedentemente (vedi per esempio l'esercizio 3) configurano il caso di funzioni non ovunque analitiche ma il cui integrale su curve \underline{chiuse} è nullo.
+\textit{Suggerimento}: si osservi che esempi forniti precedentemente (vedi per esempio l'esercizio 3) configurano il caso di funzioni non ovunque analitiche ma il cui integrale su curve \uline{chiuse} è nullo.
 
 \end{esercizi}
 
 \section{Rappresentazione integrale di Cauchy di una funzione analitica e delle sue derivate}
 
-Sia la $w(z)$ una funzione analitica nel dominio $D$, sia $z$ un punto interno a $D$, e $C$ una curva contenuta in $D$ (o coincidente, in tutto o in parte, con la frontiera di $D$, nella ipotesi che la $w(z)$ sia continua sulla frontiera di $D$). Vale allora la formula (\underline{rappresentazione integrale di Cauchy})
+Sia la $w(z)$ una funzione analitica nel dominio $D$, sia $z$ un punto interno a $D$, e $C$ una curva contenuta in $D$ (o coincidente, in tutto o in parte, con la frontiera di $D$, nella ipotesi che la $w(z)$ sia continua sulla frontiera di $D$). Vale allora la formula (\uline{rappresentazione integrale di Cauchy})
 \begin{equation}
 w(z) = \frac{1}{2\pi i} \int_C dz'\, w(z') / (z' - z) \tag{1}
 \end{equation}
-nella ipotesi che il punto $z$ sia \underline{interno} alla curva $C$ e che il percorso $C$ venga percorso in senso antiorario (si noti che, se $z$ fosse esterno a $C$, per il teorema di Cauchy l'integrale a secondo membro darebbe un risultato nullo).
+nella ipotesi che il punto $z$ sia \uline{interno} alla curva $C$ e che il percorso $C$ venga percorso in senso antiorario (si noti che, se $z$ fosse esterno a $C$, per il teorema di Cauchy l'integrale a secondo membro darebbe un risultato nullo).
 
 \medskip\hrule\medskip
 
@@ -15080,7 +15080,7 @@ w(z) = \frac{1}{2\pi} \int_0^{2\pi} d\theta\, w\!\left[z + \rho\, e^{i\theta}\ri
 \end{equation}
 valida a condizione che la funzione $w$ sia analitica entro un cerchio di centro $z$ e raggio $\rho$. Questa formula segue infatti dal teorema di Cauchy scegliendo come contorno tale cerchio.
 
-Utilizzando il corollario (2) è facile dimostrare il seguente teorema, che esprime un'altra sorprendente proprietà delle funzioni analitiche: \underline{se una funzione è analitica entro un dominio $D$ ed è continua sulla frontiera di $D$, il valore massimo (o i valori massimi) del modulo di tale funzione vengono necessariamente assunti sulla frontiera di $D$} (\underline{principio del massimo modulo di una funzione analitica}), salvo il caso banale in cui la funzione si riduce ad una costante.
+Utilizzando il corollario (2) è facile dimostrare il seguente teorema, che esprime un'altra sorprendente proprietà delle funzioni analitiche: \uline{se una funzione è analitica entro un dominio $D$ ed è continua sulla frontiera di $D$, il valore massimo (o i valori massimi) del modulo di tale funzione vengono necessariamente assunti sulla frontiera di $D$} (\uline{principio del massimo modulo di una funzione analitica}), salvo il caso banale in cui la funzione si riduce ad una costante.
 
 \medskip\hrule\medskip
 
@@ -15097,9 +15097,9 @@ Ne segue che, considerato qualunque dominio $D$ entro cui $w(z)$ è analitica, i
 
 \medskip\hrule\medskip
 
-È chiaro che, se la funzione $W(z)$ è analitica in $D$ e non si annulla, anche la funzione $\nu(z) = 1/W(z)$ è analitica in $D$. Applicando il teorema testé discusso a $\nu(z)$ possiamo pertanto concludere che vale anche il \underline{principio del minimo modulo di una funzione analitica} (e che non si annulli), secondo cui \underline{se una funzione $w(z)$ è analitica e non si annulla in $D$, i minimi valori del modulo di $w(z)$ (come anche i massimi valori del modulo di $w(z)$) sono necessariamente assunti sulla frontiera di $D$}.
+È chiaro che, se la funzione $W(z)$ è analitica in $D$ e non si annulla, anche la funzione $\nu(z) = 1/W(z)$ è analitica in $D$. Applicando il teorema testé discusso a $\nu(z)$ possiamo pertanto concludere che vale anche il \uline{principio del minimo modulo di una funzione analitica} (e che non si annulli), secondo cui \uline{se una funzione $w(z)$ è analitica e non si annulla in $D$, i minimi valori del modulo di $w(z)$ (come anche i massimi valori del modulo di $w(z)$) sono necessariamente assunti sulla frontiera di $D$}.
 
-Tornando ora alla rappresentazione di Cauchy (1), osserviamo che si tratta di un caso particolare di \underline{rappresentazione integrale di una funzione}, consistendo questa in una formula del tipo
+Tornando ora alla rappresentazione di Cauchy (1), osserviamo che si tratta di un caso particolare di \uline{rappresentazione integrale di una funzione}, consistendo questa in una formula del tipo
 \begin{equation}
 W(z) = \int_C dz'\, \nu(z, z') \tag{3}
 \end{equation}
@@ -15114,7 +15114,7 @@ Qui $W(z)$ è la funzione rappresentata, $\nu(z, z')$ è una funzione di due var
 
 Questo teorema non ha nulla di sorprendente, e non riteniamo sia il caso di attardarci a darne una esplicita dimostrazione, limitandoci ad indicare che la si potrebbe basare sulla possibilità di scambiare le operazioni di integrazione e differenziazione nel caso di funzioni di due variabili, e i integrali curvilinei (per il che si richiede l'esistenza e continuità delle derivate parziali dei coefficienti della forma differenziale), e sulla identità di Cauchy (1--5).
 
-Sarà però bene sottolineare che il teorema testé enunciato si riferisce a curve $C$ di \underline{lunghezza finita}. Nel caso di curve di lunghezza infinita può infatti verificarsi il caso che, per certi valori di $z$, l'integrale a secondo membro della (3) cessi di convergere. Ciò non implica necessariamente che la funzione $W(z)$ sia, in corrispondenza a tali valori di $z$, non analitica (singolare); si può solo concludere che la rappresentazione integrale (3) cessa, per tali valori di $z$, di valere, non fornendo più alcuna informazione sui valori della $W(z)$ o sulle sue proprietà di analiticità.
+Sarà però bene sottolineare che il teorema testé enunciato si riferisce a curve $C$ di \uline{lunghezza finita}. Nel caso di curve di lunghezza infinita può infatti verificarsi il caso che, per certi valori di $z$, l'integrale a secondo membro della (3) cessi di convergere. Ciò non implica necessariamente che la funzione $W(z)$ sia, in corrispondenza a tali valori di $z$, non analitica (singolare); si può solo concludere che la rappresentazione integrale (3) cessa, per tali valori di $z$, di valere, non fornendo più alcuna informazione sui valori della $W(z)$ o sulle sue proprietà di analiticità.
 
 Quasi immediata conseguenza del teorema testé enunciato è la rappresentazione di Cauchy per la derivata ennesima di una funzione analitica, fornita dalla formula
 \begin{equation}
@@ -15122,7 +15122,7 @@ Quasi immediata conseguenza del teorema testé enunciato è la rappresentazione 
 \end{equation}
 che è valida sotto le stesse ipotesi della (1), e che ovviamente segue da questa differenziando sotto il segno di integrale. Questa formula implica naturalmente l'esistenza di tutte le derivate di una funzione analitica in ogni punto interno al suo dominio di analiticità, e ne fornisce inoltre una esplicita rappresentazione in funzione dei valori che la funzione stessa assume su una qualunque curva chiusa includente il punto $z$ e tutta contenuta in $D$ (o eventualmente coincidente con la frontiera di $D$, purché la $W(z)$ si mantenga ivi continua).
 
-Terminiamo questa sezione con il \underline{teorema di Liouville}, secondo cui \underline{se una funzione è analitica in tutto il piano complesso, ed è inoltre limitata in modulo (in tutto il piano complesso), essa è necessariamente una costante.}
+Terminiamo questa sezione con il \uline{teorema di Liouville}, secondo cui \uline{se una funzione è analitica in tutto il piano complesso, ed è inoltre limitata in modulo (in tutto il piano complesso), essa è necessariamente una costante.}
 
 \medskip\hrule\medskip
 
@@ -15150,7 +15150,7 @@ Ma se, per ogni $z$, $w'(z) = 0$, ne segue che $w(z) = \text{costante}$, che è 
 
 \medskip\hrule\medskip
 
-Una funzione che sia analitica in tutto il piano complesso si dice \underline{intera}. Il teorema di Liouville assicura dunque che, a parte il caso banale delle costanti, tutte le funzioni intere necessariamente divergono in modulo per $|z| \to \infty$ in qualche direzione del piano complesso (si noti che le funzioni intere, essendo analitiche, sono necessariamente limitate per ogni valore finito di $z$). Esempi di funzioni intere sono i polinomi, la funzione esponenziale, le funzioni circolari (seno e coseno); si noti che anche queste divergono in modulo, per $|z| \to \infty$ lungo l'asse immaginario.
+Una funzione che sia analitica in tutto il piano complesso si dice \uline{intera}. Il teorema di Liouville assicura dunque che, a parte il caso banale delle costanti, tutte le funzioni intere necessariamente divergono in modulo per $|z| \to \infty$ in qualche direzione del piano complesso (si noti che le funzioni intere, essendo analitiche, sono necessariamente limitate per ogni valore finito di $z$). Esempi di funzioni intere sono i polinomi, la funzione esponenziale, le funzioni circolari (seno e coseno); si noti che anche queste divergono in modulo, per $|z| \to \infty$ lungo l'asse immaginario.
 
 \begin{esercizi}
 
@@ -15198,7 +15198,7 @@ Per $n=0$, la (1) si riduce alla rappresentazione di Cauchy
 w(z) = \frac{1}{2\pi i} \int_C dz'\, w(z') / (z'-z)\,. \tag{2}
 \end{equation}
 
-Mostriamo ora come da questa formula se ne ottenga un'altra, esprimente la $w(z)$ come serie di potenze in $z-z_0$ (\underline{sviluppo in serie di Taylor} nell'intorno del punto $z_0$).
+Mostriamo ora come da questa formula se ne ottenga un'altra, esprimente la $w(z)$ come serie di potenze in $z-z_0$ (\uline{sviluppo in serie di Taylor} nell'intorno del punto $z_0$).
 
 Sia dunque $z_0$ un punto interno alla curva $C$, e sia $\rho$ il raggio di un cerchio centrato in $z_0$ e completamente interno al dominio racchiuso dalla curva $C$:
 
@@ -15265,7 +15265,7 @@ a condizione beninteso di mantenersi sempre entro il cerchio di convergenza.
 
 Abbiamo già indicato che lo sviluppo in serie di Taylor potrebbe essere preso come punto di partenza dell'intera teoria delle funzioni analitiche. Sottolineiamo ora che esso ha una implicazione profonda circa la natura delle funzioni analitiche; mostra infatti che, se una funzione analitica è nota in un intorno, per quanto piccolo, di un punto, essa risulta determinata ovunque. Infatti basta che sia nota in un intorno, per quanto piccolo, del punto $z_0$, perché siano univocamente determinate tutte le sue derivate, quindi i coefficienti del suo sviluppo di Taylor, quindi la funzione stessa entro un cerchio il cui raggio è pari alla distanza da $z_0$ della singolarità della funzione più vicina a $z_0$ stesso. E in generale, se tale singolarità è isolata, i valori della funzione risultano determinati anche al di fuori di tale cerchio di convergenza, in quanto la funzione può essere di nuovo sviluppata nell'intorno di un altro punto $z_1$ interno al cerchio di convergenza centrato in $z_0$. Il nuovo cerchio di convergenza, centrato in $z_1$, includerà infatti anche una zona che è al di fuori del primitivo cerchio di convergenza centrato in $z_0$. E il procedimento può essere continuato, permettendo generalmente di definire la funzione in tutto il piano complesso.
 
-A questo procedimento, che permette di estendere una funzione analitica, originariamente definita in una regione del piano complesso, al di fuori di tale zona, si dà il nome di \underline{continuazione analitica}. Al particolare meccanismo di continuazione analitica basato sulla serie di Taylor testé descritto è associato il nome del matematico tedesco Weierstrass. Esso è forse illustrato, meglio che dalla precedente descrizione, dalla seguente figura:
+A questo procedimento, che permette di estendere una funzione analitica, originariamente definita in una regione del piano complesso, al di fuori di tale zona, si dà il nome di \uline{continuazione analitica}. Al particolare meccanismo di continuazione analitica basato sulla serie di Taylor testé descritto è associato il nome del matematico tedesco Weierstrass. Esso è forse illustrato, meglio che dalla precedente descrizione, dalla seguente figura:
 
 \begin{center}
 \includegraphics[width=10cm]{images/cerchi_1.png}
@@ -15273,7 +15273,7 @@ A questo procedimento, che permette di estendere una funzione analitica, origina
 
 in cui $z_0, z_1, z_2, \ldots$ sono i successivi punti in cui si immagina di sviluppare la funzione in serie di Taylor e $z_s$ è per ipotesi l'unico punto di singolarità della funzione che si sta considerando. Si noti che la funzione avrebbe potuto essere inizialmente definita solo in un piccolissimo intorno del punto $z_0$, risultando poi definita entro tutta la zona coperta dai cerchi (e naturalmente il procedimento potrebbe continuare).
 
-Non è detto che con questo metodo si possa continuare ovunque una funzione analitica; potrebbe darsi che questa risulti definita entro una certa zona, circondata da una barriera ininterrotta di singolarità. In questo caso si dice che la funzione ammette un \underline{confine naturale} di analiticità. Ma funzioni di questo tipo sono eccezionali, nel senso che in pratica non si presentano mai nella soluzione di problemi fisici.
+Non è detto che con questo metodo si possa continuare ovunque una funzione analitica; potrebbe darsi che questa risulti definita entro una certa zona, circondata da una barriera ininterrotta di singolarità. In questo caso si dice che la funzione ammette un \uline{confine naturale} di analiticità. Ma funzioni di questo tipo sono eccezionali, nel senso che in pratica non si presentano mai nella soluzione di problemi fisici.
 
 \medskip\hrule\medskip
 
@@ -15328,13 +15328,13 @@ Nel caso invece in cui i due diversi corridoi che conducono dal punto $z_0$ al p
 \includegraphics[width=10cm]{images/cerchi_2.png}
 \end{center}
 
-Se questo avviene, si ha a che fare con funzioni analitiche \underline{polidrome}; se ciò non avviene, la funzione $W(z)$ è invece \underline{monodroma}. Ambedue queste possibilità possono verificarsi; ciò è connesso al tipo di singolarità, come discuteremo nelle sezioni seguenti.
+Se questo avviene, si ha a che fare con funzioni analitiche \uline{polidrome}; se ciò non avviene, la funzione $W(z)$ è invece \uline{monodroma}. Ambedue queste possibilità possono verificarsi; ciò è connesso al tipo di singolarità, come discuteremo nelle sezioni seguenti.
 
 È ovvio che la tecnica di continuazione analitica testé descritta preserva ogni relazione algebrica fra funzioni, per esempio se in un intorno di $z_0$ vale la relazione
 \begin{equation}
 W(z) = u(z)\, v(z) \tag{11}
 \end{equation}
-questa stessa relazione continuerà a valere in ogni altro punto del piano complesso in cui $u(z)$ e $v(z)$ (e dunque $W(z)$) possano essere continuate analiticamente; e in particolare se due funzioni sono uguali in un intorno comunque piccolo di un punto $z_0$, esse coincidono ovunque (\underline{unicità della continuazione analitica}). In effetti basta che due funzioni analitiche coincidano solo su un tratto, breve quanto si vuole, di curva, perché esse (siano analiticamente continuabili e) coincidano ovunque.
+questa stessa relazione continuerà a valere in ogni altro punto del piano complesso in cui $u(z)$ e $v(z)$ (e dunque $W(z)$) possano essere continuate analiticamente; e in particolare se due funzioni sono uguali in un intorno comunque piccolo di un punto $z_0$, esse coincidono ovunque (\uline{unicità della continuazione analitica}). In effetti basta che due funzioni analitiche coincidano solo su un tratto, breve quanto si vuole, di curva, perché esse (siano analiticamente continuabili e) coincidano ovunque.
 
 \medskip\hrule\medskip
 
@@ -15342,7 +15342,7 @@ Basta infatti che una funzione analitica sia data su un tratto di curva (nel pia
 
 \medskip\hrule\medskip
 
-La tecnica di continuazione analitica testé descritta non è l'unica che permetta di effettuare la continuazione analitica di una funzione (anzi, per la sua macchinosità, non è in pratica quasi mai usata). In generale si cerca di costruirsi diverse rappresentazioni della stessa funzione, che siano valide in diverse zone del piano complesso, aventi una zona (o almeno un tratto di curva) in comune. Il modo migliore di illustrare questo procedimento è forse mediante un esempio. Si consideri la \underline{funzione gamma di Eulero}, definita nel modo seguente:
+La tecnica di continuazione analitica testé descritta non è l'unica che permetta di effettuare la continuazione analitica di una funzione (anzi, per la sua macchinosità, non è in pratica quasi mai usata). In generale si cerca di costruirsi diverse rappresentazioni della stessa funzione, che siano valide in diverse zone del piano complesso, aventi una zona (o almeno un tratto di curva) in comune. Il modo migliore di illustrare questo procedimento è forse mediante un esempio. Si consideri la \uline{funzione gamma di Eulero}, definita nel modo seguente:
 \begin{equation}
 \Gamma(z) = \int_0^{\infty} dt\, t^{z-1}\, e^{-t}\,. \tag{12}
 \end{equation}
@@ -15428,7 +15428,7 @@ Si supponga infatti di poter esprimere una funzione di variabile complessa $w(z)
 \begin{equation}
 W(z) = \int_C dz'\; \nu(z, z') \tag{20}
 \end{equation}
-essendo la $\nu(z,z')$ funzione analitica di $z$. Il teorema della sezione 4 (enunciato dopo la (4-3); vedi anche, per il caso di curve $C$ di lunghezza non finita, la discussione che segue tale enunciato) ci garantisce allora che $w(z)$ è analitica in un certo dominio $D$, i cui confini risulteranno determinati dal venir meno, per certi valori di $z$, delle ipotesi di validità del teorema (cioè per tali valori di $z$, la $\nu(z,z')$ cessa per esempio di essere funzione continua di $z'$ su $\mathcal{C}$; o, nel caso di curva di lunghezza infinita, l'integrale cessa di convergere). Ma tutto questo dipende dalla curva $C$, che finora è stata supposta data. D'altronde, \underline{se $\nu(z,z')$ è funzione analitica di $z'$}, il teorema di Cauchy ci permette di deformare il cammino di integrazione, sostituire cioè a $C$ un nuovo cammino $C'$. È allora possibile che la nuova rappresentazione integrale,
+essendo la $\nu(z,z')$ funzione analitica di $z$. Il teorema della sezione 4 (enunciato dopo la (4-3); vedi anche, per il caso di curve $C$ di lunghezza non finita, la discussione che segue tale enunciato) ci garantisce allora che $w(z)$ è analitica in un certo dominio $D$, i cui confini risulteranno determinati dal venir meno, per certi valori di $z$, delle ipotesi di validità del teorema (cioè per tali valori di $z$, la $\nu(z,z')$ cessa per esempio di essere funzione continua di $z'$ su $\mathcal{C}$; o, nel caso di curva di lunghezza infinita, l'integrale cessa di convergere). Ma tutto questo dipende dalla curva $C$, che finora è stata supposta data. D'altronde, \uline{se $\nu(z,z')$ è funzione analitica di $z'$}, il teorema di Cauchy ci permette di deformare il cammino di integrazione, sostituire cioè a $C$ un nuovo cammino $C'$. È allora possibile che la nuova rappresentazione integrale,
 \begin{equation}
 W(z) = \int_{C'} dz'\; \nu(z, z') \tag{21}
 \end{equation}
@@ -15504,11 +15504,11 @@ z = 1\big/\!\left[(2k+1)\pi/2\right], \quad k = 0, \pm 1, \pm 2, \ldots
 
 Funzioni con singolarità non isolate si presentano di rado e non verranno ulteriormente discusse.
 
-Sottolineiamo invece che, insieme alle funzioni monodrome con singolarità isolate, che si discuteranno in questa sezione e che si presentano in moltissime applicazioni, sono anche importanti le funzioni \underline{polidrome} con singolarità isolate, cui verrà dedicata una sezione successiva.
+Sottolineiamo invece che, insieme alle funzioni monodrome con singolarità isolate, che si discuteranno in questa sezione e che si presentano in moltissime applicazioni, sono anche importanti le funzioni \uline{polidrome} con singolarità isolate, cui verrà dedicata una sezione successiva.
 
-Sia dunque $z_0$ un punto in cui la funzione $W(z)$ ha una singolarità isolata. Per ipotesi esisterà allora un \underline{dominio anulare} $A$, di centro $z_0$, raggio interno $\rho_1$, e raggio esterno $\rho_2 > \rho_1$, tale che $w(z)$ sia priva di singolarità in $A$.
+Sia dunque $z_0$ un punto in cui la funzione $W(z)$ ha una singolarità isolata. Per ipotesi esisterà allora un \uline{dominio anulare} $A$, di centro $z_0$, raggio interno $\rho_1$, e raggio esterno $\rho_2 > \rho_1$, tale che $w(z)$ sia priva di singolarità in $A$.
 
-Vedremo ora che la ulteriore ipotesi che la funzione $w(z)$ sia monodroma implica la possibilità di esprimere, in modo univoco, la funzione $w(z)$ tramite il seguente \underline{sviluppo in serie di Laurent}:
+Vedremo ora che la ulteriore ipotesi che la funzione $w(z)$ sia monodroma implica la possibilità di esprimere, in modo univoco, la funzione $w(z)$ tramite il seguente \uline{sviluppo in serie di Laurent}:
 \begin{equation}
 W(z) = \sum_{n=-\infty}^{+\infty} c_n\,(z - z_0)^n, \tag{1}
 \end{equation}
@@ -15562,7 +15562,7 @@ Sarà dunque
 \[
 \sum_{k=1}^{8} \int_{C_k} dz'\; w(z') / (z' - z) = 0.
 \]
-Supponiamo ora che i due segmenti di curva $C_2$ e $C_8$, nonché $C_4$ e $C_6$, siano infinitamente avvicinati l'uno all'altro; allora, \underline{come conseguenza della ipotesi di monodromia di $W(z)$}, sarà
+Supponiamo ora che i due segmenti di curva $C_2$ e $C_8$, nonché $C_4$ e $C_6$, siano infinitamente avvicinati l'uno all'altro; allora, \uline{come conseguenza della ipotesi di monodromia di $W(z)$}, sarà
 \[
 \int_{C_2} dz'\; w(z') / (z' - z) = -\int_{C_8} dz'\; w(z') / (z' - z)
 \]
@@ -15627,7 +15627,7 @@ Si è così dimostrata la validità delle formule (1) e (2), nonché la assoluta
 
 Lo sviluppo in serie di Laurent converge dunque per anelli. Ma una volta definita una funzione analitica tramite il suo sviluppo in serie di Laurent nell'intorno del suo punto singolare $z_0$, è evidentemente possibile continuarla analiticamente anche al di fuori dell'anello, seguendo esattamente la stessa tecnica discussa nella sezione precedente (si noti che, nell'intorno di ogni punto $z$ interno all'anello, la $W(z)$ sarà ovviamente sviluppabile in serie di Taylor).
 
-Lo sviluppo in serie di Laurent caratterizza il comportamento di una funzione analitica monodroma nell'intorno di una sua singolarità isolata. Esso può essere scomposto in due parti: la somma in cui compaiono esponenti negativi, cui si dà il nome di \underline{parte principale} dello sviluppo in serie di Laurent, e la somma in cui compaiono esponenti non negativi. Se la parte principale dello sviluppo di Laurent contiene una somma infinita, cioè $\forall N$ scelto $N$ grande quanto si vuole, vi sono sempre dei coefficienti $c_n$ con $n < -N$ diversi da zero, si dice che la funzione $W(z)$ ha in $z_0$ una \uline{singolarità essenziale}. Se invece la parte principale dello sviluppo di Laurent si arresta al termine di ordine $-N$, cioè
+Lo sviluppo in serie di Laurent caratterizza il comportamento di una funzione analitica monodroma nell'intorno di una sua singolarità isolata. Esso può essere scomposto in due parti: la somma in cui compaiono esponenti negativi, cui si dà il nome di \uline{parte principale} dello sviluppo in serie di Laurent, e la somma in cui compaiono esponenti non negativi. Se la parte principale dello sviluppo di Laurent contiene una somma infinita, cioè $\forall N$ scelto $N$ grande quanto si vuole, vi sono sempre dei coefficienti $c_n$ con $n < -N$ diversi da zero, si dice che la funzione $W(z)$ ha in $z_0$ una \uline{singolarità essenziale}. Se invece la parte principale dello sviluppo di Laurent si arresta al termine di ordine $-N$, cioè
 \begin{equation}
 c_{-N} \neq 0, \quad c_n = 0 \;\text{ per }\; n < -N\,, \quad (N>0), \tag{5}
 \end{equation}
@@ -15635,7 +15635,7 @@ allora si dice che, nel punto $z_0$, la $W(z)$ ha un \uline{polo di ordine $N$}.
 
 Poli e singolarità essenziali sono dunque i due tipi di singolarità caratteristici delle funzioni analitiche monodrome.
 
-Il comportamento di una funzione analitica nell'intorno di una singolarità essenziale è descritto dal seguente \underline{teorema di Weierstrass}, che riportiamo qui senza dimostrazione (anche se non sarebbe difficile darla): \uline{se la funzione analitica $W(z)$ ha una singolarità essenziale in $z_0$, scelti comunque il numero complesso $c$ ed i numeri reali positivi (piccoli a piacere) $\varepsilon$ e $\delta$, esiste sempre un punto $z$ che disti da $z_0$ meno di $\delta$ (per il quale cioè $|z - z_0| < \delta$)}%
+Il comportamento di una funzione analitica nell'intorno di una singolarità essenziale è descritto dal seguente \uline{teorema di Weierstrass}, che riportiamo qui senza dimostrazione (anche se non sarebbe difficile darla): \uline{se la funzione analitica $W(z)$ ha una singolarità essenziale in $z_0$, scelti comunque il numero complesso $c$ ed i numeri reali positivi (piccoli a piacere) $\varepsilon$ e $\delta$, esiste sempre un punto $z$ che disti da $z_0$ meno di $\delta$ (per il quale cioè $|z - z_0| < \delta$)}%
 % pagina 446 — 8.6-7
 \uline{e tale che $W(z)$ differisca da $c$ meno di $\varepsilon$, sia cioè $|W(z) - c| < \varepsilon$}.
 
@@ -15652,7 +15652,7 @@ Nell'intorno di un suo polo il comportamento di una funzione analitica è invece
 
 Esistono numerosi teoremi relativi al numero e alla posizione dei poli (e anche degli zeri, cioè i valori di $z$ per i quali $W(z) = 0$) di una funzione monodroma, per i quali si rinvia però alla letteratura.
 
-Come vedremo, un ruolo particolarmente importante (tanto nel caso di singolarità essenziale, che di singolarità polare) viene assunto dal coefficiente $c_{-1}$ dello sviluppo di Laurent, cui si dà il nome di \underline{residuo}; nel seguito verrà generalmente indicato con la notazione
+Come vedremo, un ruolo particolarmente importante (tanto nel caso di singolarità essenziale, che di singolarità polare) viene assunto dal coefficiente $c_{-1}$ dello sviluppo di Laurent, cui si dà il nome di \uline{residuo}; nel seguito verrà generalmente indicato con la notazione
 \begin{equation}
 \mathrm{Res} \equiv c_{-1}\,. \tag{7}
 \end{equation}
@@ -15806,7 +15806,7 @@ Si osservi che un ovvio corollario di questo teorema è la formula (valida per f
 \]
 essendo al solito la curva $C$ chiusa e percorsa in senso antiorario, estendendosi la somma sull'indice $k$ ai residui delle singolarità interne al cammino di integrazione (teorema dei residui) e la somma sull'indice $k'$%
 % pagina 452 — 8.6-13/8.7-1
-ai residui di tutte le singolarità \underline{esterne} al contorno di integrazione. In alcuni casi la seconda somma può essere più semplice da valutare della prima.
+ai residui di tutte le singolarità \uline{esterne} al contorno di integrazione. In alcuni casi la seconda somma può essere più semplice da valutare della prima.
 
 \item Si valuti l'integrale
 \[
@@ -15826,7 +15826,7 @@ La prima classe di integrali è del tipo
 \begin{equation}
 I = \int_0^{2\pi} d\theta\; R(\cos\theta,\, \sin\theta) \tag{1}
 \end{equation}
-con $R(t_1, t_2)$ funzione \underline{razionale} dei due argomenti $t_1$ e $t_2$. Infatti ponendo
+con $R(t_1, t_2)$ funzione \uline{razionale} dei due argomenti $t_1$ e $t_2$. Infatti ponendo
 \begin{equation}
 z = e^{i\theta} \tag{2}
 \end{equation}
@@ -15866,7 +15866,7 @@ w(z) = P_N(z) \big/ Q_M(z)\,, \tag{8}
 \end{equation}
 con $P_N(z)$, $Q_M(z)$ polinomi in $z$ di grado $N$ ed $M$ rispettivamente. In tal caso il teorema dei residui è certamente applicabile, essendo la funzione $w(z)$ ovviamente monodroma ed avendo solo singolarità isolate (anzi solo poli, che coincideranno con gli zeri del polinomio $Q_M(z)$).
 
-Si noti però che questo procedimento si può applicare \underline{anche a casi in cui $R(t_1, t_2)$ non sia funzione razionale dei suoi argomenti}, salvo a verificare che la funzione $w(z)$, ottenuta da $R(t_1, t_2)$ mediante la (7), sia, nel cerchio centrato nell'origine e di raggio unitario, analitica monodroma salvo che per un numero (finito) di singolarità isolate.
+Si noti però che questo procedimento si può applicare \uline{anche a casi in cui $R(t_1, t_2)$ non sia funzione razionale dei suoi argomenti}, salvo a verificare che la funzione $w(z)$, ottenuta da $R(t_1, t_2)$ mediante la (7), sia, nel cerchio centrato nell'origine e di raggio unitario, analitica monodroma salvo che per un numero (finito) di singolarità isolate.
 
 Come esempio di applicazione delle precedenti considerazioni, si consideri l'integrale
 \[
@@ -15930,7 +15930,7 @@ Si supponga ora che la funzione $f(z)$ goda della proprietà
 \end{equation}
 per valori di $\varepsilon$ positivi (ancorché piccoli).
 
-La condizione (11), per $\arg(z)=0$ e $\arg(z)=\pi$, garantisce che l'originario integrale (9) sia convergente; la (11) è però assai più restrittiva, richiedendo \underline{l'annullarsi asintotico in ogni direzione nel semipiano superiore della variabile complessa $z$}.
+La condizione (11), per $\arg(z)=0$ e $\arg(z)=\pi$, garantisce che l'originario integrale (9) sia convergente; la (11) è però assai più restrittiva, richiedendo \uline{l'annullarsi asintotico in ogni direzione nel semipiano superiore della variabile complessa $z$}.
 
 Ebbene se la funzione $f(z)$, oltre a godere della proprietà (11), è monodroma nel semipiano superiore della variabile $z$ (cioè in tutta la zona del piano complesso in cui $z$ ha parte immaginaria non negativa) ed ha ivi solo singolarità isolate (poli o singolarità essenziali), è facile dimostrare che
 \begin{equation}
@@ -15986,9 +15986,9 @@ E l'argomento è completato osservando che la (11) implica
 
 In conclusione la possibilità di effettuare l'integrale definito dalla (9) discende dalla possibilità di continuare analiticamente l'integrando $f(x)$ in tutto il semipiano superiore, ottenendo una funzione analitica monodroma con singolarità isolate, e poi di chiudere il cammino di integrazione con un semicerchio di raggio grande (al limite, infinito) nel semipiano superiore, essendo il contributo dell'integrazione lungo tale semicerchio nullo (nel limite in cui il raggio del semicerchio tende all'infinito) grazie all'annullarsi asintotico della continuazione $f(z)$ della $f(x)$ in ogni direzione nel semipiano complesso superiore.
 
-È chiaro d'altronde che, se la funzione $f(x)$ fosse continuabile analiticamente nel semipiano \underline{inferiore} anziché superiore, tale continuazione $f(z)$ fosse una funzione analitica monodroma con singolarità isolate, e%
+È chiaro d'altronde che, se la funzione $f(x)$ fosse continuabile analiticamente nel semipiano \uline{inferiore} anziché superiore, tale continuazione $f(z)$ fosse una funzione analitica monodroma con singolarità isolate, e%
 % pagina 457 — 8.7-6
-la $f(z)$ si annullasse per $z$ che diverge \underline{in ogni direzione nel semipiano inferiore} in modo che esista un $\varepsilon$ positivo, ancorché piccolo, tale che
+la $f(z)$ si annullasse per $z$ che diverge \uline{in ogni direzione nel semipiano inferiore} in modo che esista un $\varepsilon$ positivo, ancorché piccolo, tale che
 \begin{equation}
 \lim_{z \to \infty} \left[|z|^{1+\varepsilon}\,f(z)\right] = 0\,, \quad \pi \leq \arg z \leq 2\pi\,, \tag{13}
 \end{equation}
@@ -16034,7 +16034,7 @@ I(\rho) = \frac{1}{2} \int_C dz\; \left(\frac{\sin(\rho z)}{z}\right)^2
 \]
 essendo l'integrale sulla variabile complessa $z$ esteso ad un contorno $C$ che coincide con l'intero asse reale (percorso in senso positivo, cioè da sinistra a destra).
 
-Poiché l'integrando è chiaramente finito in $z=0$ (ha il valore $\rho^2/2$), una modifica del cammino di integrazione quale quella indicata in figura cambierà in modo trascurabile il valore dell'integrale, se il raggio del piccolo semicerchio intorno all'origine è \underline{arbitrariamente piccolo}.
+Poiché l'integrando è chiaramente finito in $z=0$ (ha il valore $\rho^2/2$), una modifica del cammino di integrazione quale quella indicata in figura cambierà in modo trascurabile il valore dell'integrale, se il raggio del piccolo semicerchio intorno all'origine è \uline{arbitrariamente piccolo}.
 
 \begin{figure}[h]
 \centering
@@ -16094,7 +16094,7 @@ I = \int_0^{\infty} dx\; R(x^n)\,, \quad n = 2, 3, 4, 5, \ldots \tag{18}
 \end{equation}
 
 % pagina 460 — 8.7-9
-con $R(t)$ funzione \underline{razionale} di $t$ e tale che
+con $R(t)$ funzione \uline{razionale} di $t$ e tale che
 \begin{equation}
 \lim_{t \to \infty} \left[R(t)\right] = 0\,. \tag{19}
 \end{equation}
@@ -16235,9 +16235,9 @@ tinuabile analiticamente, di modo che l'integrando sia la funzione analitica
 \begin{equation}
 W(z) = f(z) \big/ (z - x_0) \tag{1}
 \end{equation}
-avente un \underline{polo semplice} in $z = x_0$, con residuo $f(x_0)$.
+avente un \uline{polo semplice} in $z = x_0$, con residuo $f(x_0)$.
 
-L'integrale di questa funzione analitica su un cammino passante per il punto $x_0$ è chiaramente divergente. Si definisce invece \underline{valor principale} (alla Cauchy) di tale integrale il limite dell'integrale esteso ad un cammino ottenuto sottraendo da quello originario due tratti di uguale lunghezza $\varepsilon$ posti rispettivamente prima e dopo il punto $x_0$, e poi facendo il limite $\varepsilon \to 0$.
+L'integrale di questa funzione analitica su un cammino passante per il punto $x_0$ è chiaramente divergente. Si definisce invece \uline{valor principale} (alla Cauchy) di tale integrale il limite dell'integrale esteso ad un cammino ottenuto sottraendo da quello originario due tratti di uguale lunghezza $\varepsilon$ posti rispettivamente prima e dopo il punto $x_0$, e poi facendo il limite $\varepsilon \to 0$.
 
 Per esempio in luogo dell'integrale scritto precedentemente (che, così come scritto, non aveva alcun senso matematico), si introduce l'integrale
 \begin{equation}
@@ -16246,7 +16246,7 @@ P\!\int_{-\infty}^{+\infty} dx\; f(x)/(x-x_0) = \lim_{\varepsilon \to 0^+} \left
 
 Come ora mostreremo, questo integrale ha un valore finito.
 
-Si consideri infatti l'integrale esteso al cammino $C^{(+)}$ ottenuto modificando, con un semicerchio di raggio $\varepsilon$ e aggirante il punto singolare \underline{da sopra}, l'asse reale:
+Si consideri infatti l'integrale esteso al cammino $C^{(+)}$ ottenuto modificando, con un semicerchio di raggio $\varepsilon$ e aggirante il punto singolare \uline{da sopra}, l'asse reale:
 
 \begin{figure}[h]
 \centering
@@ -16285,7 +16285,7 @@ In modo del tutto analogo si sarebbe potuta ottenere la formula
 \begin{equation}
 P\!\int_{-\infty}^{+\infty} dx\; f(x)/(x-x_0) = -\pi i\, f(x_0) + \int_{C^{(-)}} dz\; f(z)/(z-x_0)\,, \tag{6}
 \end{equation}
-coincidendo ora il cammino $C^{(-)}$ con l'asse reale salvo la prescrizione di evitare il punto singolare passando \underline{da sotto}.
+coincidendo ora il cammino $C^{(-)}$ con l'asse reale salvo la prescrizione di evitare il punto singolare passando \uline{da sotto}.
 
 Un modo equivalente di scrivere questi stessi risultati è fornito dalla formula
 \begin{equation}
@@ -16296,7 +16296,7 @@ L'equivalenza fra questa formula e le due precedenti deriva dalla possibilità d
 \[
 \int_{C^{(\pm)}} dz\; f(z)/(z-x_0) = \int_{-\infty}^{+\infty} dx\; f(x) \big/ \left[x - (x_0 \mp i\varepsilon)\right]\,,
 \]
-in quanto non è diverso (nel limite $\varepsilon \to 0$) modificare il cammino di integrazione per evitare la singolarità, o spostare la singolarità (dal punto $x_0$ al punto $x_0 \mp i\varepsilon$) per evitare che cada sull'asse reale. Naturalmente modificare il cammino aggirando la singolarità \underline{da sopra} è equivalente a spostare la singolarità \underline{sotto} al cammino di integrazione, lasciato immutato; e viceversa.
+in quanto non è diverso (nel limite $\varepsilon \to 0$) modificare il cammino di integrazione per evitare la singolarità, o spostare la singolarità (dal punto $x_0$ al punto $x_0 \mp i\varepsilon$) per evitare che cada sull'asse reale. Naturalmente modificare il cammino aggirando la singolarità \uline{da sopra} è equivalente a spostare la singolarità \uline{sotto} al cammino di integrazione, lasciato immutato; e viceversa.
 
 Spesso nella letteratura fisica la indicazione del limite è sottintesa, cioè ogni volta che si scrive un fattore $\left[x-(x_0 \pm i\varepsilon)\right]^{-1}$ si intende che esso vada valutato nel limite $\varepsilon \to 0^+$ (ma il limite va fatto dopo aver%
 % pagina 466 — 8.8-4
@@ -16319,7 +16319,7 @@ se la funzione $f(x)$ fosse analitica (priva di singolarità) nel semipiano infe
 
 Questi risultati seguono immediatamente dalla possibilità di chiudere il cammino di integrazione con un grande semicerchio di sopra o di sotto, semicerchio che non contribuisce all'integrale per l'annullarsi asintotico dell'integrando (nel limite in cui il raggio del semicerchio diverge). Una volta chiuso il cammino di integrazione, si può applicare il teorema dei residui che, nel caso particolare considerato, fornisce un risultato nullo (si riduce cioè al teorema di Cauchy).
 
-È forse il caso di sottolineare che la prescrizione del \underline{valor principale} fornisce una definizione finita dell'integrale (improprio) effettuato su un cammino contenente singolarità, solo nel caso in cui la singolarità in questione sia un \underline{polo semplice}. La finitezza del risultato è dovuta alla cancellazione dei contributi divergenti, ma di segno opposto, derivanti dalle zone immediatamente precedenti e seguenti la singolarità, sul cammino di%
+È forse il caso di sottolineare che la prescrizione del \uline{valor principale} fornisce una definizione finita dell'integrale (improprio) effettuato su un cammino contenente singolarità, solo nel caso in cui la singolarità in questione sia un \uline{polo semplice}. La finitezza del risultato è dovuta alla cancellazione dei contributi divergenti, ma di segno opposto, derivanti dalle zone immediatamente precedenti e seguenti la singolarità, sul cammino di%
 
 % pagina 467 — 8.8-5
 integrazione.
@@ -16364,8 +16364,8 @@ Occorre dunque aggiungere, a questo integrale, una prescrizione che specifichi c
 L_t\,\psi(t) = 0\,.
 \]
 
-Per esempio la prescrizione di evitare ambedue le singolarità \underline{da sopra} (realizzabile con il cammino \includegraphics[height=1em]{images/cammino.png} % [DUBBIO: simbolo cammino nel testo]
-nel piano complesso $k$; ovvero integrando lungo l'asse reale, ma scrivendo nel denominatore $\rho - i\varepsilon$ al posto di $\rho$, o equivalentemente $(-k^2 + \rho^2 - i\varepsilon)$ in luogo di $(-k^2+\rho^2)$) fornisce la funzione di Green \underline{ritardata}; si vede infatti subito, utilizzando il teorema dei residui, che tale funzione è nulla per $t > 0$ (per tali valori di $t$ è infatti possibile chiudere il cammino di integrazione con un grande semicerchio nel semipiano superiore). E viceversa evitando ambedue le singolarità \underline{da sotto} si ottiene la funzione di Green \underline{avanzata}. Anche importanti per le applicazioni sono la funzione di Green ``stazionaria'', che corrisponde alla scelta della prescrizione di ``valor principale'' per ambedue le singolarità, e la funzione di Green ``alla Feynman'' o ``causale'', che corrisponde ad evitare la singolarità in $-\rho$ da sotto e quella in $+\rho$ da sopra.
+Per esempio la prescrizione di evitare ambedue le singolarità \uline{da sopra} (realizzabile con il cammino \includegraphics[height=1em]{images/cammino.png} % [DUBBIO: simbolo cammino nel testo]
+nel piano complesso $k$; ovvero integrando lungo l'asse reale, ma scrivendo nel denominatore $\rho - i\varepsilon$ al posto di $\rho$, o equivalentemente $(-k^2 + \rho^2 - i\varepsilon)$ in luogo di $(-k^2+\rho^2)$) fornisce la funzione di Green \uline{ritardata}; si vede infatti subito, utilizzando il teorema dei residui, che tale funzione è nulla per $t > 0$ (per tali valori di $t$ è infatti possibile chiudere il cammino di integrazione con un grande semicerchio nel semipiano superiore). E viceversa evitando ambedue le singolarità \uline{da sotto} si ottiene la funzione di Green \uline{avanzata}. Anche importanti per le applicazioni sono la funzione di Green ``stazionaria'', che corrisponde alla scelta della prescrizione di ``valor principale'' per ambedue le singolarità, e la funzione di Green ``alla Feynman'' o ``causale'', che corrisponde ad evitare la singolarità in $-\rho$ da sotto e quella in $+\rho$ da sopra.
 
 È forse il caso di sottolineare che, nel caso di problemi fisici, le diverse prescrizioni da usare per trattare ogni singolarità vanno decise caso per caso (in generale saranno determinate dalle condizioni al contorno). Si badi invece che, nella letteratura matematica — per esempio, nelle Tavoli di Integrali — la prescrizione che viene normalmente adottata, salvo esplicito contrario avviso, è quella di valor principale.
 
@@ -16396,11 +16396,11 @@ essendo la curva $C$ un cammino che parte dal punto $z_0 = 1$ e arriva al punto 
 \begin{equation}
 W(z) = \mathrm{Log}\,z + 2\pi i\,n \tag{2}
 \end{equation}
-essendo per l'appunto $n$ il numero di volte che il cammino gira intorno a $z'=0$ in senso antiorario (un valore intero negativo di $n$ indicherebbe il numero di volte che il cammino gira intorno a $z'=0$ in senso orario — vedi figura), ed essendo per definizione $\mathrm{Log}(z)$ la \underline{determinazione principale} della funzione logaritmo,
+essendo per l'appunto $n$ il numero di volte che il cammino gira intorno a $z'=0$ in senso antiorario (un valore intero negativo di $n$ indicherebbe il numero di volte che il cammino gira intorno a $z'=0$ in senso orario — vedi figura), ed essendo per definizione $\mathrm{Log}(z)$ la \uline{determinazione principale} della funzione logaritmo,
 \begin{equation}
 \mathrm{Log}\,z = \log|z| + i\Theta\,, \quad 0 \leq \Theta < 2\pi\,. \tag{3}
 \end{equation}
-In questa formula naturalmente il numero reale positivo $|z|$ è il \underline{modulo} del numero complesso $z$, e il numero reale $\Theta$ è la \underline{fase} di $z$, caratterizzata dalla limitazione $0 \leq \Theta < 2\pi$:
+In questa formula naturalmente il numero reale positivo $|z|$ è il \uline{modulo} del numero complesso $z$, e il numero reale $\Theta$ è la \uline{fase} di $z$, caratterizzata dalla limitazione $0 \leq \Theta < 2\pi$:
 \begin{equation}
 z = |z|\,e^{i\Theta}\,, \quad |z|>0\,, \quad 0 \leq \Theta < 2\pi\,. \tag{4}
 \end{equation}
@@ -16415,7 +16415,7 @@ La formula (2) suggerisce di definire
 \begin{equation}
 \int_1^z dz' \big/ z' = \mathrm{Log}\,z\,. \tag{5}
 \end{equation}
-Si introduce così la funzione \underline{polidroma} $\log z$ (``logaritmo di $z$'' — naturalmente in base $e$), che assume, in ogni punto del piano complesso, gli infiniti valori
+Si introduce così la funzione \uline{polidroma} $\log z$ (``logaritmo di $z$'' — naturalmente in base $e$), che assume, in ogni punto del piano complesso, gli infiniti valori
 \begin{equation}
 \log z = \mathrm{Log}\,z + 2\pi i\,n \tag{4}
 \end{equation}
@@ -16425,7 +16425,7 @@ con $n$ intero.
 
 La funzione $\log(z)$ è dunque una funzione polidroma a infiniti valori. Tale polidromia è associata all'esistenza della singolarità in $z=0$, avente la caratteristica che, se si seguono con continuità (per esempio, con la tecnica di continuazione analitica alla Weierstrass) i valori di $\log(z)$ a partire da un punto $z_1$ lungo un cammino chiuso che ritorna a $z_1$, si riottiene o no lo stesso valore a seconda che il contorno abbia o no aggirato il punto $z=0$.
 
-Singolarità di questa natura sono dette \underline{punti di diramazione}; si parlerà di punto di diramazione di ordine $n$ se, compiendo $n+1$ giri (nello stesso verso) intorno ad esso, la funzione torna ad assumere il valore iniziale (vedi esempi successivi); si parlerà di punto di diramazione%
+Singolarità di questa natura sono dette \uline{punti di diramazione}; si parlerà di punto di diramazione di ordine $n$ se, compiendo $n+1$ giri (nello stesso verso) intorno ad esso, la funzione torna ad assumere il valore iniziale (vedi esempi successivi); si parlerà di punto di diramazione%
 % pagina 471 — 8.9-3
 di ordine infinito se, per quante volte si giri attorno al punto singolare, la funzione non torna mai ad assumere lo stesso valore. Poiché, nel caso della funzione logaritmo, ogni giro (in senso antiorario) aggiunge la costante $2\pi i$, possiamo concludere che tale funzione ha, in $z=0$, un punto di diramazione di ordine infinito.
 
@@ -16459,7 +16459,7 @@ I valori di una funzione polidroma risultano definiti in modo univoco se, con qu
 \end{equation}
 valida nel limite (sottinteso) $\varepsilon \to 0$.
 
-Questa formula esprime la \underline{discontinuità} della funzione $\log(z)$ sul \underline{taglio}, che convenzionalmente è stato tirato da $z=0$ a $z=\infty$ lungo l'asse reale posi-%
+Questa formula esprime la \uline{discontinuità} della funzione $\log(z)$ sul \uline{taglio}, che convenzionalmente è stato tirato da $z=0$ a $z=\infty$ lungo l'asse reale posi-%
 % pagina 473 — 8.9-5
 tivo.
 
@@ -16476,9 +16476,9 @@ Una geniale idea di Riemann ha associato, ad ogni funzione analitica polidroma, 
 % pagina 474 — 8.9-6
 che si passi da un foglio all'altro attraversando l'asse reale positivo; su ogni foglio di tale superficie di Riemann la funzione ha un valore unico, ed i valori assunti dalla funzione in corrispondenza a due uguali valori di $z$ situati però su due fogli diversi differiscono di $2\pi i\,\nu$, con $\nu$ intero ($\nu = \pm 1$ se i due fogli sono contigui; col segno $+$ o $-$ a seconda di come viene fatta la differenza). Nel caso della radice quadrata, la superficie di Riemann è composta da due fogli solamente, disposti in modo che il punto $z = \rho\,e^{i\pi}$ sul primo foglio coincida col punto $z = \rho\,e^{-i\pi}$ sul secondo foglio (e in questo punto $z^{1/2} = +i\sqrt{\rho}$), mentre il punto $z = \rho\,e^{-i\pi}$ sul primo foglio coincide col punto $z = \rho\,e^{+i\pi}$ sul secondo foglio (ed ivi $z^{1/2} = -i\,\rho^{1/2}$).
 
-Ad ogni funzione analitica polidroma risulta così associata una \underline{superficie di Riemann} a più fogli, che può anche essere topologicamente assai complicata (una funzione analitica può avere tanti punti di diramazione); su tale superficie risulteranno localizzate le ulteriori singolarità della funzione, ed in particolare i poli e le singolarità essenziali (che potranno essere presenti su tutti i fogli o solo su alcuni).
+Ad ogni funzione analitica polidroma risulta così associata una \uline{superficie di Riemann} a più fogli, che può anche essere topologicamente assai complicata (una funzione analitica può avere tanti punti di diramazione); su tale superficie risulteranno localizzate le ulteriori singolarità della funzione, ed in particolare i poli e le singolarità essenziali (che potranno essere presenti su tutti i fogli o solo su alcuni).
 
-Il principale merito della idea di Riemann è che, avendo introdotta la superficie di Riemann, ad ogni punto della quale risulta associato uno ed un solo valore della funzione analitica (salvo nel caso di poli o singolarità essenziali), è possibile applicare anche alle funzioni polidrome tutti i risultati precedentemente discussi per le funzioni monodrome. In particolare sono validi tutti i risultati connessi al teorema di Cauchy e al teorema dei residui, tenendo però conto che i cammini di integrazione passano, attraverso i tagli, da un foglio della superficie di Riemann all'altro (sicché un contorno risulta chiuso solo se, partendo da un punto su un dato foglio della superficie di Riemann, ritornando — magari attraversando più tagli, un numero pari di volte — ritorna allo stesso punto \underline{sullo stesso foglio} della superficie di Riemann). Di questo fatto si può approfittare, per esempio, per valutare degli integrali, in modo analogo a quanto fatto, nel caso di funzioni monodrome, nella sezione 7.
+Il principale merito della idea di Riemann è che, avendo introdotta la superficie di Riemann, ad ogni punto della quale risulta associato uno ed un solo valore della funzione analitica (salvo nel caso di poli o singolarità essenziali), è possibile applicare anche alle funzioni polidrome tutti i risultati precedentemente discussi per le funzioni monodrome. In particolare sono validi tutti i risultati connessi al teorema di Cauchy e al teorema dei residui, tenendo però conto che i cammini di integrazione passano, attraverso i tagli, da un foglio della superficie di Riemann all'altro (sicché un contorno risulta chiuso solo se, partendo da un punto su un dato foglio della superficie di Riemann, ritornando — magari attraversando più tagli, un numero pari di volte — ritorna allo stesso punto \uline{sullo stesso foglio} della superficie di Riemann). Di questo fatto si può approfittare, per esempio, per valutare degli integrali, in modo analogo a quanto fatto, nel caso di funzioni monodrome, nella sezione 7.
 
 Altro pregio — non pratico, ma concettuale — della introduzione della superficie di Riemann associata ad ogni funzione analitica polidroma è lo stabilirsi di una stretta connessione fra due branche della matematica apparentemente assai lontane, quali la topologia e la teoria delle funzioni di variabile complessa; è infatti evidente che vi è uno stretto legame fra la%
 % pagina 475 — 8.9-7
@@ -16766,13 +16766,13 @@ La struttura della superficie di Riemann, nonché i valori, della funzione
 $W(z) = \left[(z+1)(z-1)\right]^{1/2}$ si ottengono da quelli di $W_1(z)=(z+1)^{1/2}$
 e $W_2(z)=(z-1)^{1/2}$ osservando che $W(z) = W_1(z)\,W_2(z)$. Pertanto la
 funzione $w(z)$ avrà i tagli delle due funzioni $W_1(z)$ e $W_2(z)$; però,
-dove \underline{ambedue} le funzioni hanno un taglio, $w(z)$ non ha taglio, poiché
+dove \uline{ambedue} le funzioni hanno un taglio, $w(z)$ non ha taglio, poiché
 nel passare attraverso il taglio sia $W_1(z)$ che $W_2(z)$ cambiano segno, sicché
 $W(z)$ resta invariata. È dunque chiaro che la prima struttura della superficie
 di Riemann di $(z^2-1)^{1/2}$ (taglio da $-1$ ad $1$) corrisponde alla prima
 scelta tanto per $W_1(z) = (z+1)^{1/2}$ che per $W_2(z) = (z-1)^{1/2}$
 (tagli in ambedue i casi lungo l'asse reale negativo), oppure alla
-\underline{seconda} scelta tanto per $W_1(z) = (z+1)^{1/2}$ che per
+\uline{seconda} scelta tanto per $W_1(z) = (z+1)^{1/2}$ che per
 $W_2(z) = (z-1)^{1/2}$ (\% [DUBBIO: ``$\Lambda$in''?] ambedue i casi lungo
 l'asse reale positivo); viceversa la seconda possibile struttura della superficie
 di Riemann della funzione $(z^2-1)^{1/2}$ corrisponde alla prima scelta per
@@ -16976,7 +16976,7 @@ L'esempio principale che vogliamo considerare è quello dell'integrale
 \begin{equation}
     I = \int_0^\infty dx\; x^c\, R(x), \tag{1}
 \end{equation}
-con $c$ costante complessa e $R(x)$ funzione \underline{razionale}. La razionalità
+con $c$ costante complessa e $R(x)$ funzione \uline{razionale}. La razionalità
 di $R(x)$ implica che, per $x \to 0$,
 \begin{equation}
     R(x) = c'\, x^p \left[1 + O(x)\right], \tag{2}
@@ -17041,7 +17041,7 @@ con la convenzione
 di $R(z)$ non possono cadere sull'asse reale).
 
 \medskip
-\noindent\underline{esercizio}\quad Indichiamo brevemente come si dimostra la (5),
+\noindent\uline{esercizio}\quad Indichiamo brevemente come si dimostra la (5),
 lasciando come per il lettore una più rigorosa giustificazione dei vari passaggi.
 Consideriamo anzitutto l'integrale
 \[
@@ -17165,7 +17165,7 @@ per $n = 0, 1, 2, 3, \ldots$\;. La (11) corrisponde ad $n = -1$, ed esprime una
 proprietà dei residui di una funzione razionale (più in generale, monodroma)
 tale da annullarsi più rapidamente di $|z|^{-1}$ per $z \to \infty$ in ogni
 direzione nel piano complesso, proprietà che discende ovviamente --- come si
-era del resto già visto (\underline{esercizio 6-7}) --- dal teorema dei residui.
+era del resto già visto (\uline{esercizio 6-7}) --- dal teorema dei residui.
 
 I coefficienti $a_n$ sono ovviamente nulli se $n$ è dispari; per $n$ pari
 i primi 5 di questi coefficienti sono dati qui di seguito:
@@ -17173,7 +17173,7 @@ i primi 5 di questi coefficienti sono dati qui di seguito:
     a_0 = 1,\quad a_2 = 1/6,\quad a_4 = 7/360,\quad a_6 = 31/15120,\quad
     a_8 = 127/604800\,.
 \]
-Si verifichino \underline{per esercizio}, usando questi coefficienti, le equazioni
+Si verifichino \uline{per esercizio}, usando questi coefficienti, le equazioni
 (12) (13) e (14) (si noti che entrano solo $a_0$ ed $a_2$).
 
 \medskip
@@ -17210,7 +17210,7 @@ sempre con la stessa tecnica, l'integrale
 ottenendone, anche con l'ausilio della (12), la (13). E così via di seguito.
 
 \medskip
-Si riottengano \underline{per esercizio} le formule (12), (13) e (14) usando la
+Si riottengano \uline{per esercizio} le formule (12), (13) e (14) usando la
 procedura testé descritta; e si ricavi per questa via la formula generale che
 fornisce il valore dell'integrale
 \[
@@ -17383,7 +17383,7 @@ $g_1$ ed $f_2$ produce $g_2$, allora $f_1 + f_2$ produce $g_1 + g_2$ --- poiché
 nella (1), $S$ non dipende da $f$); questa formidabile semplificazione non è del
 tutto essenziale per quel che segue, ma verrà nondimeno mantenuta.
 
-Il fenomeno fisico descritto dalla (1) è inoltre \underline{causale}; la struttura
+Il fenomeno fisico descritto dalla (1) è inoltre \uline{causale}; la struttura
 della (1) implica infatti che il valore $g(t)$ di $g$ al tempo $t$ può dipendere
 solo dai valori assunti da $f(t')$ per $t' \leq t$, ma non dai valori di
 $f(t')$ per $t' > t$.
@@ -17393,7 +17393,7 @@ scrivendo, in luogo della (1),
 \begin{equation}
     g(t) = \int_{-\infty}^{+\infty} dt'\; S(t,t')\, f(t'), \tag{2}
 \end{equation}
-ma richiedendo alla funzione $S(t,t')$ di soddisfare alla \underline{condizione di causalità}
+ma richiedendo alla funzione $S(t,t')$ di soddisfare alla \uline{condizione di causalità}
 \begin{equation}
     S(t,t') = 0 \quad \text{per} \quad t' > t. \tag{3}
 \end{equation}
@@ -17520,7 +17520,7 @@ Quanto alla proprietà di causalità (3), essa si scriverà ora nella forma
 Ebbene è assai facile mostrare che, sotto ipotesi abbastanza generali
 (concernenti il comportamento asintotico della $\hat{S}(k)$ per $k$ complesso;
 vedi sotto), la proprietà di causalità (11) per la $S(\tau)$ risulta assicurata
-se \underline{la funzione $\hat{S}(k)$}, originariamente definita per $k$ reale, è
+se \uline{la funzione $\hat{S}(k)$}, originariamente definita per $k$ reale, è
 \uline{analiticamente continuabile ed è analitica} (cioè priva di singolarità)
 \uline{in tutto il semipiano inferiore del piano complesso $k$} (nel semipiano
 caratterizzato cioè dalla relazione $\mathrm{Im}\, k \leq 0$).
@@ -17624,7 +17624,7 @@ P_n^{(2)}(y,x) &\propto P_n^{(1)}(x,y).
 \item[(vii)] $W(z) = -\exp(-2iz) + a$,
 \end{description}
 
-essendo in tutte queste equazioni $a$ una arbitraria costante \underline{reale}. Indichiamo come si ottiene, per esempio, la parte reale della $W(z)$ nel caso (vii): essa risulterà data da
+essendo in tutte queste equazioni $a$ una arbitraria costante \uline{reale}. Indichiamo come si ottiene, per esempio, la parte reale della $W(z)$ nel caso (vii): essa risulterà data da
 $$u(x,y) = u(0,0) + \int_C du$$
 con
 \begin{align*}
@@ -17912,7 +17912,7 @@ Sì, sarebbe diversa, e precisamente
 $$D_n(x) = \left[4\pi^2(2n+1) - 4i\pi\log x\right]\theta(x)$$
 con $n$ intero (il valore di $n$ fornisce l'indirizzo del foglio di Riemann in questione).
 
-\item[10-1] La formula (5) vale ancora, solo che il contributo dei poli che cadono nel semiasse reale positivo \underline{va diviso per due}.
+\item[10-1] La formula (5) vale ancora, solo che il contributo dei poli che cadono nel semiasse reale positivo \uline{va diviso per due}.
 
 \item[10-3] La continuazione analitica è fornita dalla formula esplicita (vedi esercizio precedente)
 $$W(z) = \pi/\sin(\pi z).$$
